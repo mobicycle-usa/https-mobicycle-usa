@@ -2505,6 +2505,10 @@ blockquote {
   align-items: flex-end;
 }
 
+.section-2 {
+  margin-top: 20px;
+}
+
 @media screen and (max-width: 991px) {
   blockquote {
     margin-bottom: 40px;
