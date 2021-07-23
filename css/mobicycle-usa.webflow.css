@@ -705,6 +705,7 @@ blockquote {
   position: relative;
   z-index: 2;
   display: block;
+  margin-left: 0px;
   padding-top: 100px;
   background-color: #59c3c3;
   color: #fff;
@@ -713,6 +714,7 @@ blockquote {
 
 .section.book-section {
   display: block;
+  margin-left: 0px;
   padding-top: 300px;
   padding-bottom: 200px;
   background-color: #85cced;
@@ -796,6 +798,7 @@ blockquote {
 }
 
 .section.guarantee-section {
+  display: none;
   padding-top: 200px;
 }
 
@@ -1794,10 +1797,7 @@ blockquote {
 
 .book-image-wrap {
   position: relative;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
