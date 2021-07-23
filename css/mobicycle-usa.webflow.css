@@ -400,15 +400,12 @@ blockquote {
 }
 
 .page-container.book-guarantee {
-  display: -ms-grid;
-  display: grid;
+  display: none;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
   grid-auto-columns: 1fr;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
@@ -748,12 +745,14 @@ blockquote {
 
 .section.free-sample-section {
   position: relative;
+  display: none;
   padding-bottom: 200px;
   text-align: center;
 }
 
 .section.about-the-author {
   position: relative;
+  display: none;
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: #dfab82;
@@ -762,6 +761,7 @@ blockquote {
 }
 
 .section.footer-section {
+  display: none;
   padding-top: 100px;
   padding-bottom: 50px;
   background-color: #4a5899;
@@ -790,6 +790,7 @@ blockquote {
 }
 
 .section.faq-section {
+  display: none;
   padding-bottom: 200px;
   text-align: center;
 }
@@ -799,6 +800,7 @@ blockquote {
 }
 
 .section.buy-section {
+  display: none;
   text-align: center;
 }
 
