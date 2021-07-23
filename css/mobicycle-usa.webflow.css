@@ -2684,6 +2684,8 @@ blockquote {
     position: relative;
     width: 500px;
     height: 550px;
+    max-height: 103%;
+    max-width: 600px;
     margin-top: 60px;
   }
 
@@ -2698,7 +2700,7 @@ blockquote {
   }
 
   .section.learn {
-    padding-top: 100px;
+    padding-top: 40px;
   }
 
   .section.book-section {
@@ -2745,7 +2747,22 @@ blockquote {
   }
 
   .learn-paragraph {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     margin-left: 10px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
   }
 
   .feature-paragrapg {
@@ -2763,7 +2780,7 @@ blockquote {
 
   .chapter-heading {
     color: rgba(146, 29, 29, 0.63);
-    font-size: 46px;
+    font-size: 44px;
   }
 
   .email-us {
@@ -2829,6 +2846,10 @@ blockquote {
 
   .image-wrap {
     height: 450px;
+  }
+
+  .image-rectangle-overlay {
+    height: 440px;
   }
 
   .order-book-sideflex {
@@ -2951,10 +2972,10 @@ blockquote {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     font-size: 50px;
   }
 
@@ -2980,7 +3001,8 @@ blockquote {
   }
 
   .grid-3 {
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     -webkit-box-align: start;
     -webkit-align-items: start;
     -ms-flex-align: start;
