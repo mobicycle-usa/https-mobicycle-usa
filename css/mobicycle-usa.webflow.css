@@ -2740,6 +2740,10 @@ blockquote {
     height: 80%;
   }
 
+  .book-desc {
+    padding-top: 0px;
+  }
+
   .learn-grid {
     height: auto;
     -ms-grid-rows: auto auto auto auto;
@@ -2779,8 +2783,8 @@ blockquote {
   }
 
   .chapter-heading {
-    color: rgba(146, 29, 29, 0.63);
-    font-size: 44px;
+    color: rgba(29, 90, 146, 0.63);
+    font-size: 55px;
   }
 
   .email-us {
@@ -2863,6 +2867,10 @@ blockquote {
     margin-top: 0px;
     padding-top: 40px;
     padding-bottom: 40px;
+  }
+
+  .text-max-420 {
+    margin-bottom: 0px;
   }
 
   .cta-text {
@@ -3027,6 +3035,11 @@ blockquote {
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
+  }
+
+  .text-block-9 {
+    margin-top: 0px;
+    padding-top: 0px;
   }
 }
 
