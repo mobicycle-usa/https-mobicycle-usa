@@ -525,7 +525,8 @@ blockquote {
 }
 
 .button.inverted {
-  display: none;
+  display: block;
+  margin-left: 20px;
   background-color: #fff;
   color: #dfab82;
 }
