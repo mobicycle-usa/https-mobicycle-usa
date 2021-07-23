@@ -133,6 +133,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  border: 0px none transparent;
   background-color: #4a5899;
   color: #fff;
 }
@@ -556,7 +557,7 @@ blockquote {
   max-width: none;
   margin-right: 20px;
   margin-left: 10px;
-  padding: 20px 10px 20px 0px;
+  padding: 10px 10px 20px 0px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2358,10 +2359,13 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 3px;
+  margin-left: 10px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  border: 0px none #000;
 }
 
 .bold-text {
