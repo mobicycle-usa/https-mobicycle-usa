@@ -543,6 +543,26 @@ blockquote {
   color: #fff;
 }
 
+.button-transparent.inverted-2._30-top-margin {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
 .button-transparent.nav-menu-btn {
   position: fixed;
   left: auto;
@@ -1167,7 +1187,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
+  margin-top: 0px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -2579,6 +2599,11 @@ blockquote {
   grid-column-gap: 20px;
   -ms-grid-columns: 1.25fr 0.75fr;
   grid-template-columns: 1.25fr 0.75fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.grid-3 {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
