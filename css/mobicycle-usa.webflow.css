@@ -917,7 +917,7 @@ blockquote {
 
 .learn-paragraph {
   max-width: 700px;
-  color: #7a7272;
+  color: #4a5899;
 }
 
 .learn-item {
@@ -2348,6 +2348,10 @@ blockquote {
 
 .heading-3 {
   background-color: transparent;
+}
+
+.heading-4 {
+  color: #5c6074;
 }
 
 .mask {
