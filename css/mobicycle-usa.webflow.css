@@ -2919,14 +2919,62 @@ blockquote {
     width: 95%;
   }
 
+  .page-container.book-slider {
+    min-height: 35vh;
+    margin-bottom: 10px;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .button.inverted {
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
   .button.full-width-mobile {
     width: 100%;
     text-align: center;
   }
 
+  .button-transparent.inverted-2._30-top-margin {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .button-line.white-line {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+
   .nav-link {
     margin-right: 15px;
     margin-left: 0px;
+  }
+
+  .section.book-section {
+    padding-top: 140px;
   }
 
   .section.free-sample-section {
@@ -2936,6 +2984,22 @@ blockquote {
   .section.about-the-author {
     padding-top: 100px;
     padding-bottom: 100px;
+  }
+
+  .chapter-heading {
+    font-size: 32px;
+  }
+
+  .order-after-chapter {
+    margin-top: 0px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
   }
 
   .book-reseler-logo {
@@ -2961,7 +3025,15 @@ blockquote {
     flex-wrap: wrap;
   }
 
+  .book-cover-img {
+    height: 42vh;
+  }
+
   .order-book-sideflex {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -2974,12 +3046,20 @@ blockquote {
   }
 
   .text-max-420 {
-    color: #4a5899;
+    color: #7a7272;
   }
 
   .cta-text {
     margin-right: 0px;
     margin-bottom: 30px;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+  }
+
+  .max-size-320 {
+    margin: 40px 20px 10px;
   }
 
   .buy-the-book-available {
@@ -3032,7 +3112,7 @@ blockquote {
   }
 
   .heading {
-    color: #4a5899;
+    color: #534f4f;
   }
 
   .heading-2 {
@@ -3045,6 +3125,48 @@ blockquote {
 
   .nav-grid {
     text-align: center;
+  }
+
+  .text-block-7 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 200px;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    text-align: left;
+  }
+
+  .grid-3 {
+    margin: 60px 20px 40px;
+    -webkit-box-pack: stretch;
+    -webkit-justify-content: stretch;
+    -ms-flex-pack: stretch;
+    justify-content: stretch;
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-4 {
+    margin-top: 10px;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 }
 
