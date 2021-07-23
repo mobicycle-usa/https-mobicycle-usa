@@ -486,7 +486,7 @@ blockquote {
 }
 
 .label.dark-label {
-  color: #b5b5b5;
+  color: #7a7272;
 }
 
 .hero-paragraph {
@@ -1667,6 +1667,7 @@ blockquote {
 
 .text-max-420 {
   max-width: 420px;
+  color: #0c98d4;
 }
 
 .cta-text {
@@ -1809,6 +1810,7 @@ blockquote {
 .max-size-320 {
   max-width: 600px;
   margin-left: 20px;
+  color: #4a5899;
 }
 
 .success-message-2 {
@@ -2241,6 +2243,10 @@ blockquote {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+}
+
+.heading {
+  color: #0c98d4;
 }
 
 .heading-2 {
