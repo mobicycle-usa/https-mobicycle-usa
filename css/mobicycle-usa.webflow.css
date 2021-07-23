@@ -525,6 +525,7 @@ blockquote {
 }
 
 .button.inverted {
+  display: none;
   background-color: #fff;
   color: #dfab82;
 }
@@ -1005,6 +1006,7 @@ blockquote {
 .chapter-heading {
   max-width: 800px;
   margin-left: 20px;
+  color: #4a5899;
   font-size: 60px;
 }
 
@@ -1622,16 +1624,21 @@ blockquote {
   display: flex;
   width: 70%;
   min-width: 850px;
-  margin-top: -60px;
-  padding: 80px 60px;
+  margin-top: -40px;
+  padding: 60px 60px 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   background-color: #dfab82;
   color: #fff;
 }
@@ -2312,8 +2319,8 @@ blockquote {
 .grid {
   margin-top: 10px;
   margin-bottom: 10px;
-  -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
