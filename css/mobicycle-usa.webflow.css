@@ -2608,8 +2608,11 @@ blockquote {
   }
 
   .page-container.book-slider {
+    margin-bottom: 40px;
     -ms-grid-columns: 1.5fr 1fr;
     grid-template-columns: 1.5fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 
   .page-container.why-read {
@@ -2643,6 +2646,40 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
+  .button.inverted {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+  }
+
+  .button-transparent.inverted-2._30-top-margin {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
   .book-cover {
     position: relative;
     width: 500px;
@@ -2662,6 +2699,10 @@ blockquote {
 
   .section.learn {
     padding-top: 100px;
+  }
+
+  .section.book-section {
+    padding-top: 140px;
   }
 
   .section.book-reselers {
@@ -2722,6 +2763,7 @@ blockquote {
 
   .chapter-heading {
     color: rgba(146, 29, 29, 0.63);
+    font-size: 46px;
   }
 
   .email-us {
@@ -2746,6 +2788,23 @@ blockquote {
     margin-top: 60px;
   }
 
+  .order-after-chapter {
+    margin-top: 0px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
   .book-reseler-logo {
     max-width: 50%;
   }
@@ -2766,6 +2825,10 @@ blockquote {
   .value-proposal-grid {
     -ms-grid-rows: auto auto auto;
     grid-template-rows: auto auto auto;
+  }
+
+  .image-wrap {
+    height: 450px;
   }
 
   .order-book-sideflex {
@@ -2794,6 +2857,9 @@ blockquote {
   }
 
   .max-size-320 {
+    max-width: 750px;
+    margin-right: 20px;
+    margin-left: 20px;
     color: rgba(0, 0, 0, 0.47);
   }
 
@@ -2889,11 +2955,49 @@ blockquote {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+    font-size: 50px;
   }
 
   .text-block-7 {
-    width: 70px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 150px;
     height: 100%;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  .grid-3 {
+    margin-top: 20px;
+    -webkit-box-align: start;
+    -webkit-align-items: start;
+    -ms-flex-align: start;
+    align-items: start;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .grid-4 {
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 }
 
