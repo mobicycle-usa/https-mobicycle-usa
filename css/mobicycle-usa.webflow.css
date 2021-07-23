@@ -244,6 +244,7 @@ blockquote {
   display: -ms-grid;
   display: grid;
   margin-bottom: 100px;
+  margin-left: 20px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
