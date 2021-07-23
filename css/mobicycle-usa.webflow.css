@@ -748,7 +748,7 @@ blockquote {
   display: block;
   margin-left: 0px;
   padding-top: 300px;
-  padding-bottom: 200px;
+  padding-bottom: 20px;
   background-color: #85cced;
   color: #fff;
   text-align: center;
@@ -3118,6 +3118,16 @@ blockquote {
     justify-content: center;
   }
 
+  .page-container.book-slider {
+    margin-left: 10px;
+    -ms-grid-columns: 1.5fr;
+    grid-template-columns: 1.5fr;
+  }
+
+  .page-container.chapter-brakedown {
+    width: 100%;
+  }
+
   .page-container.testimonial-container {
     padding: 60px 40px;
   }
@@ -3139,14 +3149,34 @@ blockquote {
     justify-content: center;
   }
 
+  .book-hero-heading.line-1 {
+    text-align: center;
+  }
+
+  .hero-paragraph {
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
   .buttons-sideflex {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
   }
 
+  .button {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: center;
+  }
+
+  .button.inverted {
+    margin-left: 10px;
+  }
+
   .button-transparent.inverted-2._30-top-margin {
     margin-top: 30px;
+    text-align: left;
   }
 
   .button-transparent.nav-menu-btn {
@@ -3182,7 +3212,7 @@ blockquote {
   }
 
   .section.book-section {
-    padding-top: 200px;
+    padding-top: 140px;
     padding-bottom: 100px;
   }
 
@@ -3191,6 +3221,10 @@ blockquote {
     grid-template-columns: 1fr 1fr;
     -ms-grid-rows: 200px 200px;
     grid-template-rows: 200px 200px;
+  }
+
+  .section.value-1 {
+    margin-left: 0px;
   }
 
   .section.faq-section {
@@ -3221,6 +3255,10 @@ blockquote {
     right: 10px;
   }
 
+  .learn-paragraph {
+    margin-right: 10px;
+  }
+
   .right-arrow {
     width: 20px;
   }
@@ -3229,12 +3267,22 @@ blockquote {
     width: 20px;
   }
 
+  .chapter-heading {
+    max-width: 500px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 0px;
+    font-size: 30px;
+    text-align: center;
+  }
+
   .author-image {
     width: 100%;
     height: 300px;
   }
 
   .order-after-chapter {
+    margin-top: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -3280,7 +3328,7 @@ blockquote {
   }
 
   .book-cover-img {
-    height: 250px;
+    height: 50%;
   }
 
   .navigation-wrap {
@@ -3306,6 +3354,11 @@ blockquote {
 
   .order-book-sideflex {
     padding: 60px 40px;
+  }
+
+  .text-max-420 {
+    margin-bottom: 10px;
+    color: #000;
   }
 
   .faq-question-wrap {
@@ -3335,6 +3388,10 @@ blockquote {
     -ms-flex: 0 auto;
     flex: 0 auto;
     text-align: left;
+  }
+
+  .max-size-320 {
+    margin-left: 10px;
   }
 
   .support-image-wrap {
@@ -3386,8 +3443,17 @@ blockquote {
     margin-bottom: 20px;
   }
 
+  .heading {
+    color: #000;
+    font-weight: 500;
+  }
+
   .container-2 {
     text-align: left;
+  }
+
+  .heading-4 {
+    margin-right: 10px;
   }
 
   .sticky-nav {
@@ -3412,6 +3478,28 @@ blockquote {
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid #c4c4c4;
+  }
+
+  .text-block-7 {
+    width: 150px;
+    height: 50%;
+    margin-right: 0px;
+  }
+
+  .grid-2 {
+    -ms-grid-columns: 1.25fr 1fr;
+    grid-template-columns: 1.25fr 1fr;
+  }
+
+  .grid-3 {
+    margin-right: 10px;
+    margin-left: 10px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 }
 
