@@ -2240,6 +2240,7 @@ blockquote {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  border-radius: 20px;
   background-color: #4a5899;
   color: hsla(0, 0%, 100%, 0.5);
 }
@@ -2321,8 +2322,9 @@ blockquote {
 }
 
 .image-4 {
+  position: fixed;
   display: block;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-bottom: 10px;
   margin-left: 10px;
 }
