@@ -769,6 +769,7 @@ blockquote {
 
 .section.book-section {
   display: block;
+  margin-top: 60px;
   margin-left: 0px;
   padding-top: 220px;
   padding-bottom: 40px;
