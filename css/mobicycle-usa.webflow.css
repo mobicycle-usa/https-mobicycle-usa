@@ -2379,6 +2379,10 @@ blockquote {
   flex: 0 auto;
 }
 
+.text-block-6 {
+  color: #9adfac;
+}
+
 .heading {
   color: #7a7272;
 }
