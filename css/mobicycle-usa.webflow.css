@@ -1364,6 +1364,7 @@ blockquote {
 
 .no-margin {
   margin-bottom: 0px;
+  color: #000;
 }
 
 .free-sample-form-block {
@@ -2735,6 +2736,22 @@ blockquote {
 
 .container-6 {
   color: #fff;
+}
+
+.heading-5 {
+  color: #000;
+}
+
+.italic-text {
+  color: #000;
+}
+
+.heading-6 {
+  color: #000;
+}
+
+.heading-7 {
+  color: #000;
 }
 
 @media screen and (max-width: 991px) {
