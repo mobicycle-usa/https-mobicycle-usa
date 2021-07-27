@@ -2534,7 +2534,9 @@ blockquote {
   top: 0px;
   z-index: 1;
   padding: 20px;
+  border: 0px none #000;
   background-color: #4a5899;
+  box-shadow: 1px 1px 3px 0 #000;
   color: #fff;
 }
 
