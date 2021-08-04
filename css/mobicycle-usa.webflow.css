@@ -2889,6 +2889,12 @@ blockquote {
   grid-template-rows: auto;
 }
 
+.container-8 {
+  position: relative;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
 @media screen and (max-width: 991px) {
   blockquote {
     margin-bottom: 40px;
@@ -4127,6 +4133,13 @@ blockquote {
     padding-bottom: 10px;
     border-top: 1px solid #c4c4c4;
   }
+}
+
+#w-node-_73d0697d-5c40-cb27-8689-288a31633ac9-420da0e1 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
 }
 
 #w-node-_28ed0f5b-e5e1-f970-5cd9-aa361267a4ba-420da0e1 {
