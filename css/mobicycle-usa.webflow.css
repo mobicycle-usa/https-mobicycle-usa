@@ -4087,7 +4087,7 @@ blockquote {
   }
 
   .nav-logo-link {
-    border-top: 1px solid #c4c4c4;
+    border: 1px none #000;
   }
 
   .nav-link-8 {
