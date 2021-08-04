@@ -2819,7 +2819,7 @@ blockquote {
   -ms-flex-pack: justify;
   justify-content: space-between;
   background-color: #4a5899;
-  box-shadow: 1px 1px 3px 0 #000;
+  box-shadow: 1px 1px 3px 1px #000;
 }
 
 .container-7 {
