@@ -2598,6 +2598,10 @@ blockquote {
   text-decoration: underline;
 }
 
+.nav-link-8.green {
+  color: #9adfac;
+}
+
 .container-5 {
   display: -ms-grid;
   display: grid;
