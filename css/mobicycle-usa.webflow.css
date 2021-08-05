@@ -3365,6 +3365,10 @@ blockquote {
     padding-top: 0px;
   }
 
+  .navbar-2 {
+    box-shadow: none;
+  }
+
   .nav-menu-2 {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
