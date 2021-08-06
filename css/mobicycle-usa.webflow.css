@@ -2905,6 +2905,10 @@ blockquote {
   object-fit: cover;
 }
 
+.body {
+  background-color: #4a5899;
+}
+
 @media screen and (max-width: 991px) {
   blockquote {
     margin-bottom: 40px;
