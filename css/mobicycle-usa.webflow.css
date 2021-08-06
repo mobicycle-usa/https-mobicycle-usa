@@ -2915,9 +2915,22 @@ blockquote {
   }
 
   .page-container.book-hero {
-    -webkit-flex-wrap: wrap;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
   }
 
   .page-container.about-container {
@@ -3006,6 +3019,10 @@ blockquote {
     max-width: 180px;
   }
 
+  .hero-content {
+    margin-right: 10px;
+  }
+
   .book-cover {
     position: relative;
     width: auto;
@@ -3064,6 +3081,8 @@ blockquote {
 
   .book-image {
     height: 80%;
+    -o-object-fit: fill;
+    object-fit: fill;
   }
 
   .book-desc {
@@ -3433,6 +3452,12 @@ blockquote {
     width: 95%;
   }
 
+  .page-container.book-hero {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
   .page-container.book-slider {
     min-height: 35vh;
     margin-bottom: 10px;
@@ -3793,8 +3818,13 @@ blockquote {
     text-align: center;
   }
 
+  .label {
+    font-size: 11px;
+  }
+
   .hero-paragraph {
     margin-bottom: 40px;
+    font-size: 10px;
     text-align: center;
   }
 
@@ -3859,6 +3889,7 @@ blockquote {
     -webkit-align-content: stretch;
     -ms-flex-line-pack: stretch;
     align-content: stretch;
+    font-size: 14px;
   }
 
   .nav-link {
