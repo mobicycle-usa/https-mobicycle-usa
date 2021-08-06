@@ -1485,6 +1485,8 @@ blockquote {
 .book-cover-img {
   display: block;
   height: 60vh;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
 }
 
 .navigation-wrap {
