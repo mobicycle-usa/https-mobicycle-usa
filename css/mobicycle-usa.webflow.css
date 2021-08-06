@@ -1023,7 +1023,7 @@ blockquote {
 .feature-paragrapg {
   max-width: 510px;
   margin-top: 300px;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
   color: hsla(0, 0%, 100%, 0.5);
   font-size: 16px;
   line-height: 30px;
@@ -2909,6 +2909,10 @@ blockquote {
 
 .body {
   background-color: #4a5899;
+}
+
+.link {
+  font-weight: 600;
 }
 
 @media screen and (max-width: 991px) {
