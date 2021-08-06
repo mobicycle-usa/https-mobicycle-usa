@@ -557,6 +557,9 @@ blockquote {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -648,6 +651,8 @@ blockquote {
 }
 
 .button-line.white-line {
+  width: 25%;
+  max-width: 200px;
   background-color: #fff;
 }
 
@@ -767,7 +772,7 @@ blockquote {
 
 .section.book-section {
   display: block;
-  margin-top: 60px;
+  margin-top: 0px;
   margin-left: 0px;
   padding-top: 220px;
   padding-bottom: 40px;
@@ -2260,6 +2265,7 @@ blockquote {
 }
 
 .text-block-5 {
+  padding-bottom: 20px;
   color: hsla(0, 0%, 100%, 0.5);
 }
 
@@ -2994,6 +3000,10 @@ blockquote {
     align-items: flex-start;
   }
 
+  .button-line.white-line {
+    max-width: 180px;
+  }
+
   .book-cover {
     position: relative;
     width: auto;
@@ -3018,7 +3028,7 @@ blockquote {
   }
 
   .section.book-section {
-    padding-top: 140px;
+    padding-top: 180px;
   }
 
   .section.book-reselers {
@@ -3324,7 +3334,7 @@ blockquote {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 150px;
+    width: 200px;
     height: 100%;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
@@ -3476,7 +3486,7 @@ blockquote {
   }
 
   .section.book-section {
-    padding-top: 140px;
+    padding-top: 180px;
   }
 
   .section.free-sample-section {
@@ -3800,10 +3810,21 @@ blockquote {
 
   .button.inverted {
     margin-left: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 
   .button-transparent.inverted-2._30-top-margin {
     margin-top: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
     text-align: left;
   }
 
@@ -3815,6 +3836,27 @@ blockquote {
 
   .button-transparent._30-margin-top {
     margin-top: 30px;
+  }
+
+  .button-text {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
   }
 
   .nav-link {
@@ -3840,7 +3882,7 @@ blockquote {
   }
 
   .section.book-section {
-    padding-top: 140px;
+    padding-top: 180px;
     padding-bottom: 100px;
   }
 
@@ -4109,9 +4151,21 @@ blockquote {
   }
 
   .text-block-7 {
-    width: 150px;
+    width: 200px;
     height: 50%;
     margin-right: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-align-self: flex-start;
+    -ms-flex-item-align: start;
+    align-self: flex-start;
   }
 
   .grid-2 {
