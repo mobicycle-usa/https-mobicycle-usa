@@ -3023,6 +3023,11 @@ blockquote {
   text-align: center;
 }
 
+.columns {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 @media screen and (max-width: 991px) {
   blockquote {
     margin-bottom: 40px;
