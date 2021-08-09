@@ -3034,6 +3034,10 @@ blockquote {
   margin-left: 0px;
 }
 
+.estonia.text-block-5 {
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   .section.book-section {
     padding-top: 260px;
