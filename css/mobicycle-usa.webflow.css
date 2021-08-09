@@ -1697,7 +1697,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 600px;
+  height: 700px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1748,7 +1748,7 @@ blockquote {
   display: flex;
   width: 70%;
   min-width: 850px;
-  margin-top: -40px;
+  margin-top: -60px;
   padding: 60px 60px 20px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -3032,6 +3032,16 @@ blockquote {
 .columns {
   margin-right: 0px;
   margin-left: 0px;
+}
+
+@media screen and (min-width: 1280px) {
+  .section.book-section {
+    padding-top: 260px;
+  }
+
+  .order-book-sideflex {
+    margin-top: -60px;
+  }
 }
 
 @media screen and (max-width: 991px) {
