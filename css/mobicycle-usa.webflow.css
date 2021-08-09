@@ -673,6 +673,7 @@ blockquote {
 .button-text {
   position: relative;
   z-index: 2;
+  min-width: 100px;
   color: #4a5899;
   text-align: center;
   letter-spacing: 2px;
@@ -3465,6 +3466,8 @@ blockquote {
 
   .nav-link-8 {
     padding-left: 20px;
+    background-color: #4a5899;
+    color: #dfab82;
   }
 
   .nav-link-8.green {
@@ -3522,6 +3525,10 @@ blockquote {
     padding-top: 0px;
   }
 
+  .button-7 {
+    background-color: transparent;
+  }
+
   .navbar-2 {
     box-shadow: none;
   }
@@ -3532,6 +3539,7 @@ blockquote {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    background-color: #4a5899;
   }
 
   .menu-button-2 {
@@ -4064,7 +4072,7 @@ blockquote {
     -webkit-align-content: stretch;
     -ms-flex-line-pack: stretch;
     align-content: stretch;
-    font-size: 14px;
+    font-size: 18px;
   }
 
   .nav-link {
@@ -4400,6 +4408,10 @@ blockquote {
     padding-top: 10px;
     padding-bottom: 10px;
     border-top: 1px solid #c4c4c4;
+  }
+
+  .container-8 {
+    background-color: transparent;
   }
 
   .services-nav {
