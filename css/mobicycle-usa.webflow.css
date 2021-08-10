@@ -3504,6 +3504,7 @@ blockquote {
   }
 
   .nav-link-8 {
+    padding-bottom: 20px;
     padding-left: 20px;
     background-color: #4a5899;
     color: #fff;
@@ -3566,6 +3567,8 @@ blockquote {
   }
 
   .button-7 {
+    margin-top: 10px;
+    padding-top: 9px;
     background-color: rgba(154, 167, 223, 0.46);
     color: #fff;
   }
@@ -4445,6 +4448,7 @@ blockquote {
   }
 
   .nav-link-8.green {
+    padding-bottom: 20px;
     color: #fff;
   }
 
@@ -4483,6 +4487,7 @@ blockquote {
   }
 
   .button-7 {
+    margin-top: 20px;
     color: #fff;
   }
 
