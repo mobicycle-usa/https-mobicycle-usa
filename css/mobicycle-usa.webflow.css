@@ -4036,6 +4036,13 @@ blockquote {
     justify-content: center;
   }
 
+  .page-container.book-hero {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
   .page-container.book-slider {
     margin-left: 10px;
     -ms-grid-columns: 1.5fr;
@@ -4068,6 +4075,7 @@ blockquote {
   }
 
   .book-hero-heading.line-1 {
+    max-width: none;
     text-align: center;
   }
 
@@ -4156,6 +4164,18 @@ blockquote {
     -ms-flex: 0 auto;
     flex: 0 auto;
     text-align: left;
+  }
+
+  .hero-content {
+    margin-right: 0px;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 
   .book-cover {
@@ -4487,7 +4507,7 @@ blockquote {
   }
 
   .button-7 {
-    margin-top: 20px;
+    margin-top: 10px;
     color: #fff;
   }
 
