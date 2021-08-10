@@ -3051,6 +3051,10 @@ blockquote {
     font-size: 18px;
   }
 
+  .nav-link-8.green {
+    color: hsla(0, 0%, 100%, 0.5);
+  }
+
   .text-small {
     font-size: 18px;
   }
