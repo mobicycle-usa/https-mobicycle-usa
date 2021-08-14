@@ -2625,7 +2625,7 @@ blockquote {
   display: block;
   margin-right: 0px;
   margin-left: 0px;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 20px;
   color: hsla(0, 0%, 100%, 0.5);
   text-decoration: none;
 }
@@ -2768,6 +2768,7 @@ blockquote {
   border-radius: 20px;
   background-color: transparent;
   color: #c38259;
+  font-weight: 800;
 }
 
 .list-item-2 {
@@ -2907,8 +2908,8 @@ blockquote {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
-  -ms-grid-columns: 0.25fr 1.75fr;
-  grid-template-columns: 0.25fr 1.75fr;
+  -ms-grid-columns: 1fr 9.5fr 1fr;
+  grid-template-columns: 1fr 9.5fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -3048,11 +3049,20 @@ blockquote {
   }
 
   .nav-link-8 {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .nav-link-8.green {
     color: hsla(0, 0%, 100%, 0.5);
+  }
+
+  .button-7 {
+    font-weight: 800;
+  }
+
+  .grid-5 {
+    -ms-grid-columns: 0.25fr 4fr 0.25fr;
+    grid-template-columns: 0.25fr 4fr 0.25fr;
   }
 
   .text-small {
@@ -3061,6 +3071,20 @@ blockquote {
 
   .bold-text-2 {
     font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .page-container.book-slider {
+    width: 100%;
+    max-width: none;
+    margin-top: 100px;
+    margin-left: 0px;
+    padding-left: 40px;
+  }
+
+  .nav-link-8 {
+    font-size: 16px;
   }
 }
 
@@ -3226,7 +3250,7 @@ blockquote {
   }
 
   .nav-link-8 {
-    font-size: 22px;
+    font-size: 18px;
   }
 
   .text-block-7 {
@@ -4857,6 +4881,13 @@ blockquote {
   align-self: center;
 }
 
+#w-node-_5df6b37e-cf1d-9ef4-8787-49d5e8327ad4-420da0e1 {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
+}
+
 #w-node-f8708b89-526a-4abe-a034-49041e9172ae-420da0e1 {
   -ms-grid-column-align: stretch;
   justify-self: stretch;
@@ -5356,6 +5387,22 @@ blockquote {
   #w-node-_3b6f9e78-d2b2-bfa3-8a14-34ab5e2f1fe4-420da0e1 {
     -ms-grid-column-align: stretch;
     justify-self: stretch;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  #w-node-_73d0697d-5c40-cb27-8689-288a31633ac9-420da0e1 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+  }
+
+  #w-node-_5df6b37e-cf1d-9ef4-8787-49d5e8327ad4-420da0e1 {
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
 }
 
