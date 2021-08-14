@@ -4075,6 +4075,7 @@ blockquote {
   }
 
   .mobile-paragraph {
+    display: block;
     max-width: none;
     padding-right: 10px;
     padding-left: 10px;
