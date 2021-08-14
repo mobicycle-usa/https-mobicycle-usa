@@ -4063,6 +4063,9 @@ blockquote {
   }
 
   .mobile-paragraph {
+    max-width: none;
+    padding-right: 10px;
+    padding-left: 10px;
     color: #4a5899;
   }
 }
@@ -4413,6 +4416,10 @@ blockquote {
 
   .heading-8 {
     text-align: left;
+  }
+
+  .mobile-paragraph {
+    padding-top: 20px;
   }
 }
 
@@ -4923,7 +4930,7 @@ blockquote {
   }
 
   .text-block-7 {
-    width: 200px;
+    width: 170px;
     height: 50%;
     margin-right: 0px;
     -webkit-box-orient: vertical;
@@ -4938,6 +4945,7 @@ blockquote {
     -webkit-align-self: flex-start;
     -ms-flex-item-align: start;
     align-self: flex-start;
+    font-size: 18px;
   }
 
   .grid-2 {
