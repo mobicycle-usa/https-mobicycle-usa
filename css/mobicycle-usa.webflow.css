@@ -2631,6 +2631,7 @@ blockquote {
   margin-left: 0px;
   padding: 10px 20px;
   color: hsla(0, 0%, 100%, 0.5);
+  font-size: 16px;
   text-decoration: none;
 }
 
@@ -3120,7 +3121,7 @@ blockquote {
   }
 
   .nav-link-8 {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   ._1920-button {
@@ -3301,7 +3302,7 @@ blockquote {
   }
 
   .nav-link-8 {
-    font-size: 18px;
+    font-size: 22px;
   }
 
   .text-block-7 {
@@ -3345,6 +3346,9 @@ blockquote {
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
   }
 
   .grid-5 {
