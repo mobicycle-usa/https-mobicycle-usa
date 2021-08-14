@@ -5559,6 +5559,17 @@ blockquote {
     -ms-grid-column-align: stretch;
     justify-self: stretch;
   }
+
+  #w-node-_2125f087-62dc-907e-9010-2d28a7d478bb-420da0e1 {
+    -ms-grid-column: 1;
+    grid-column-start: 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: 2;
+    -ms-grid-row: 1;
+    grid-row-start: 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: 2;
+  }
 }
 
 @media screen and (min-width: 1440px) {
