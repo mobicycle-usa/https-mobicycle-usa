@@ -3965,6 +3965,10 @@ blockquote {
   .heading-8 {
     font-size: 24px;
   }
+
+  ._12801-button {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 767px) {
