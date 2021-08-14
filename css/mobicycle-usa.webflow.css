@@ -3121,6 +3121,7 @@ blockquote {
   }
 
   .nav-link-8 {
+    padding-left: 20px;
     font-size: 18px;
   }
 
@@ -3331,6 +3332,11 @@ blockquote {
     display: block;
     margin-right: 40px;
     margin-left: 60px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-size: 22px;
   }
 
   .nav-menu-2 {
