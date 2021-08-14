@@ -3040,8 +3040,24 @@ blockquote {
 }
 
 @media screen and (min-width: 1280px) {
+  .page-container.about-container {
+    width: 100%;
+  }
+
+  .page-container.book-slider {
+    width: 100%;
+    margin-left: 0px;
+    padding-left: 20px;
+    justify-items: start;
+  }
+
   .section.book-section {
     padding-top: 260px;
+  }
+
+  .learn-grid {
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .order-book-sideflex {
