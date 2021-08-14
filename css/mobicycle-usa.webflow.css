@@ -3535,7 +3535,7 @@ blockquote {
 
   .page-container.book-slider {
     margin-bottom: 10px;
-    padding-top: 40px;
+    padding-top: 140px;
     -ms-grid-columns: 1.5fr 1fr;
     grid-template-columns: 1.5fr 1fr;
     -ms-grid-rows: auto;
