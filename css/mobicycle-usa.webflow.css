@@ -3058,6 +3058,10 @@ blockquote {
   display: none;
 }
 
+.mobile-paragraph {
+  display: none;
+}
+
 @media screen and (min-width: 1280px) {
   .page-container.about-container {
     width: 100%;
@@ -3232,6 +3236,14 @@ blockquote {
     align-items: center;
   }
 
+  .page-container.chapter-brakedown {
+    width: 100%;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+  }
+
   .page-container.why-read {
     width: 100%;
     max-width: none;
@@ -3342,7 +3354,7 @@ blockquote {
 
   .max-size-320 {
     max-width: 800px;
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .text-block-3 {
@@ -3375,7 +3387,7 @@ blockquote {
   }
 
   .bold-text {
-    font-size: 22px;
+    font-size: 26px;
   }
 
   .nav-link-8 {
@@ -5261,6 +5273,11 @@ blockquote {
   grid-row-end: 2;
 }
 
+#w-node-_85f512c8-b812-5b90-f306-2d99258213d1-420da0e1 {
+  -ms-grid-column-align: end;
+  justify-self: end;
+}
+
 #w-node-_1225b40a-735d-4182-5822-ca7a0773f856-420da0e1 {
   -ms-grid-column: 2;
   grid-column-start: 2;
@@ -5592,6 +5609,15 @@ blockquote {
     -ms-grid-row-span: 1;
     grid-row-end: 2;
   }
+
+  #w-node-_85f512c8-b812-5b90-f306-2d99258213d1-420da0e1 {
+    -ms-grid-column-align: stretch;
+    justify-self: stretch;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    -ms-grid-row-align: stretch;
+    align-self: stretch;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -5601,6 +5627,11 @@ blockquote {
   }
 
   #w-node-e882deec-f0c5-869d-9244-923c41eb8228-420da0e1 {
+    -ms-grid-column-align: end;
+    justify-self: end;
+  }
+
+  #w-node-_85f512c8-b812-5b90-f306-2d99258213d1-420da0e1 {
     -ms-grid-column-align: end;
     justify-self: end;
   }
@@ -5621,6 +5652,11 @@ blockquote {
     -ms-flex-item-align: center;
     -ms-grid-row-align: center;
     align-self: center;
+  }
+
+  #w-node-_85f512c8-b812-5b90-f306-2d99258213d1-420da0e1 {
+    -ms-grid-column-align: end;
+    justify-self: end;
   }
 
   #w-node-f7642668-f23a-8235-d7dd-98e5da437122-420da0e1 {
