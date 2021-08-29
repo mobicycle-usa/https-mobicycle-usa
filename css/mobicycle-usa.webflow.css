@@ -1201,7 +1201,7 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   background-color: #dfab82;
-  background-image: url("../images/pexels-photo-846741.jpeg");
+  background-image: url('../images/pexels-photo-846741.jpeg');
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1304,14 +1304,14 @@ blockquote {
   right: 80px;
   bottom: 80px;
   width: 300px;
-  background-image: url("../images/pexels-photo-1239291.jpeg");
+  background-image: url('../images/pexels-photo-1239291.jpeg');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .testimonial-author-img.author-2 {
   z-index: 1;
-  background-image: url("../images/pexels-photo-774909.jpeg");
+  background-image: url('../images/pexels-photo-774909.jpeg');
 }
 
 .testimonial-bg-image {
@@ -1358,17 +1358,17 @@ blockquote {
 
 .who-should-grab-img {
   height: 200px;
-  background-image: url("../images/sara-julie-yoFIPu3PpgU-unsplash.jpg");
+  background-image: url('../images/sara-julie-yoFIPu3PpgU-unsplash.jpg');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .who-should-grab-img.who-grab-2 {
-  background-image: url("../images/markus-spiske-n52HL8hmsdg-unsplash.jpg");
+  background-image: url('../images/markus-spiske-n52HL8hmsdg-unsplash.jpg');
 }
 
 .who-should-grab-img.who-grab-3 {
-  background-image: url("../images/albert-hyseni-iQAF4A0To1g-unsplash.jpg");
+  background-image: url('../images/albert-hyseni-iQAF4A0To1g-unsplash.jpg');
   background-position: 50% 100%;
 }
 
@@ -1479,21 +1479,21 @@ blockquote {
   bottom: 0px;
   z-index: 1;
   background-color: #4a5899;
-  background-image: url("../images/pexels-photo-590493.jpeg");
+  background-image: url('../images/pexels-photo-590493.jpeg');
   background-position: 50% 50%;
   background-size: cover;
 }
 
 .bg-image.bg-image-2 {
-  background-image: url("../images/pexels-photo-459265.jpeg");
+  background-image: url('../images/pexels-photo-459265.jpeg');
 }
 
 .bg-image.bg-image-4 {
-  background-image: url("../images/pexels-photo.jpg");
+  background-image: url('../images/pexels-photo.jpg');
 }
 
 .bg-image.bg-image-3 {
-  background-image: url("../images/pexels-photo-946343.jpeg");
+  background-image: url('../images/pexels-photo-946343.jpeg');
 }
 
 .book-cover-img {
@@ -1713,13 +1713,13 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url("../images/john-cameron-7zocFMzvbpc-unsplash.jpg");
+  background-image: url('../images/john-cameron-7zocFMzvbpc-unsplash.jpg');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .image-wrap.image-2 {
-  background-image: url("../images/pexels-photo-847483.jpeg");
+  background-image: url('../images/pexels-photo-847483.jpeg');
 }
 
 .image-rectangle-overlay {
@@ -3052,6 +3052,7 @@ blockquote {
   background-color: transparent;
   color: #dfab82;
   font-weight: 800;
+  white-space: nowrap;
 }
 
 ._1280-button {
@@ -3060,6 +3061,39 @@ blockquote {
 
 .mobile-paragraph {
   display: none;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3125,7 +3159,7 @@ blockquote {
 
   .nav-menu-2 {
     position: relative;
-    left: 92px;
+    left: 60px;
     margin-left: auto;
     -webkit-box-pack: end;
     -webkit-justify-content: flex-end;
@@ -3144,6 +3178,10 @@ blockquote {
 
   .bold-text-2 {
     font-size: 18px;
+  }
+
+  ._12801-button {
+    white-space: nowrap;
   }
 
   ._1280-button {
@@ -3181,6 +3219,7 @@ blockquote {
 
   ._1920-button {
     display: none;
+    white-space: nowrap;
   }
 
   .nav-menu-2 {
@@ -3205,6 +3244,7 @@ blockquote {
     color: #dfab82;
     font-size: 18px;
     font-weight: 800;
+    white-space: nowrap;
   }
 }
 
@@ -3425,6 +3465,7 @@ blockquote {
     -ms-grid-row-align: center;
     align-self: center;
     font-size: 22px;
+    white-space: nowrap;
   }
 
   .nav-menu-2 {
@@ -4546,7 +4587,7 @@ blockquote {
 
   .book-hero-heading.line-1 {
     max-width: none;
-    text-align: center;
+    text-align: left;
   }
 
   .label {
@@ -4556,7 +4597,7 @@ blockquote {
   .hero-paragraph {
     margin-bottom: 40px;
     font-size: 10px;
-    text-align: center;
+    text-align: left;
   }
 
   .buttons-sideflex {
@@ -5556,31 +5597,6 @@ blockquote {
   align-self: start;
 }
 
-#w-node-b31e2d94-130e-c3f8-ab32-6f2cdb06e40a-f40da0e4 {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-}
-
-#w-node-_4955435a-7d42-d3b5-aad9-18adbc133c9f-f40da0e4 {
-  -ms-grid-column-align: center;
-  justify-self: center;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-}
-
-#w-node-_1d5c8fff-2e16-6977-1f5a-4b1e887c9a2b-f40da0e4 {
-  -ms-grid-column-align: center;
-  justify-self: center;
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-}
-
 @media screen and (min-width: 1920px) {
   #w-node-_73d0697d-5c40-cb27-8689-288a31633ac9-420da0e1 {
     -ms-grid-column-align: stretch;
@@ -5630,6 +5646,10 @@ blockquote {
   #w-node-e882deec-f0c5-869d-9244-923c41eb8228-420da0e1 {
     -ms-grid-column-align: end;
     justify-self: end;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
   }
 
   #w-node-_85f512c8-b812-5b90-f306-2d99258213d1-420da0e1 {
@@ -5871,13 +5891,6 @@ blockquote {
     grid-row-start: 1;
     -ms-grid-row-span: 1;
     grid-row-end: 2;
-  }
-
-  #w-node-_1d5c8fff-2e16-6977-1f5a-4b1e887c9a19-f40da0e4 {
-    -webkit-box-ordinal-group: -9998;
-    -webkit-order: -9999;
-    -ms-flex-order: -9999;
-    order: -9999;
   }
 }
 
