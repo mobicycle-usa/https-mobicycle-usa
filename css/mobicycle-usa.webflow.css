@@ -1361,18 +1361,22 @@ blockquote {
   background-image: url('../images/sara-julie-yoFIPu3PpgU-unsplash.jpg');
   background-position: 50% 50%;
   background-size: cover;
+  box-shadow: 1px 1px 3px 0 #dfab82;
 }
 
 .who-should-grab-img.who-grab-2 {
+  box-shadow: 1px solid #dfab82;
   background-image: url('../images/markus-spiske-n52HL8hmsdg-unsplash.jpg');
 }
 
 .who-should-grab-img.who-grab-3 {
+  box-shadow: 1px 1px 3px 0 #dfab82;
   background-image: url('../images/albert-hyseni-iQAF4A0To1g-unsplash.jpg');
   background-position: 50% 100%;
 }
 
 .who-should-grab-info-wrap {
+  box-shadow: 1px 1px 3px 0 #dfab82;
   padding: 30px;
 }
 
