@@ -3119,6 +3119,7 @@ blockquote {
   text-align: center;
 }
 
+//MINIMUM WIDTH IS 1280
 @media screen and (min-width: 1280px) {
   .page-container.about-container {
     width: 100%;
@@ -3217,6 +3218,7 @@ blockquote {
   }
 }
 
+//MINIMUM WIDTH IS 1440
 @media screen and (min-width: 1440px) {
   .page-container.about-container {
     max-width: none;
@@ -3276,6 +3278,8 @@ blockquote {
   }
 }
 
+
+//MINIMUM WIDTH IS 1920
 @media screen and (min-width: 1920px) {
   .page-container.book-hero {
     width: 100%;
@@ -3577,6 +3581,7 @@ blockquote {
   }
 }
 
+//MINIMUM WIDTH IS 991
 @media screen and (max-width: 991px) {
   blockquote {
     margin-bottom: 40px;
@@ -4156,6 +4161,7 @@ blockquote {
   }
 }
 
+//MINIMUM WIDTH IS 767
 @media screen and (max-width: 767px) {
   h1 {
     font-size: 80px;
@@ -4509,6 +4515,7 @@ blockquote {
   }
 }
 
+//MINIMUM WIDTH IS 479
 @media screen and (max-width: 479px) {
   h1 {
     font-size: 60px;
@@ -5629,6 +5636,7 @@ blockquote {
   align-self: start;
 }
 
+//MINIMUM WIDTH IS 1920
 @media screen and (min-width: 1920px) {
   #w-node-_73d0697d-5c40-cb27-8689-288a31633ac9-420da0e1 {
     -ms-grid-column-align: stretch;
@@ -5948,4 +5956,6 @@ blockquote {
     -ms-grid-row-span: 1;
     grid-row-end: 3;
   }
+  
+  
 }
