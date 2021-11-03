@@ -3177,6 +3177,9 @@ blockquote {
 
   .text-small {
     font-size: 18px;
+    font-weight: 400;
+    font-family: 'EB Garamond', sans-serif;
+    color: #4a5899;
   }
 
   .bold-text-2 {
@@ -4109,6 +4112,9 @@ blockquote {
 
   .text-small {
     font-size: 13px;
+    font-weight: 400;
+    font-family: 'EB Garamond', sans-serif;
+    color: #4a5899;
   }
 
   .heading-8 {
