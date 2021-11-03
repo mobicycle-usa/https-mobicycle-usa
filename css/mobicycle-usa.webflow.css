@@ -3007,6 +3007,7 @@ blockquote {
   font-weight: 400;
   font-family: 'EB Garamond', sans-serif;
   color: #4a5899;
+  padding-left: 5px;
 }
 
 .services-wrapper {
@@ -3180,6 +3181,7 @@ blockquote {
     font-weight: 400;
     font-family: 'EB Garamond', sans-serif;
     color: #4a5899;
+    padding-left: 5px;
   }
 
   .bold-text-2 {
@@ -4115,6 +4117,7 @@ blockquote {
     font-weight: 400;
     font-family: 'EB Garamond', sans-serif;
     color: #4a5899;
+    padding-left: 3px;
   }
 
   .heading-8 {
