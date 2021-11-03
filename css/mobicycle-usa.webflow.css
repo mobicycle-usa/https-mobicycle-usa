@@ -526,6 +526,44 @@ blockquote {
   object-fit: fill;
 }
 
+.button-sales-1 {
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+  padding: 20px 40px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-color: #dfab82;
+  font-family: 'Muli', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
+.button-sales-2 {
+  position: relative;
+  z-index: 3;
+  overflow: hidden;
+  padding: 20px 40px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  background-color: #dfab82;
+  font-family: 'EB Garamond', sans-serif;
+  color: #fff;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  -o-object-fit: fill;
+  object-fit: fill;
+}
+
 .button.inverted {
   display: block;
   margin-left: 20px;
