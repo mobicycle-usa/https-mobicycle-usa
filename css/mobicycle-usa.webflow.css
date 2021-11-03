@@ -934,7 +934,7 @@ blockquote {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 100px;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(154, 190, 223, 0.8);
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   opacity: 1;
