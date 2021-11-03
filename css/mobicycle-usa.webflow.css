@@ -97,6 +97,30 @@ li {
   font-weight: 700;
 }
 
+//see text-block-7
+text-capabilities {
+  font-family: 'EB Garamond', sans-serif;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    min-height: 50px;
+    min-width: 250px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    font-size: 22px;
+    text-align: left;
+}
+
 blockquote {
   position: relative;
   z-index: 2;
