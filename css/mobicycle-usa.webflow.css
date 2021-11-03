@@ -1117,7 +1117,7 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   max-width: 800px;
-  margin-left: 20px;
+  margin-left: 50px;
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
