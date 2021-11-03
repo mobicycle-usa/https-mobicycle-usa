@@ -74,13 +74,13 @@ h6 {
 p {
   max-width: 710px;
   margin-bottom: 30px;
-  font-family: Muli, sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 18px;
   line-height: 2em;
 }
 
 a {
-  font-family: Muli, sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #dfab82;
   text-decoration: none;
 }
@@ -478,7 +478,7 @@ blockquote {
 .label {
   position: relative;
   z-index: 4;
-  font-family: Muli, sans-serif;
+  font-family: 'Muli', sans-serif;
   color: hsla(0, 0%, 100%, 0.5);
   font-size: 13px;
   letter-spacing: 2px;
@@ -904,7 +904,7 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-family: Muli, sans-serif;
+  font-family: 'Muli', sans-serif;
   color: hsla(0, 0%, 100%, 0.5);
   font-size: 12px;
   letter-spacing: 2px;
@@ -944,7 +944,7 @@ blockquote {
   position: absolute;
   top: 20px;
   right: 40px;
-  font-family: Muli, sans-serif;
+  font-family: 'Muli', sans-serif;
   color: hsla(0, 0%, 100%, 0.5);
 }
 
@@ -961,7 +961,7 @@ blockquote {
 }
 
 .testimonial-author-role {
-  font-family: Muli, sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #b5b5b5;
   font-size: 12px;
   letter-spacing: 1px;
@@ -1049,7 +1049,7 @@ blockquote {
   height: 30px;
   border-radius: 20px;
   background-color: #fff;
-  font-family: Muli, sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #4a5899;
   line-height: 30px;
   font-weight: 700;
@@ -2194,7 +2194,7 @@ blockquote {
 .footer-heading {
   margin-top: 0px;
   margin-bottom: 20px;
-  font-family: Muli, sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #fff;
   font-size: 14px;
   line-height: 1.5;
@@ -2205,7 +2205,7 @@ blockquote {
 .footer-link-2 {
   display: block;
   margin-bottom: 10px;
-  font-family: Muli, sans-serif;
+  font-family: 'Muli', sans-serif;
   color: #fff;
   font-size: 12px;
   text-decoration: none;
@@ -2299,7 +2299,7 @@ blockquote {
 }
 
 .text-span {
-  font-family: Muli, sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 12px;
 }
 
