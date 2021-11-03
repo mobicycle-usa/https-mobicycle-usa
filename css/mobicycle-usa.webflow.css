@@ -1378,7 +1378,7 @@ blockquote {
 
 .no-margin {
   margin-bottom: 0px;
-  color: #000;
+  color: #4a5899;
 }
 
 .free-sample-form-block {
@@ -2810,7 +2810,8 @@ blockquote {
 }
 
 .what-is-ewaste {
-  color: #000;
+  font-family: 'EB Garamond', sans-serif;
+  color: #dfab82;
 }
 
 .heading-7 {
