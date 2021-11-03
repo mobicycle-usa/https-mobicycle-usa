@@ -578,7 +578,7 @@ blockquote {
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  background-color: #dfab82;
+  background-color: transparent;
   font-family: 'EB Garamond', sans-serif;
   color: #fff;
   font-size: 20px;
