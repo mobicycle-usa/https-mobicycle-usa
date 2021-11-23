@@ -2636,6 +2636,7 @@ blockquote {
 .nav-logo {
   width: auto;
   height: 100%;
+  min-width: 2.5em;
   -o-object-fit: contain;
   object-fit: contain;
   -o-object-position: 0% 50%;
@@ -2863,13 +2864,15 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding: 20px;
+  padding: 20px 5px;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   background-color: #4a5899;
   box-shadow: 1px 1px 3px 1px #000;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .container-7 {
@@ -2924,19 +2927,24 @@ blockquote {
   flex: 1;
 }
 
-.grid-5 {
+.navgrid {
+  position: relative;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  -ms-grid-columns: 1fr 9.5fr 1fr;
-  grid-template-columns: 1fr 9.5fr 1fr;
+  align-self: flex-start;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  grid-auto-flow: column dense;
+  -ms-grid-columns: 9.5fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 9.5fr 1fr 1fr 1fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
+  -o-object-fit: contain;
+  object-fit: contain;
 }
 
 .container-8 {
@@ -3344,7 +3352,7 @@ blockquote {
 }
 
 .section-3.faq-section {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   box-shadow: 1px 1px 3px 0 #000;
   text-align: center;
 }
@@ -3442,7 +3450,7 @@ blockquote {
     justify-content: flex-end;
   }
 
-  .grid-5 {
+  .navgrid {
     -ms-grid-columns: 0.25fr 4fr 0.25fr;
     grid-template-columns: 0.25fr 4fr 0.25fr;
   }
@@ -3502,7 +3510,7 @@ blockquote {
     margin-left: 0px;
   }
 
-  .grid-5 {
+  .navgrid {
     -webkit-box-pack: stretch;
     -webkit-justify-content: stretch;
     -ms-flex-pack: stretch;
@@ -3767,7 +3775,7 @@ blockquote {
     flex: 1;
   }
 
-  .grid-5 {
+  .navgrid {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -4362,7 +4370,7 @@ blockquote {
     text-align: center;
   }
 
-  .grid-5 {
+  .navgrid {
     -ms-grid-columns: 5.5fr 1fr;
     grid-template-columns: 5.5fr 1fr;
     -ms-grid-rows: auto;
@@ -5462,20 +5470,6 @@ blockquote {
   }
 }
 
-#w-node-_73d0697d-5c40-cb27-8689-288a31633ac9-420da0e1 {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-}
-
-#w-node-e882deec-f0c5-869d-9244-923c41eb8228-420da0e1 {
-  -webkit-align-self: center;
-  -ms-flex-item-align: center;
-  -ms-grid-row-align: center;
-  align-self: center;
-}
-
 #w-node-f8708b89-526a-4abe-a034-49041e9172ae-420da0e1 {
   -ms-grid-column-align: stretch;
   justify-self: stretch;
@@ -5819,19 +5813,6 @@ blockquote {
 }
 
 @media screen and (min-width: 1920px) {
-  #w-node-_73d0697d-5c40-cb27-8689-288a31633ac9-420da0e1 {
-    -ms-grid-column-align: stretch;
-    justify-self: stretch;
-    -webkit-box-ordinal-group: 10000;
-    -webkit-order: 9999;
-    -ms-flex-order: 9999;
-    order: 9999;
-    -webkit-align-self: stretch;
-    -ms-flex-item-align: stretch;
-    -ms-grid-row-align: stretch;
-    align-self: stretch;
-  }
-
   #w-node-_3b6f9e78-d2b2-bfa3-8a14-34ab5e2f1fe4-420da0e1 {
     -ms-grid-column-align: stretch;
     justify-self: stretch;
@@ -5859,20 +5840,6 @@ blockquote {
 }
 
 @media screen and (min-width: 1440px) {
-  #w-node-_73d0697d-5c40-cb27-8689-288a31633ac9-420da0e1 {
-    -ms-grid-column-align: stretch;
-    justify-self: stretch;
-  }
-
-  #w-node-e882deec-f0c5-869d-9244-923c41eb8228-420da0e1 {
-    -ms-grid-column-align: end;
-    justify-self: end;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-
   #w-node-_85f512c8-b812-5b90-f306-2d99258213d1-420da0e1 {
     -ms-grid-column-align: end;
     justify-self: end;
@@ -5889,13 +5856,6 @@ blockquote {
 }
 
 @media screen and (min-width: 1280px) {
-  #w-node-_73d0697d-5c40-cb27-8689-288a31633ac9-420da0e1 {
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center;
-  }
-
   #w-node-_85f512c8-b812-5b90-f306-2d99258213d1-420da0e1 {
     -ms-grid-column-align: end;
     justify-self: end;
