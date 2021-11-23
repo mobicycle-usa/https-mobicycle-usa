@@ -3098,6 +3098,7 @@ blockquote {
 }
 
 .get-started.section-light {
+  z-index: 0;
   display: block;
   padding-bottom: 10px;
   background-color: #9aa7df;
@@ -3552,7 +3553,7 @@ blockquote {
   position: -webkit-sticky;
   position: sticky;
   top: 0px;
-  z-index: 1;
+  z-index: 10;
   display: block;
   padding: 20px;
   background-color: #4a5899;
@@ -3595,6 +3596,8 @@ blockquote {
 }
 
 .button-9 {
+  margin-left: 40px;
+  padding-left: 15px;
   background-color: #9aa7df;
 }
 
@@ -4763,6 +4766,7 @@ blockquote {
   }
 
   .brand-4 {
+    z-index: 0;
     background-color: transparent;
     background-image: url('../images/color_logo_transparent.png');
     background-position: 0px 0px;
