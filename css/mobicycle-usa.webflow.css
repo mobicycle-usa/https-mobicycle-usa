@@ -2352,9 +2352,15 @@ blockquote {
 }
 
 .addresses {
+  display: none;
+  overflow: hidden;
   padding-bottom: 20px;
   color: hsla(0, 0%, 100%, 0.5);
   font-size: 12px;
+}
+
+.addresses.america {
+  display: block;
 }
 
 .navbar {
