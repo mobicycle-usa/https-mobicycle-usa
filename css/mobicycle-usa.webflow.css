@@ -2926,7 +2926,8 @@ blockquote {
   margin-right: 0px;
   margin-left: 0px;
   padding: 10px 0px;
-  color: #dfab82;
+  color: hsla(0, 0%, 100%, 0.5);
+  font-weight: 200;
   text-decoration: none;
 }
 
@@ -3599,6 +3600,8 @@ blockquote {
   margin-left: 40px;
   padding-left: 15px;
   background-color: #9aa7df;
+  font-family: 'EB Garamond', sans-serif;
+  color: #4a5899;
 }
 
 .container-12 {
