@@ -2359,7 +2359,11 @@ blockquote {
   font-size: 12px;
 }
 
-.addresses.america {
+.addresses.no-show {
+  display: none;
+}
+
+.addresses.show {
   display: block;
 }
 
