@@ -987,6 +987,7 @@ blockquote {
 .learn-paragraph {
   max-width: 700px;
   color: #4a5899;
+  font-size: 1.3em;
 }
 
 .learn-item {
@@ -1804,9 +1805,12 @@ blockquote {
 }
 
 .cta-text {
+  position: relative;
+  top: 51px;
   max-width: 400px;
   margin-right: 120px;
   margin-bottom: 0px;
+  font-size: 2em;
 }
 
 .faq-wrap {
@@ -1936,6 +1940,7 @@ blockquote {
 .faq-question {
   margin-right: 40px;
   margin-bottom: 0px;
+  font-size: 1.8em;
 }
 
 .max-size-320 {
@@ -2608,6 +2613,10 @@ blockquote {
 .grid {
   margin-top: 10px;
   margin-bottom: 10px;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
   -ms-grid-columns: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
   -ms-grid-rows: auto;
@@ -3162,7 +3171,7 @@ blockquote {
 .bold-text-2 {
   padding-left: 10px;
   color: #4a5899;
-  font-size: 18px;
+  font-size: 1.5em;
 }
 
 .estonia.text-block-5 {
@@ -4295,7 +4304,7 @@ blockquote {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
-    font-size: 16px;
+    font-size: 1.5em;
   }
 
   .feature-paragrapg {
@@ -4312,7 +4321,7 @@ blockquote {
   }
 
   .chapter-heading {
-    color: rgba(29, 90, 146, 0.63);
+    color: #4a5899;
     font-size: 44px;
   }
 
@@ -4582,7 +4591,7 @@ blockquote {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    color: #000;
+    color: #4a5899;
   }
 
   .grid-3 {
@@ -4868,6 +4877,7 @@ blockquote {
   .page-container.book-slider {
     min-height: 35vh;
     margin-bottom: 10px;
+    padding-top: 100px;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
   }
@@ -4935,7 +4945,7 @@ blockquote {
   .learn-paragraph {
     padding-right: 60px;
     padding-left: 60px;
-    font-size: 14px;
+    font-size: 1.5em;
   }
 
   .chapter-heading {
@@ -5383,6 +5393,7 @@ blockquote {
 
   .page-container.book-slider {
     margin-left: 10px;
+    padding-top: 80px;
     -ms-grid-columns: 1.5fr;
     grid-template-columns: 1.5fr;
   }
@@ -5580,7 +5591,7 @@ blockquote {
 
   .learn-paragraph {
     margin-right: 10px;
-    font-size: 16px;
+    font-size: 1.5em;
   }
 
   .right-arrow {
@@ -6209,6 +6220,8 @@ blockquote {
   grid-row-start: 2;
   -ms-grid-row-span: 1;
   grid-row-end: 3;
+  -ms-grid-row-align: auto;
+  align-self: auto;
 }
 
 #w-node-_18d99f45-46a2-2cb6-5cb7-775983c883fc-360da0e2 {
