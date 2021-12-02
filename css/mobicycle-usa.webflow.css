@@ -3742,7 +3742,7 @@ blockquote {
 
 .spacer-60-px-2 {
   width: 60px;
-  height: 60px;
+  height: 2vh;
   -webkit-box-flex: 0;
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
