@@ -817,8 +817,8 @@ blockquote {
   margin-top: 300px;
   margin-bottom: 30px;
   color: hsla(0, 0%, 100%, 0.5);
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 
 .feature-heading {
@@ -1639,6 +1639,8 @@ blockquote {
 }
 
 .link {
+  font-size: 1em;
+  line-height: 1.2em;
   font-weight: 600;
 }
 
@@ -1806,6 +1808,10 @@ blockquote {
   margin-left: 0px;
 }
 
+.footer-link {
+  font-weight: 600;
+}
+
 .button-7 {
   position: relative;
   z-index: 3;
@@ -1847,7 +1853,7 @@ blockquote {
 }
 
 .label-2.dark-label {
-  color: #dfab82;
+  color: #9aa7df;
   font-weight: 600;
 }
 
@@ -1897,11 +1903,7 @@ blockquote {
 
 .section-3.value-1 {
   padding-top: 200px;
-  background-color: rgba(243, 238, 238, 0.5);
-  background-image: -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 71%, 0.42)), to(hsla(0, 0%, 71%, 0.42))), url('../images/rafael-garcin-sqZ4GeyYGx8-unsplash.jpg');
-  background-image: linear-gradient(180deg, hsla(0, 0%, 71%, 0.42), hsla(0, 0%, 71%, 0.42)), url('../images/rafael-garcin-sqZ4GeyYGx8-unsplash.jpg');
-  background-position: 0px 0px, 0px 0px;
-  background-size: auto, auto;
+  background-color: #fff;
 }
 
 .faq-question-wrap-2 {
@@ -2071,7 +2073,7 @@ blockquote {
 
 .text-max-421 {
   max-width: 420px;
-  color: #dfab82;
+  color: #4a5899;
 }
 
 .cta-text-2 {
@@ -2118,7 +2120,7 @@ blockquote {
 
 .small-paragraph-2 {
   max-width: 510px;
-  color: #b5b5b5;
+  color: #5c6074;
   font-size: 16px;
   line-height: 30px;
 }
@@ -2157,15 +2159,15 @@ blockquote {
 }
 
 .heading-10 {
-  color: #fff;
+  color: #5c6074;
 }
 
 .heading-11 {
-  color: #fff;
+  color: #5c6074;
 }
 
 .heading-12 {
-  color: #fff;
+  color: #5c6074;
 }
 
 @media screen and (min-width: 1280px) {
