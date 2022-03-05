@@ -538,6 +538,8 @@ blockquote {
   z-index: 2;
   min-width: 100px;
   color: #4a5899;
+  font-size: 1em;
+  line-height: 1.2em;
   text-align: center;
   letter-spacing: 2px;
   -webkit-column-count: auto;
