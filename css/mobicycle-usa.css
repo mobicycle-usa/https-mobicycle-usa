@@ -2031,13 +2031,15 @@ blockquote {
 }
 
 .footer-space.left {
-  margin-left: 2vw;
-  padding-right: 4vw;
-  padding-left: 2vw;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 auto;
-  -ms-flex: 0 auto;
-  flex: 0 auto;
+  min-width: 10vw;
+  margin-left: 0vw;
+  padding-right: 0vw;
+  padding-left: 0vw;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: left;
 }
 
 .footer-space.right {
@@ -2045,7 +2047,8 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-left: 2vw;
+  padding-right: 0vw;
+  padding-left: 0vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2059,15 +2062,17 @@ blockquote {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  text-align: left;
 }
 
 .footer-space.middle {
-  padding-right: 2vw;
-  padding-left: 2vw;
+  padding-right: 0vw;
+  padding-left: 0vw;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  text-align: left;
 }
 
 .list-item {
@@ -2079,6 +2084,8 @@ blockquote {
 }
 
 .addresses {
+  margin-top: auto;
+  padding-top: 5vh;
   padding-bottom: 20px;
   color: hsla(0, 0%, 100%, 0.5);
   font-size: 12px;
@@ -2222,7 +2229,35 @@ blockquote {
 
 .div-block-4 {
   margin-right: auto;
+  margin-left: auto;
   padding-right: 0px;
+}
+
+.list-item-4 {
+  display: none;
+}
+
+.list-item-5 {
+  display: none;
+}
+
+.list-item-6 {
+  display: none;
+}
+
+.list-item-7 {
+  display: none;
+}
+
+.list-item-8 {
+  display: none;
+}
+
+.grid-4 {
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3360,6 +3395,11 @@ blockquote {
   .div-block-4 {
     margin-bottom: 60px;
   }
+
+  .grid-4 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4105,6 +4145,11 @@ blockquote {
   grid-row-start: 2;
   -ms-grid-row-span: 1;
   grid-row-end: 3;
+}
+
+#w-node-_96b82b39-ed4a-dce0-88f8-571e0a343335-420da0e1 {
+  -ms-grid-column-align: auto;
+  justify-self: auto;
 }
 
 #w-node-_18d99f45-46a2-2cb6-5cb7-775983c883fc-360da0e2 {
