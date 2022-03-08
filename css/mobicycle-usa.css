@@ -966,6 +966,8 @@ blockquote {
 .light-box-hover {
   position: relative;
   left: 6px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .who-should-grab-h-wrap {
@@ -1965,6 +1967,8 @@ blockquote {
   display: flex;
   width: 100px;
   height: 100px;
+  margin-right: auto;
+  margin-left: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1978,6 +1982,10 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   border-radius: 100px;
   background-color: rgba(0, 0, 0, 0.8);
 }
@@ -2494,6 +2502,11 @@ blockquote {
     padding-left: 20px;
   }
 
+  .light-box-hover {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .nav-link-8 {
     min-width: 150px;
     margin-left: 0px;
@@ -2606,6 +2619,10 @@ blockquote {
 
   .image-rectangle-overlay-2 {
     max-width: 40vw;
+  }
+
+  .book-light-box-2 {
+    width: 6vw;
   }
 
   .footer-link-2.long {
@@ -2825,6 +2842,13 @@ blockquote {
   .feature-paragrapg {
     padding-bottom: 20px;
     font-size: 20px;
+  }
+
+  .light-box-hover {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
 
   .who-should-grab-item.grab-1 {
