@@ -963,6 +963,11 @@ blockquote {
   padding-bottom: 5px;
 }
 
+.light-box-hover {
+  position: relative;
+  left: 6px;
+}
+
 .who-should-grab-h-wrap {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
