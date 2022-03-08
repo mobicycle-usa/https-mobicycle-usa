@@ -1,8 +1,0 @@
-<svg width="500" height="705" viewBox="0 0 500 705" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <linearGradient id="linearGradient1" x1="13.553909" y1="400.336495" x2="486.446091" y2="260.738963" gradientUnits="userSpaceOnUse">
-        <stop offset="0" stop-color="#ffffff" stop-opacity="1"/>
-        <stop offset="0.526076" stop-color="#4a5899" stop-opacity="1"/>
-        <stop offset="1" stop-color="#4a5899" stop-opacity="1"/>
-    </linearGradient>
-    <path id="Triangle" fill="url(#linearGradient1)" fill-rule="evenodd" stroke="#000000" stroke-width="1.209816" stroke-linecap="round" stroke-linejoin="round" d="M 496.481323 330.53772 L 3.518674 577.075439 L 3.518674 84 Z"/>
-</svg>
