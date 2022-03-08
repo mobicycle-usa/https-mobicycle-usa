@@ -818,7 +818,7 @@ blockquote {
   max-width: 510px;
   margin-top: 300px;
   margin-bottom: 30px;
-  color: hsla(0, 0%, 100%, 0.5);
+  color: #fff;
   font-size: 1.2em;
   line-height: 1.5em;
 }
@@ -2966,6 +2966,8 @@ blockquote {
   .mobile-paragraph {
     display: block;
     max-width: none;
+    margin-top: auto;
+    padding-top: 5vh;
     padding-right: 100px;
     padding-left: 100px;
     color: #4a5899;
@@ -3333,7 +3335,7 @@ blockquote {
   }
 
   .mobile-paragraph {
-    padding-top: 20px;
+    padding-top: 5vh;
     padding-right: 60px;
     padding-left: 60px;
   }
