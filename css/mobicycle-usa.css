@@ -2471,6 +2471,11 @@ blockquote {
   max-width: 80vw;
 }
 
+.terms-and-conditions {
+  color: #ed8590;
+  font-size: 1em;
+}
+
 @media screen and (min-width: 1280px) {
   .page-container.about-container {
     width: 100%;
@@ -2989,6 +2994,10 @@ blockquote {
     display: inline;
     max-width: 60vw;
   }
+
+  .terms-and-conditions {
+    font-size: 1em;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -3497,6 +3506,10 @@ blockquote {
     min-width: auto;
     margin-top: 0px;
   }
+
+  .terms-and-conditions {
+    color: hsla(0, 0%, 100%, 0.5);
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -3831,6 +3844,10 @@ blockquote {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+  }
+
+  .terms-and-conditions {
+    color: hsla(0, 0%, 100%, 0.5);
   }
 }
 
@@ -4424,6 +4441,10 @@ blockquote {
 
   .image-wrap {
     height: 350px;
+  }
+
+  .terms-and-conditions {
+    color: #59c3c3;
   }
 }
 
