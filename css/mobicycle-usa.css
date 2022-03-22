@@ -690,7 +690,7 @@ blockquote {
   font-size: 14px;
 }
 
-.book-desc {
+.why-mobicycle {
   position: absolute;
   bottom: 0px;
   display: -webkit-box;
@@ -2472,8 +2472,41 @@ blockquote {
 }
 
 .terms-and-conditions {
+  margin-right: 10px;
+  margin-left: 10px;
+  padding-top: 0px;
   color: #ed8590;
   font-size: 1em;
+}
+
+.link-2 {
+  margin-right: 10px;
+}
+
+.div-block-7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.grid-5 {
+  max-width: 50vw;
+  margin: 10px auto;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3139,7 +3172,7 @@ blockquote {
     object-fit: fill;
   }
 
-  .book-desc {
+  .why-mobicycle {
     padding-top: 0px;
   }
 
@@ -3840,6 +3873,11 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
+  .addresses-div {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .order-book-sideflex {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -3848,6 +3886,10 @@ blockquote {
 
   .terms-and-conditions {
     color: hsla(0, 0%, 100%, 0.5);
+  }
+
+  .grid-5 {
+    margin-left: 0px;
   }
 }
 
@@ -4080,7 +4122,7 @@ blockquote {
     grid-template-rows: 200px 200px;
   }
 
-  .book-desc {
+  .why-mobicycle {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -4435,6 +4477,10 @@ blockquote {
     line-height: 1.75em;
   }
 
+  .addresses-div {
+    max-width: 80vw;
+  }
+
   .order-book-sideflex {
     padding: 60px 40px;
   }
@@ -4444,7 +4490,24 @@ blockquote {
   }
 
   .terms-and-conditions {
+    margin-left: 0px;
     color: #59c3c3;
+  }
+
+  .div-block-7 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .grid-5 {
+    max-width: 80vw;
+    grid-column-gap: 16px;
+    grid-row-gap: 4vh;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
