@@ -335,6 +335,34 @@ blockquote {
   justify-content: space-between;
 }
 
+.page-container.testimonial-container {
+  position: relative;
+  z-index: 3;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 550px;
+  padding: 80px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  background-color: #fff;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);
+  color: #000;
+  text-align: left;
+}
+
 .book-hero-heading {
   max-width: 760px;
   margin-top: 0px;
@@ -772,7 +800,7 @@ blockquote {
 }
 
 .learn-paragraph {
-  max-width: 700px;
+  max-width: 80vw;
   color: #4a5899;
   font-size: 1.3em;
 }
@@ -1781,6 +1809,17 @@ blockquote {
   padding-top: 200px;
 }
 
+.section-3.testimonial-section {
+  position: relative;
+  padding-top: 300px;
+  padding-bottom: 300px;
+  text-align: center;
+}
+
+.section-3.testimonial-section.how {
+  background-color: #dfab82;
+}
+
 .faq-question-wrap-2 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2526,6 +2565,96 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+
+.bg-image-overlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  display: none;
+  background-color: #4a5899;
+}
+
+.testimonial-bg-image {
+  position: absolute;
+  right: 0px;
+  overflow: hidden;
+  width: 80%;
+  height: 70%;
+  min-height: 640px;
+}
+
+.testimonial-bg-image.left-bg-image {
+  left: 0px;
+  right: auto;
+}
+
+.testimonial-author-img {
+  position: absolute;
+  top: 80px;
+  right: 80px;
+  bottom: 80px;
+  width: 300px;
+  background-image: url('../images/rafael-garcin-sqZ4GeyYGx8-unsplash.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.testimonial-author-img.author-2 {
+  z-index: 1;
+  background-image: url('../images/gradienta-1LirzgcpY2c-unsplash.jpg');
+}
+
+.text-block {
+  position: absolute;
+  top: 145px;
+  right: -10px;
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  font-family: Muli, sans-serif;
+  color: #b5b5b5;
+  font-size: 10px;
+  letter-spacing: 4px;
+}
+
+.testimonial-author-name {
+  font-family: 'EB Garamond', sans-serif;
+  color: #9aa7df;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+.testimonial-author-role {
+  font-family: Muli, sans-serif;
+  color: #b5b5b5;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.bg-image {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  background-color: #4a5899;
+  background-image: url('../images/gradienta-1LirzgcpY2c-unsplash.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.bg-image.bg-image-2 {
+  background-image: url('../images/rafael-garcin-sqZ4GeyYGx8-unsplash.jpg');
+}
+
+.paragraph {
+  max-width: 45vw;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3427,6 +3556,11 @@ blockquote {
     padding-top: 100px;
   }
 
+  .section-3.testimonial-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
   .sticky-nav-mobile {
     display: none;
   }
@@ -3593,6 +3727,17 @@ blockquote {
   .div-block-8 {
     margin-right: 10px;
     margin-left: 10px;
+  }
+
+  .testimonial-author-img {
+    position: static;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+  }
+
+  .block-quote {
+    margin-bottom: 40px;
   }
 }
 
@@ -3974,6 +4119,11 @@ blockquote {
     -ms-flex-direction: column;
     flex-direction: column;
   }
+
+  .testimonial-bg-image {
+    width: 85%;
+    height: 90%;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -4073,6 +4223,10 @@ blockquote {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+
+  .page-container.testimonial-container {
+    padding: 60px 40px;
   }
 
   .book-hero-heading.line-1 {
@@ -4599,6 +4753,15 @@ blockquote {
 
   .div-block-8 {
     margin-left: 0px;
+  }
+
+  .testimonial-bg-image {
+    width: 90%;
+  }
+
+  .text-block {
+    top: 100px;
+    right: -30px;
   }
 }
 
