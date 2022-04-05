@@ -2612,6 +2612,10 @@ blockquote {
   background-image: url('../images/gradienta-1LirzgcpY2c-unsplash.jpg');
 }
 
+.testimonial-author-img.html {
+  background-image: url('../images/gradienta-1LirzgcpY2c-unsplash.jpg');
+}
+
 .text-block {
   position: absolute;
   top: 145px;
@@ -2649,16 +2653,32 @@ blockquote {
   z-index: 1;
   background-color: #4a5899;
   background-image: url('../images/gradienta-1LirzgcpY2c-unsplash.jpg');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-position: 100% 50%;
+  background-size: auto;
 }
 
 .bg-image.bg-image-2 {
   background-image: url('../images/rafael-garcin-sqZ4GeyYGx8-unsplash.jpg');
 }
 
+.bg-image.html {
+  display: none;
+}
+
 .paragraph {
-  max-width: 45vw;
+  max-width: 40vw;
+}
+
+.block-quote {
+  max-width: 40vw;
+}
+
+.italic-text {
+  max-width: none;
+}
+
+.block-quote-2 {
+  max-width: 40vw;
 }
 
 @media screen and (min-width: 1280px) {
@@ -4769,38 +4789,6 @@ blockquote {
   }
 }
 
-#w-node-_4745962e-687a-e46e-cc6b-0c52fd7000d5-420da0e1 {
-  -ms-grid-column-align: start;
-  justify-self: start;
-}
-
-#w-node-_78cb227d-d22e-71e7-32eb-76de827d0a81-420da0e1 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-ce48f185-3bf2-48cb-b30e-f88fc42a3680-420da0e1 {
-  -ms-grid-column: span 1;
-  grid-column-start: span 1;
-  -ms-grid-column-span: 1;
-  grid-column-end: span 1;
-  -ms-grid-row: span 1;
-  grid-row-start: span 1;
-  -ms-grid-row-span: 1;
-  grid-row-end: span 1;
-}
-
-#w-node-_4672fdfb-8ed6-2155-524e-125af80ac77c-420da0e1 {
-  -ms-grid-column-align: start;
-  justify-self: start;
-}
-
 #w-node-f8708b89-526a-4abe-a034-49041e9172ae-420da0e1 {
   -ms-grid-column-align: stretch;
   justify-self: stretch;
@@ -5360,18 +5348,6 @@ blockquote {
     grid-column-end: 3;
     -ms-grid-row-span: 1;
     grid-row-end: 4;
-  }
-}
-
-@media screen and (max-width: 479px) {
-  #w-node-_4745962e-687a-e46e-cc6b-0c52fd7000d5-420da0e1 {
-    -ms-grid-column-align: center;
-    justify-self: center;
-  }
-
-  #w-node-_4672fdfb-8ed6-2155-524e-125af80ac77c-420da0e1 {
-    -ms-grid-column-align: center;
-    justify-self: center;
   }
 }
 
