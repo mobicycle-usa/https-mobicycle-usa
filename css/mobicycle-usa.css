@@ -4277,7 +4277,7 @@ blockquote {
   }
 
   .paragraph {
-    max-width: 50vw;
+    max-width: 45vw;
   }
 
   .who-should-grab-item-2.grab-3 {
@@ -4878,6 +4878,7 @@ blockquote {
   }
 
   .paragraph {
+    max-width: 35vw;
     font-size: 1em;
   }
 
