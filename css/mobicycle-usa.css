@@ -4162,6 +4162,10 @@ blockquote {
     grid-template-columns: 1.25fr 0.8999999999999999fr;
   }
 
+  .max-size-320 {
+    max-width: 100vw;
+  }
+
   .nav-link-8 {
     min-width: 170px;
     padding-left: 0px;
@@ -4263,7 +4267,7 @@ blockquote {
   }
 
   .paragraph {
-    max-width: 35vw;
+    max-width: 50vw;
   }
 
   .who-should-grab-item-2.grab-3 {
@@ -4415,6 +4419,14 @@ blockquote {
   .blur-pic-copy {
     top: 10vh;
     right: 6.3vw;
+  }
+
+  .div-block-11 {
+    max-width: 50vw;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 
   .italic-text-2 {
