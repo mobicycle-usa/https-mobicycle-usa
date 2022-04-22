@@ -4557,6 +4557,10 @@ blockquote {
     font-size: 44px;
   }
 
+  .chapter-heading.white.center {
+    max-width: 100vw;
+  }
+
   .chapter-brakedown-wrap {
     position: relative;
     display: none;
@@ -4818,6 +4822,10 @@ blockquote {
     color: hsla(0, 0%, 100%, 0.5);
   }
 
+  .container.auto {
+    max-width: 80vw;
+  }
+
   .footer {
     display: -webkit-box;
     display: -webkit-flex;
@@ -4978,6 +4986,11 @@ blockquote {
 
   .who-should-grab-item-2.grab-1 {
     margin-bottom: 5vh;
+  }
+
+  .does-mobicycle-handle-div {
+    width: 99.99999545869372%;
+    max-width: none;
   }
 
   .html-embed-9 {
@@ -5255,6 +5268,10 @@ blockquote {
     font-size: 32px;
   }
 
+  .chapter-heading.white.center {
+    max-width: 100vw;
+  }
+
   .order-after-chapter {
     margin-top: 0px;
     -webkit-box-pack: justify;
@@ -5449,6 +5466,10 @@ blockquote {
     flex: 1;
   }
 
+  .container.auto {
+    left: 0%;
+  }
+
   .footer {
     padding: 40px 0px;
     -webkit-box-align: center;
@@ -5536,6 +5557,10 @@ blockquote {
 
   .image {
     max-width: 15vw;
+  }
+
+  .does-mobicycle-handle-div {
+    max-width: 80vw;
   }
 
   .html-embed-9 {
@@ -6178,6 +6203,10 @@ blockquote {
 
   .container {
     background-color: #4a5899;
+  }
+
+  .container.auto {
+    background-color: transparent;
   }
 
   .footer-heading {
