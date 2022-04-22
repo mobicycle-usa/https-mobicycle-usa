@@ -1051,6 +1051,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  max-width: 60vw;
   margin-right: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1070,6 +1071,7 @@ blockquote {
   -ms-flex: 1;
   flex: 1;
   color: #000;
+  font-size: 4em;
 }
 
 .chapter-brakedown-wrap {
@@ -2947,6 +2949,7 @@ blockquote {
   max-width: 60vw;
   margin-bottom: 10vh;
   color: #4a5899;
+  font-size: 1em;
 }
 
 .paragraph.white {
@@ -3180,6 +3183,7 @@ blockquote {
 
 .heading-14 {
   color: #4a5899;
+  font-size: 2em;
 }
 
 .not-at-all {
@@ -3201,6 +3205,8 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  font-size: 2.5em;
+  line-height: 1.5em;
 }
 
 .html-embed-9 {
@@ -6753,6 +6759,7 @@ blockquote {
     max-width: 80vw;
     margin-right: auto;
     margin-left: auto;
+    text-align: center;
   }
 
   .image {
@@ -6761,6 +6768,10 @@ blockquote {
 
   .does-mobicycle-handle-div {
     max-width: 80vw;
+  }
+
+  .not-at-all {
+    font-size: 2em;
   }
 
   .html-embed-9 {
@@ -7217,6 +7228,10 @@ blockquote {
     color: #4a5899;
     font-size: 30px;
     text-align: center;
+  }
+
+  .chapter-heading.white.center {
+    font-size: 3em;
   }
 
   .order-after-chapter {
