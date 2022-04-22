@@ -3743,7 +3743,7 @@ blockquote {
   display: flex;
   width: 100%;
   height: auto;
-  max-height: 120vh;
+  max-height: 90vh;
   max-width: 100vw;
   min-height: auto;
   min-width: auto;
@@ -4215,6 +4215,10 @@ blockquote {
     margin-right: 0px;
   }
 
+  .blur-pic {
+    max-height: 90vh;
+  }
+
   .image-rectangle-overlay {
     max-width: 45vw;
   }
@@ -4534,7 +4538,7 @@ blockquote {
   }
 
   .blur-pic {
-    max-height: 100vh;
+    max-height: 90vh;
   }
 
   .blur-pic-copy {
@@ -5199,7 +5203,7 @@ blockquote {
 
   .blur-pic {
     right: 5vw;
-    max-height: 60vh;
+    max-height: 80vh;
   }
 
   .roll-out-pic {
@@ -6204,7 +6208,7 @@ blockquote {
   }
 
   .grid-6 {
-    max-width: 65vw;
+    max-width: 50vw;
   }
 
   .grid-7 {
@@ -6823,7 +6827,7 @@ blockquote {
   }
 
   .grid-6 {
-    max-width: 65vw;
+    max-width: 55vw;
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
   }
