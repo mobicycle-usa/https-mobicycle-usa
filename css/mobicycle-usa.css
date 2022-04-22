@@ -3404,7 +3404,7 @@ blockquote {
   margin-bottom: auto;
   padding: 2vh 1vw 1vh 0vw;
   font-size: 1.2em;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 .mobicycle-image-div {
@@ -3912,6 +3912,7 @@ blockquote {
 }
 
 .grid-8 {
+  padding-bottom: 5vh;
   grid-auto-flow: row dense;
   grid-column-gap: 1vw;
   -ms-grid-columns: 1fr 1fr 1fr;
@@ -4109,6 +4110,11 @@ blockquote {
 
   .image-rectangle-overlay {
     max-width: 45vw;
+  }
+
+  .grid-8 {
+    -ms-grid-columns: 1.5fr 1fr 1.25fr;
+    grid-template-columns: 1.5fr 1fr 1.25fr;
   }
 }
 
@@ -4718,7 +4724,16 @@ blockquote {
   }
 
   .services-icon.service-nav-link {
+    max-height: 1.5vh;
+    max-width: 1.5vw;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1vw;
     padding-bottom: 1vh;
+  }
+
+  .services-link {
+    padding-left: 0px;
   }
 
   .text-small {
@@ -8089,6 +8104,11 @@ blockquote {
 }
 
 @media screen and (min-width: 1920px) {
+  #w-node-_8a90abba-9379-ac6a-c47b-3f0c2f4d7341-420da0e1 {
+    -ms-grid-column-align: start;
+    justify-self: start;
+  }
+
   #w-node-_3b6f9e78-d2b2-bfa3-8a14-34ab5e2f1fe4-420da0e1 {
     -ms-grid-column-align: stretch;
     justify-self: stretch;
