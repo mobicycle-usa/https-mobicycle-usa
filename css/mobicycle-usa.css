@@ -2653,9 +2653,6 @@ blockquote {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/pexels-photo-212286.jpeg');
-  background-position: 0px 0px;
-  background-size: cover;
 }
 
 .div-block-5 {
@@ -2678,14 +2675,23 @@ blockquote {
 
 .html-embed {
   position: relative;
-  left: -25px;
-  top: 44px;
+  left: auto;
+  top: auto;
   overflow: hidden;
-  max-height: 90vh;
+  height: 100%;
+  max-height: 100vh;
+  -webkit-align-self: auto;
+  -ms-flex-item-align: auto;
+  -ms-grid-row-align: auto;
+  align-self: auto;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
-  -o-object-fit: scale-down;
-  object-fit: scale-down;
+  -o-object-fit: fill;
+  object-fit: fill;
 }
 
 .html-embed-2 {
@@ -4138,6 +4144,10 @@ blockquote {
     grid-column-gap: 1vw;
   }
 
+  .light-box-hover {
+    background-color: transparent;
+  }
+
   .value-proposal-grid {
     -ms-grid-columns: 1.25fr 0.8999999999999999fr;
     grid-template-columns: 1.25fr 0.8999999999999999fr;
@@ -4168,6 +4178,8 @@ blockquote {
 
   .book-light-box-2 {
     width: 6vw;
+    background-color: #9aa7df;
+    box-shadow: 1px 1px 16px 4px #4a5899;
   }
 
   .footer-link-2.long {
@@ -4179,8 +4191,8 @@ blockquote {
   }
 
   .html-embed {
-    left: -6%;
-    top: 3%;
+    left: auto;
+    top: auto;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -4190,6 +4202,7 @@ blockquote {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
+    box-shadow: inset 1px 1px 3px 0 #dfab82;
   }
 
   .div-block-6 {
