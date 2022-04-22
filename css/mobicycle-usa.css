@@ -4696,6 +4696,13 @@ blockquote {
     font-size: 18px;
   }
 
+  .text-small {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+
   .services-wrapper.center {
     max-width: 70vw;
     margin-top: -8%;
