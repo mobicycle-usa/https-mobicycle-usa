@@ -3911,6 +3911,15 @@ blockquote {
   border: 2px solid #dfab82;
 }
 
+.grid-8 {
+  grid-auto-flow: row dense;
+  grid-column-gap: 1vw;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
 @media screen and (min-width: 1280px) {
   .page-container.about-container {
     width: 100%;
@@ -4696,6 +4705,10 @@ blockquote {
     font-size: 18px;
   }
 
+  .services-icon.service-nav-link {
+    padding-bottom: 1vh;
+  }
+
   .text-small {
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
@@ -4759,6 +4772,10 @@ blockquote {
 
   .container {
     font-size: 1.5em;
+  }
+
+  .container._0vh {
+    padding-left: 1vw;
   }
 
   .footer-heading {
@@ -5042,6 +5059,13 @@ blockquote {
 
   .image-rectangle-overlay {
     max-width: 25vw;
+  }
+
+  .grid-8 {
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 }
 
@@ -6000,6 +6024,10 @@ blockquote {
   .paragraph-feature {
     margin-top: 0px;
   }
+
+  .grid-8 {
+    grid-column-gap: 1vw;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -6241,7 +6269,7 @@ blockquote {
     display: flex;
     width: auto;
     height: auto;
-    padding-bottom: 5vh;
+    padding-bottom: 1vh;
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
@@ -6615,6 +6643,14 @@ blockquote {
   .grid-7 {
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
+  }
+
+  .grid-8 {
+    grid-row-gap: 5vh;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto;
+    grid-template-rows: auto auto auto;
   }
 }
 
@@ -7641,6 +7677,10 @@ blockquote {
 
   .image-rectangle-overlay {
     height: 350px;
+  }
+
+  .grid-8 {
+    grid-row-gap: 5vh;
   }
 }
 
