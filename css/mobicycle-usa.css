@@ -368,7 +368,7 @@ blockquote {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: #fff;
-  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 50px -15px #000;
   color: #000;
   text-align: left;
 }
@@ -2000,6 +2000,7 @@ blockquote {
   position: relative;
   padding-top: 300px;
   padding-bottom: 300px;
+  background-color: #fff;
   text-align: center;
 }
 
@@ -2798,7 +2799,7 @@ blockquote {
   right: 0px;
   bottom: 0px;
   z-index: 2;
-  display: none;
+  display: block;
   background-color: #4a5899;
 }
 
@@ -3651,9 +3652,8 @@ blockquote {
   right: 80px;
   bottom: 80px;
   width: 300px;
-  background-image: url('../images/pexels-photo-1239291.jpeg');
-  background-position: 50% 50%;
-  background-size: cover;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5)));
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 
 .testimonial-author-img-2.author-2 {
@@ -3735,14 +3735,11 @@ blockquote {
 .roll-out-pic {
   position: relative;
   top: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: auto;
+  display: block;
+  height: 1200vh;
   min-height: auto;
   min-width: auto;
-  margin: 0px auto auto;
+  margin: 0px auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -3764,8 +3761,8 @@ blockquote {
 
 .blur-pic-copy {
   position: absolute;
-  top: 10vh;
-  right: 10vw;
+  top: auto;
+  right: auto;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3773,7 +3770,7 @@ blockquote {
   width: 100%;
   height: 100%;
   max-height: 70vh;
-  max-width: 20vw;
+  max-width: 40vw;
   min-height: auto;
   min-width: auto;
   margin: auto;
@@ -3923,6 +3920,30 @@ blockquote {
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   text-align: center;
+}
+
+.bg-image-overlay-2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  display: none;
+  background-color: #fff;
+}
+
+.bg-image-3 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+  background-color: #4a5899;
+  background-image: url('../images/pexels-photo-590493.jpeg');
+  background-position: 50% 50%;
+  background-size: cover;
 }
 
 @media screen and (min-width: 1280px) {
@@ -4877,6 +4898,15 @@ blockquote {
     font-size: 1em;
   }
 
+  .bg-image-overlay {
+    display: none;
+    background-color: transparent;
+  }
+
+  .text-block {
+    right: 0vh;
+  }
+
   .paragraph {
     max-width: 35vw;
     font-size: 1em;
@@ -4884,6 +4914,10 @@ blockquote {
 
   .paragraph.purple {
     font-size: 1.2em;
+  }
+
+  .paragraph.white {
+    background-color: #fff;
   }
 
   .text-block-12 {
@@ -5063,9 +5097,23 @@ blockquote {
     box-shadow: 1px 1px 3px 0 #4a5899;
   }
 
+  .bg-image-2.bg-image-2 {
+    background-image: none;
+  }
+
+  .blur-pic {
+    right: 5vw;
+  }
+
+  .roll-out-pic {
+    -webkit-filter: none;
+    filter: none;
+  }
+
   .blur-pic-copy {
     top: 5vh;
-    right: 5vw;
+    right: 3vw;
+    z-index: 1;
     margin-left: auto;
   }
 
