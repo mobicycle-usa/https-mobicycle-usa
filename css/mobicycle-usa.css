@@ -922,17 +922,14 @@ blockquote {
 
 .services-wrapper.center {
   position: absolute;
-  left: 14%;
-  top: -57px;
-  right: auto;
-  bottom: auto;
-  max-width: 90vw;
+  left: 0%;
+  top: auto;
+  right: 0%;
+  bottom: 0%;
+  max-width: 80vw;
   min-width: 50vw;
-  margin-top: auto;
-  margin-right: auto;
-  margin-left: auto;
-  padding-right: 5vw;
-  padding-left: 5vw;
+  margin: auto;
+  padding: 0px 5vw;
   border: 0px solid #4a5899;
   border-radius: 0px;
   background-color: #000;
@@ -1470,6 +1467,7 @@ blockquote {
 }
 
 .paragraph.orange {
+  font-family: 'EB Garamond', sans-serif;
   color: #dfab82;
 }
 
@@ -2667,9 +2665,17 @@ blockquote {
     grid-template-columns: 1.25fr 0.8999999999999999fr;
   }
 
+  .bold-text {
+    color: #000;
+  }
+
   .services-wrapper.center {
-    top: 60px;
-    margin-top: -8%;
+    top: 13px;
+    max-width: 80vw;
+    min-width: 80vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    background-color: transparent;
   }
 
   .cta-text {
@@ -2941,6 +2947,7 @@ blockquote {
   }
 
   .bold-text {
+    color: #000;
     font-size: 26px;
   }
 
@@ -2986,9 +2993,11 @@ blockquote {
     position: relative;
     left: 2%;
     top: auto;
-    bottom: 194px;
+    bottom: 100%;
     max-width: 70vw;
     margin-top: auto;
+    background-color: transparent;
+    color: #000;
     font-size: 1em;
     line-height: 1.5em;
   }
@@ -3264,7 +3273,7 @@ blockquote {
     top: 0vh;
     right: 3vw;
     z-index: 1;
-    max-width: 30vw;
+    max-width: 20vw;
     margin-top: auto;
     margin-left: auto;
   }
