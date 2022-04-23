@@ -825,7 +825,7 @@ blockquote {
 }
 
 .bold-text {
-  color: #fff;
+  color: #000;
   font-size: 1.3em;
   font-weight: 700;
 }
@@ -928,7 +928,7 @@ blockquote {
   bottom: 0%;
   max-width: 80vw;
   min-width: 50vw;
-  margin: auto;
+  margin: auto auto 10px;
   padding: 0px 5vw;
   -webkit-align-self: center;
   -ms-flex-item-align: center;
@@ -936,8 +936,9 @@ blockquote {
   align-self: center;
   border: 0px solid #4a5899;
   border-radius: 0px;
-  background-color: #000;
+  background-color: transparent;
   box-shadow: 1px 1px 3px 2px #000;
+  color: #000;
   font-style: normal;
   mix-blend-mode: normal;
 }
@@ -2519,7 +2520,7 @@ blockquote {
   .bold-text {
     padding-right: 10px;
     padding-left: 10px;
-    color: #fff;
+    color: #000;
     font-size: 1em;
     line-height: 1.2em;
     white-space: nowrap;
@@ -4334,6 +4335,7 @@ blockquote {
   }
 
   .bold-text {
+    color: #4a5899;
     font-size: 1em;
   }
 
@@ -4396,6 +4398,7 @@ blockquote {
   }
 
   .text-small {
+    color: #4a5899;
     font-size: 1.5em;
   }
 
@@ -4405,8 +4408,10 @@ blockquote {
     top: -16%;
     z-index: 10;
     max-width: 60vw;
-    margin-top: -16%;
+    margin-top: auto;
     margin-bottom: 10vh;
+    box-shadow: 1px 1px 3px 2px #4a5899;
+    color: #4a5899;
   }
 
   .cta-text {
@@ -5144,8 +5149,9 @@ blockquote {
 
   .services-wrapper.center {
     left: auto;
+    top: auto;
     max-width: 85vw;
-    margin-top: -24%;
+    margin-top: auto;
     padding-right: 0px;
     padding-left: 0px;
   }
