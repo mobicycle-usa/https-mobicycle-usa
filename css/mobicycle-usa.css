@@ -390,7 +390,7 @@ blockquote {
   z-index: 2;
   min-width: 100px;
   color: #fff;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.5em;
   text-align: center;
   letter-spacing: 2px;
@@ -840,7 +840,7 @@ blockquote {
   -ms-flex: 1;
   flex: 1;
   color: #4a5899;
-  font-size: 2em;
+  font-size: 1.75em;
   line-height: 1.5em;
   white-space: nowrap;
 }
@@ -3420,8 +3420,8 @@ blockquote {
   }
 
   .value-proposal-grid {
-    -ms-grid-rows: auto auto auto;
-    grid-template-rows: auto auto auto;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
 
   .social-icons-wrap {
@@ -3570,7 +3570,7 @@ blockquote {
   }
 
   .container {
-    max-width: 80vw;
+    max-width: 100vw;
     margin-right: auto;
     margin-left: auto;
     -webkit-box-flex: 0;
@@ -3622,6 +3622,10 @@ blockquote {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
 
   .grid-4 {
@@ -3637,6 +3641,7 @@ blockquote {
     width: 100%;
     min-width: auto;
     margin-top: 0px;
+    padding-top: 80px;
   }
 
   .html-embed-2 {
@@ -3667,13 +3672,17 @@ blockquote {
   }
 
   .div-block-8 {
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 
   .paragraph {
@@ -3720,6 +3729,10 @@ blockquote {
     max-width: none;
   }
 
+  .not-at-all {
+    top: 56%;
+  }
+
   .desktop-navbar {
     display: none;
   }
@@ -3737,14 +3750,14 @@ blockquote {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    max-width: 40vw;
+    max-width: 60vw;
     clear: none;
     -o-object-fit: fill;
     object-fit: fill;
   }
 
   .mobicycle-image {
-    left: -3.2vw;
+    left: auto;
     top: auto;
     z-index: 1;
     max-width: 30vw;
@@ -3958,8 +3971,21 @@ blockquote {
     grid-row-gap: 1px;
   }
 
+  .div-block-16 {
+    left: 0px;
+    margin-left: 0px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
   ._5vw-div-copy {
     margin-left: 0vw;
+  }
+
+  .heading-20 {
+    padding-right: 20px;
   }
 }
 
@@ -4124,7 +4150,7 @@ blockquote {
   .services-wrapper.center {
     position: relative;
     left: auto;
-    top: 11%;
+    top: -16%;
     z-index: 10;
     max-width: 60vw;
     margin-top: -16%;
@@ -4224,6 +4250,8 @@ blockquote {
   }
 
   .order-book-sideflex {
+    padding-right: 20px;
+    padding-left: 20px;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -4332,6 +4360,7 @@ blockquote {
   }
 
   .blur-pic {
+    right: auto;
     z-index: 1;
     display: block;
     max-width: 25vw;
@@ -4342,8 +4371,10 @@ blockquote {
   }
 
   .wifi-pic {
+    left: auto;
     display: block;
     max-width: 18vw;
+    margin-left: 0px;
   }
 
   .testimonial-bg-image {
@@ -4393,7 +4424,7 @@ blockquote {
   }
 
   .what-is-ewaste-grid {
-    max-width: 55vw;
+    max-width: 80vw;
     -ms-grid-columns: 1fr 1fr 1fr;
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -4424,6 +4455,24 @@ blockquote {
   .faq-grid {
     grid-column-gap: 1px;
     grid-row-gap: 1px;
+  }
+
+  .div-block-16 {
+    width: 100%;
+    height: 100%;
+  }
+
+  .grid-9 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+
+  .heading-20 {
+    padding-right: 10px;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 }
 
@@ -4514,8 +4563,8 @@ blockquote {
   }
 
   .book-hero-heading.line-1 {
-    max-width: none;
-    font-size: 4.6em;
+    max-width: 327.16668701171875vw;
+    font-size: 4em;
     text-align: left;
   }
 
@@ -4830,8 +4879,8 @@ blockquote {
   }
 
   .footer {
-    padding-right: 20px;
-    padding-left: 40px;
+    padding-right: 0px;
+    padding-left: 0px;
     text-align: left;
   }
 
@@ -4997,7 +5046,7 @@ blockquote {
 
   .mobicycle-image-div {
     display: block;
-    margin-right: 8vw;
+    margin-right: 0px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
@@ -5007,6 +5056,8 @@ blockquote {
   .mobicycle-image {
     left: auto;
     top: -6.3vh;
+    width: auto;
+    height: auto;
     max-width: 80vw;
     margin-right: 0vw;
     padding-bottom: 0px;
@@ -5155,8 +5206,8 @@ blockquote {
   }
 
   .hero-grid {
-    width: 90%;
-    margin-left: auto;
+    width: auto;
+    margin-left: 0px;
     padding-left: 0px;
   }
 
@@ -5181,13 +5232,21 @@ blockquote {
     max-width: 100vw;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 10px;
-    padding-left: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
   }
 
   .purple {
     margin-bottom: 0vh;
     text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100vw;
+  }
+
+  .hero-words-wrap {
+    max-width: 327.16668701171875vw;
   }
 
   .hero-paragraph {
@@ -5239,8 +5298,16 @@ blockquote {
     grid-template-rows: auto;
   }
 
+  .div-block-16 {
+    position: relative;
+  }
+
   ._5vw-div-copy {
     max-width: 100vw;
+  }
+
+  .mobicycle.bottom-5vh.ebgaramond._3em {
+    text-align: center;
   }
 }
 
@@ -5685,6 +5752,13 @@ blockquote {
     -ms-grid-column-align: center;
     justify-self: center;
   }
+
+  #w-node-_9e2db4cb-9a8b-7177-2962-f0e0302c9083-420da0e1 {
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5700,6 +5774,21 @@ blockquote {
     align-self: center;
     -ms-grid-column-align: center;
     justify-self: center;
+  }
+
+  #w-node-_62437cf6-3b01-f5ad-c152-b725a741a2f2-420da0e1 {
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
   }
 
   #w-node-b1c6e618-9f72-9efb-91e5-5bc05a6af69b-420da0e1 {
