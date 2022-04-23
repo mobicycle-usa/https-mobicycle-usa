@@ -930,6 +930,10 @@ blockquote {
   min-width: 50vw;
   margin: auto;
   padding: 0px 5vw;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  -ms-grid-row-align: center;
+  align-self: center;
   border: 0px solid #4a5899;
   border-radius: 0px;
   background-color: #000;
@@ -2513,7 +2517,10 @@ blockquote {
   }
 
   .bold-text {
+    padding-right: 10px;
+    padding-left: 10px;
     color: #fff;
+    font-size: 1em;
     line-height: 1.2em;
     white-space: nowrap;
   }
@@ -2528,13 +2535,14 @@ blockquote {
   }
 
   .services-wrapper.center {
-    left: 13%;
+    left: auto;
+    right: auto;
     max-width: 80vw;
     min-width: 50vw;
-    -webkit-align-self: stretch;
-    -ms-flex-item-align: stretch;
-    -ms-grid-row-align: stretch;
-    align-self: stretch;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -2667,15 +2675,20 @@ blockquote {
 
   .bold-text {
     color: #000;
+    font-size: 1em;
   }
 
   .services-wrapper.center {
-    top: 13px;
+    left: 0%;
+    top: auto;
+    right: 0%;
+    bottom: 5%;
     max-width: 80vw;
     min-width: 80vw;
     margin-top: auto;
     margin-bottom: auto;
     background-color: transparent;
+    line-height: 1em;
   }
 
   .cta-text {
