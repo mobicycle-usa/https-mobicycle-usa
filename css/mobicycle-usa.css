@@ -3138,6 +3138,11 @@ blockquote {
     align-items: flex-start;
   }
 
+  .light-box-hover {
+    min-height: 5vh;
+    min-width: 5vw;
+  }
+
   .free-sample-form-block.half-block {
     width: 100%;
     min-width: auto;
@@ -3274,6 +3279,13 @@ blockquote {
 
   .cta-text {
     margin-right: 10px;
+  }
+
+  .book-light-box-2 {
+    width: auto;
+    height: auto;
+    min-height: 15vh;
+    min-width: 15vw;
   }
 
   .footer-space.left {
@@ -3878,6 +3890,13 @@ blockquote {
     margin-bottom: 30px;
   }
 
+  .book-light-box-2 {
+    width: auto;
+    height: auto;
+    min-height: 12vh;
+    min-width: 17vw;
+  }
+
   .footer-space {
     padding-bottom: 20px;
     padding-left: 0px;
@@ -4470,7 +4489,10 @@ blockquote {
 
   .book-light-box-2 {
     top: 32%;
-    width: 35vw;
+    width: auto;
+    height: auto;
+    min-height: 12vh;
+    min-width: 30vw;
   }
 
   .addresses {
@@ -4742,6 +4764,8 @@ blockquote {
   }
 
   .wifi-pic {
+    width: auto;
+    height: auto;
     max-width: 25vw;
   }
 
