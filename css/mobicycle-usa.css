@@ -1062,8 +1062,8 @@ blockquote {
 }
 
 .cta-text {
-  max-width: 400px;
-  margin-right: 120px;
+  max-width: 80vw;
+  margin-right: -3.2vw;
   margin-bottom: 0px;
   font-size: 2em;
   line-height: 1.5em;
@@ -1071,7 +1071,7 @@ blockquote {
 
 .book-light-box-2 {
   position: absolute;
-  top: 50%;
+  top: 40%;
   z-index: 3;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1211,9 +1211,13 @@ blockquote {
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
   -webkit-box-align: stretch;
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
@@ -1939,8 +1943,6 @@ blockquote {
   -webkit-justify-content: flex-start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  -webkit-filter: grayscale(100%);
-  filter: grayscale(100%);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -1954,7 +1956,7 @@ blockquote {
   display: none;
 }
 
-.blur-pic-copy {
+.wifi-pic {
   position: absolute;
   top: auto;
   right: auto;
@@ -2038,7 +2040,7 @@ blockquote {
 .platform-approach-div {
   margin-top: 0vh;
   margin-bottom: 10vh;
-  margin-left: 5vw;
+  margin-left: 0vw;
   padding-right: 0px;
   padding-left: 0vw;
 }
@@ -2048,15 +2050,20 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  margin-left: 5vw;
   padding-top: 25vh;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
+  -webkit-box-ordinal-group: 1;
+  -webkit-order: 0;
+  -ms-flex-order: 0;
+  order: 0;
 }
 
-.div-block-13 {
+.platform-image {
   margin-right: auto;
   margin-left: auto;
 }
@@ -2069,6 +2076,7 @@ blockquote {
   -webkit-flex: 1;
   -ms-flex: 1;
   flex: 1;
+  background-color: transparent;
 }
 
 .html-embed-13 {
@@ -2108,7 +2116,7 @@ blockquote {
   bottom: 0px;
   z-index: 2;
   display: none;
-  background-color: #fff;
+  background-color: #dfab82;
 }
 
 .bg-image {
@@ -2126,7 +2134,7 @@ blockquote {
   background-image: none;
 }
 
-.bg-image-overlay-3 {
+.bg-image-overlay {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -2228,8 +2236,13 @@ blockquote {
   color: #b5b5b5;
 }
 
+.hero-paragraph {
+  margin-bottom: 15vh;
+}
+
 .hero-div {
-  max-width: 100vw;
+  width: auto;
+  max-width: 100%;
   margin-right: auto;
   margin-left: 5vw;
   padding-top: 10vh;
@@ -2280,6 +2293,19 @@ blockquote {
   font-size: 1em;
 }
 
+.faq-wrap {
+  margin-bottom: 5vh;
+  padding-bottom: 10px;
+  border: 1px dashed #dfab82;
+  background-color: #fff;
+}
+
+._5vw-div {
+  max-width: 80vw;
+  margin-left: 5vw;
+  padding-bottom: 5vh;
+}
+
 @media screen and (min-width: 1280px) {
   .delete.inverted-2._30-top-margin {
     color: #4a5899;
@@ -2324,7 +2350,7 @@ blockquote {
   }
 
   .book-light-box-2 {
-    width: 6vw;
+    width: 7vw;
     height: 12vh;
   }
 
@@ -2447,7 +2473,7 @@ blockquote {
     margin-right: auto;
     margin-bottom: auto;
     margin-left: auto;
-    box-shadow: inset 1px 1px 3px 0 #dfab82;
+    box-shadow: 1px 1px 3px 2px #000;
   }
 
   .html-embed-6 {
@@ -2553,7 +2579,7 @@ blockquote {
     max-height: 90vh;
   }
 
-  .blur-pic-copy {
+  .wifi-pic {
     top: 0vh;
     right: 6.3vw;
   }
@@ -2778,7 +2804,7 @@ blockquote {
   .html-embed {
     left: -3%;
     top: 3%;
-    max-height: 80vh;
+    max-height: 70vh;
     max-width: 25vw;
     margin-left: 0px;
     box-shadow: -1px 0 3px 2px #000;
@@ -2919,7 +2945,7 @@ blockquote {
     filter: none;
   }
 
-  .blur-pic-copy {
+  .wifi-pic {
     top: 0vh;
     right: 3vw;
     z-index: 1;
@@ -3057,6 +3083,10 @@ blockquote {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .section.transparent {
+    display: block;
   }
 
   .learn-grid {
@@ -3218,6 +3248,7 @@ blockquote {
     display: block;
     max-width: none;
     margin-top: auto;
+    margin-bottom: 1vh;
     padding-top: 5vh;
     padding-right: 100px;
     padding-left: 100px;
@@ -3240,7 +3271,7 @@ blockquote {
   }
 
   .cta-text {
-    margin-right: 60px;
+    margin-right: 10px;
   }
 
   .footer-space.left {
@@ -3264,6 +3295,16 @@ blockquote {
 
   .copyright {
     color: hsla(0, 0%, 100%, 0.5);
+  }
+
+  .container {
+    max-width: 80vw;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
   }
 
   .container._0vh {
@@ -3331,7 +3372,9 @@ blockquote {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    padding-bottom: 40px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 10vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3354,6 +3397,11 @@ blockquote {
   .div-block-8 {
     margin-right: 10px;
     margin-left: 10px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 
   .paragraph {
@@ -3429,7 +3477,7 @@ blockquote {
 
   .mobicycle-image {
     left: -3.2vw;
-    top: -50.8vh;
+    top: auto;
     z-index: 1;
     max-width: 30vw;
     margin-right: 2vw;
@@ -3503,7 +3551,7 @@ blockquote {
 
   .testimonial-author-img-2 {
     position: static;
-    width: 1px;
+    width: 100%;
     height: 100px;
     margin-bottom: 40px;
   }
@@ -3518,22 +3566,51 @@ blockquote {
     min-height: auto;
   }
 
-  .blur-pic-copy {
+  .roll-out-pic {
+    min-height: auto;
+  }
+
+  .wifi-pic {
     display: block;
     max-height: 15vh;
-    max-width: 12vw;
+    max-width: 11vw;
+  }
+
+  .testimonial-bg-image {
+    height: 100%;
+  }
+
+  .testimonial-bg-image.left-bg-image {
+    height: 100%;
+  }
+
+  .about-the-platform {
+    padding-top: 10vh;
   }
 
   .platform-approach-div {
-    margin-top: auto;
-    margin-right: 0vw;
-    margin-bottom: auto;
+    margin: auto 0vw;
+    padding-right: 10px;
   }
 
   .platform-approach {
-    max-width: 80vw;
+    max-width: 90vw;
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .div-block-14 {
+    position: relative;
+    max-width: 80vw;
+    margin-left: auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
   }
 
   .grid-6 {
@@ -3541,6 +3618,9 @@ blockquote {
   }
 
   .hero-grid {
+    width: 100%;
+    min-width: auto;
+    padding-left: 20px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto;
@@ -3552,11 +3632,59 @@ blockquote {
     grid-column-gap: 1vw;
   }
 
+  .bg-image {
+    height: 99.9999621956934%;
+  }
+
   .testimonial-author-img-3 {
     position: static;
     width: 100px;
     height: 100px;
     margin-bottom: 40px;
+  }
+
+  .why-div {
+    max-width: 80vw;
+  }
+
+  .heading-15 {
+    line-height: 1.5em;
+  }
+
+  .hero-paragraph {
+    margin-bottom: 15vh;
+  }
+
+  .hero-div {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    min-width: auto;
+    margin-left: 0vw;
+    padding-top: 5vh;
+    padding-bottom: 25vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 auto;
+    -ms-flex: 0 auto;
+    flex: 0 auto;
+  }
+
+  .faq-wrap {
+    background-color: #fff;
+  }
+
+  ._5vw-div {
+    margin-left: 0vw;
   }
 }
 
@@ -3882,6 +4010,7 @@ blockquote {
 
   .does-mobicycle-handle-div {
     max-width: 80vw;
+    padding-bottom: 50vh;
   }
 
   .not-at-all {
@@ -3905,8 +4034,12 @@ blockquote {
 
   .mobicycle-image {
     left: -3.2vw;
-    top: -6.3vh;
+    top: 0%;
     z-index: 1;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
   }
 
   .google {
@@ -3949,7 +4082,7 @@ blockquote {
     height: 100%;
   }
 
-  .blur-pic-copy {
+  .wifi-pic {
     display: block;
     max-width: 18vw;
   }
@@ -3959,25 +4092,45 @@ blockquote {
     height: 90%;
   }
 
+  .testimonial-bg-image.left-bg-image {
+    height: 100%;
+  }
+
   .platform-approach-div {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
   }
 
+  .platform-approach {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .platform-image {
+    padding-bottom: 5vh;
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1;
+  }
+
   .html-embed-13 {
     max-width: 35vw;
-    margin-right: 5vw;
+    margin-right: 0vw;
   }
 
   .grid-6 {
@@ -3997,6 +4150,10 @@ blockquote {
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto auto;
     grid-template-rows: auto auto auto;
+  }
+
+  .platform-approach-paragraph {
+    max-width: 80vw;
   }
 }
 
@@ -4298,6 +4455,10 @@ blockquote {
     text-align: left;
   }
 
+  .cta-text {
+    text-align: center;
+  }
+
   .addresses {
     margin-bottom: 20px;
   }
@@ -4331,6 +4492,11 @@ blockquote {
 
   .addresses-div {
     max-width: 80vw;
+  }
+
+  .button-text-3 {
+    line-height: 1.5em;
+    text-align: center;
   }
 
   .order-book-sideflex {
@@ -4561,7 +4727,7 @@ blockquote {
     height: auto;
   }
 
-  .blur-pic-copy {
+  .wifi-pic {
     max-width: 25vw;
   }
 
@@ -4586,7 +4752,7 @@ blockquote {
     padding-top: 20vh;
   }
 
-  .div-block-13 {
+  .platform-image {
     margin-right: 0px;
     margin-left: 0px;
     -webkit-align-self: center;
@@ -4884,6 +5050,13 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
+  #w-node-_62437cf6-3b01-f5ad-c152-b725a741a2f2-420da0e1 {
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
+  }
+
   #w-node-b1c6e618-9f72-9efb-91e5-5bc05a6af693-420da0e1 {
     -ms-grid-column: 1;
     grid-column-start: 1;
@@ -5022,6 +5195,13 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
+  #w-node-_62437cf6-3b01-f5ad-c152-b725a741a2f2-420da0e1 {
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
+  }
+
   #w-node-_8a90abba-9379-ac6a-c47b-3f0c2f4d7341-420da0e1 {
     -ms-grid-column-align: center;
     justify-self: center;
