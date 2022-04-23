@@ -3780,7 +3780,7 @@ blockquote {
   }
 
   .faq-question {
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 1.4em;
   }
 
@@ -4380,6 +4380,10 @@ blockquote {
     text-align: left;
   }
 
+  .faq-question {
+    font-size: 1.7em;
+  }
+
   .bold-text {
     display: inline-block;
     margin-right: auto;
@@ -4462,6 +4466,11 @@ blockquote {
 
   .cta-text {
     text-align: center;
+  }
+
+  .book-light-box-2 {
+    top: 32%;
+    width: 35vw;
   }
 
   .addresses {
