@@ -2630,6 +2630,7 @@ blockquote {
   .learn-grid {
     display: -ms-grid;
     display: grid;
+    min-height: 65vh;
     -ms-grid-row-align: center;
     align-self: center;
     grid-auto-columns: 1fr;
@@ -2937,7 +2938,8 @@ blockquote {
 
   .blur-pic {
     right: 5vw;
-    max-height: 80vh;
+    max-height: 60vh;
+    min-height: auto;
   }
 
   .roll-out-pic {
