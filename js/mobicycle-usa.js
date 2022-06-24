@@ -19707,14 +19707,17 @@ Webflow.define('forms', module.exports = function ($, _) {
     // The file upload Input is not stylable by the designer, so we are
     // going to pretend the Label is the input. ¯\_(ツ)_/¯
 
-    $label.on('click keydown', function (e) {
-      if (e.type === 'keydown' && e.which !== 13 && e.which !== 32) {
-        return;
-      }
+    if (!inApp) {
+      $label.on('click keydown', function (e) {
+        if (e.type === 'keydown' && e.which !== 13 && e.which !== 32) {
+          return;
+        }
 
-      e.preventDefault();
-      $input.click();
-    }); // Both of these are added through CSS
+        e.preventDefault();
+        $input.click();
+      });
+    } // Both of these are added through CSS
+
 
     $label.find('.w-icon-file-upload-icon').attr('aria-hidden', 'true');
     $removeEl.find('.w-icon-file-upload-remove').attr('aria-hidden', 'true');
