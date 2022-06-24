@@ -1209,8 +1209,9 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   overflow: visible;
-  height: 100.0000034366642%;
+  height: auto;
   max-width: none;
+  margin-top: auto;
   padding: 10vh 5vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -1249,6 +1250,11 @@ blockquote {
 .container.gradient {
   background-image: -webkit-gradient(linear, left top, left bottom, from(#4a5899), color-stop(56%, #fff));
   background-image: linear-gradient(180deg, #4a5899, #fff 56%);
+}
+
+.container.footer {
+  min-height: 50vh;
+  padding-right: 5vw;
 }
 
 .footer-heading {
