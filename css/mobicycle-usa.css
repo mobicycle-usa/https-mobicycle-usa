@@ -2734,7 +2734,8 @@ blockquote {
   max-height: 150vw;
   max-width: 90vw;
   min-width: 90px;
-  margin: auto auto 5px;
+  margin: auto;
+  padding-bottom: 10vh;
   padding-left: 0vw;
   -webkit-box-ordinal-group: 1;
   -webkit-order: 0;
