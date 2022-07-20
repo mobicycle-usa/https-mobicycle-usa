@@ -940,6 +940,7 @@ blockquote {
 
 .text-small.semi-bold {
   color: #5c6074;
+  font-size: 1.1em;
   line-height: 1.5em;
   font-weight: 600;
   letter-spacing: 0.2em;
