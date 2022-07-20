@@ -938,6 +938,13 @@ blockquote {
   white-space: normal;
 }
 
+.text-small.semi-bold {
+  color: #5c6074;
+  line-height: 1.5em;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+}
+
 .services-wrapper {
   padding: 20px;
   border-style: solid;
@@ -2804,7 +2811,7 @@ blockquote {
   transform: rotate(90deg);
 }
 
-.heading-23 {
+.title {
   font-size: 1.5rem;
 }
 
@@ -2998,7 +3005,7 @@ blockquote {
 
   .bold-text {
     color: #5c6074;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .text-small {
@@ -3330,6 +3337,11 @@ blockquote {
     text-align: center;
   }
 
+  .text-small.semi-bold {
+    line-height: 2em;
+    font-weight: 600;
+  }
+
   .services-wrapper.center {
     position: relative;
     left: 2%;
@@ -3473,8 +3485,9 @@ blockquote {
   }
 
   .embed-logo {
-    max-width: 11vw;
+    max-width: 8vw;
     min-width: auto;
+    margin-right: 8vw;
     font-size: 1.5em;
   }
 
@@ -3506,7 +3519,7 @@ blockquote {
 
   .paragraph {
     max-width: 35vw;
-    font-size: 1.2em;
+    font-size: 1em;
   }
 
   .dropdown-toggle-2 {
@@ -3658,6 +3671,10 @@ blockquote {
     grid-template-rows: auto;
   }
 
+  .what-is-ewaste-div {
+    font-size: 1em;
+  }
+
   .why-div {
     font-size: 1.7em;
   }
@@ -3675,7 +3692,7 @@ blockquote {
   }
 
   .purple {
-    font-size: 0.6em;
+    font-size: 1em;
   }
 
   .purple._2em {
@@ -3823,6 +3840,10 @@ blockquote {
     font-size: 1.5em;
   }
 
+  .book-reseler-wrap {
+    line-height: 1rem;
+  }
+
   .pitch-grid {
     grid-column-gap: 3vw;
     grid-row-gap: 3vw;
@@ -3845,6 +3866,10 @@ blockquote {
 
   .pitch-image-text {
     margin-left: 0px;
+  }
+
+  .title {
+    font-size: 3rem;
   }
 }
 
