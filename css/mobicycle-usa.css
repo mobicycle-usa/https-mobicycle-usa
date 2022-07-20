@@ -1916,10 +1916,7 @@ blockquote {
   position: absolute;
   top: 5%;
   right: 32%;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   width: 80%;
   height: 80%;
   max-height: 80vh;
@@ -1942,6 +1939,7 @@ blockquote {
   align-items: flex-start;
   -webkit-align-self: stretch;
   -ms-flex-item-align: stretch;
+  -ms-grid-row-align: stretch;
   align-self: stretch;
   -webkit-box-flex: 0;
   -webkit-flex: 0 auto;
@@ -1971,6 +1969,8 @@ blockquote {
   -ms-flex-pack: start;
   justify-content: flex-start;
   opacity: 1;
+  -webkit-filter: contrast(200%) blur(5px);
+  filter: contrast(200%) blur(5px);
   -webkit-transform-origin: 50% 50%;
   -ms-transform-origin: 50% 50%;
   transform-origin: 50% 50%;
@@ -2188,7 +2188,7 @@ blockquote {
 .why-div {
   position: relative;
   z-index: 2;
-  max-width: 50vw;
+  max-width: 90vw;
   margin-bottom: 5vh;
   background-color: #fff;
   font-size: 1.2em;
@@ -2262,6 +2262,10 @@ blockquote {
 ._2vh {
   margin-top: 2vh;
   margin-bottom: 5vh;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .button-transparent {
