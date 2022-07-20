@@ -2105,7 +2105,7 @@ blockquote {
   direction: ltr;
   font-family: Muli, sans-serif;
   color: #b5b5b5;
-  font-size: 10px;
+  font-size: 0.7rem;
   letter-spacing: 4px;
   text-indent: 2px;
   white-space: nowrap;
@@ -2435,6 +2435,10 @@ blockquote {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+}
+
+.heading-19 {
+  font-size: 1.5rem;
 }
 
 ._5vw-div-copy {
@@ -2800,6 +2804,14 @@ blockquote {
   transform: rotate(90deg);
 }
 
+.heading-23 {
+  font-size: 1.5rem;
+}
+
+.heading-24 {
+  font-size: 1.5rem;
+}
+
 @media screen and (min-width: 1280px) {
   .delete.inverted-2._30-top-margin {
     color: #4a5899;
@@ -3149,7 +3161,7 @@ blockquote {
 
   .right-pic {
     top: 0vh;
-    right: 6.3vw;
+    right: auto;
   }
 
   .platform-approach-div {
@@ -3244,6 +3256,7 @@ blockquote {
   }
 
   .who-should-grab-h-wrap {
+    max-width: 40vw;
     padding-left: 2vw;
   }
 
@@ -3480,17 +3493,20 @@ blockquote {
   }
 
   .testimonial-author-name {
-    font-size: 1.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding-bottom: 1vh;
+    font-size: 1.8em;
   }
 
   .testimonial-author-role {
     padding-top: 10px;
-    font-size: 1.2em;
+    font-size: 1.4em;
   }
 
   .paragraph {
     max-width: 35vw;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   .dropdown-toggle-2 {
@@ -3498,19 +3514,19 @@ blockquote {
   }
 
   .who-should-grab-item-2.grab-3 {
-    max-width: 15vw;
+    max-width: 25vw;
     margin-right: auto;
     margin-left: auto;
   }
 
   .who-should-grab-item-2.grab-2 {
-    max-width: 15vw;
+    max-width: 25vw;
     margin-right: auto;
     margin-left: auto;
   }
 
   .who-should-grab-item-2.grab-1 {
-    max-width: 15vw;
+    max-width: 25vw;
     min-height: auto;
     margin-right: auto;
     margin-left: auto;
@@ -3602,11 +3618,20 @@ blockquote {
 
   .right-pic {
     top: 0vh;
-    right: 3vw;
+    right: auto;
     z-index: 1;
     max-width: 20vw;
     margin-top: auto;
+    margin-right: auto;
     margin-left: auto;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+  }
+
+  .text-for-image {
+    font-size: 1.2rem;
   }
 
   .what-is-ewaste-grid {
@@ -3796,6 +3821,30 @@ blockquote {
   .heading-22 {
     margin-top: auto;
     font-size: 1.5em;
+  }
+
+  .pitch-grid {
+    grid-column-gap: 3vw;
+    grid-row-gap: 3vw;
+  }
+
+  .pitch-image-grid {
+    display: -ms-grid;
+    display: grid;
+    margin-right: 0px;
+    margin-left: 0px;
+    grid-auto-flow: row;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 1vw;
+    grid-row-gap: 1vw;
+    -ms-grid-columns: 3fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .pitch-image-text {
+    margin-left: 0px;
   }
 }
 
@@ -6684,6 +6733,17 @@ blockquote {
   #w-node-b1c6e618-9f72-9efb-91e5-5bc05a6af693-420da0e1 {
     -ms-grid-column-align: center;
     justify-self: center;
+  }
+
+  #w-node-_29864ad4-2247-5f87-1e1c-8612c2e26960-420da0e1 {
+    -ms-grid-column: span 1;
+    grid-column-start: span 1;
+    -ms-grid-column-span: 1;
+    grid-column-end: span 1;
+    -ms-grid-row: span 1;
+    grid-row-start: span 1;
+    -ms-grid-row-span: 1;
+    grid-row-end: span 1;
   }
 
   #w-node-_99be3cf6-0c0b-2234-d619-bf986844d42d-420da0e1 {
