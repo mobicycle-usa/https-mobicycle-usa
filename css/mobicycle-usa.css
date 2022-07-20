@@ -1889,7 +1889,7 @@ blockquote {
   right: 0px;
   bottom: 0px;
   z-index: 2;
-  width: 20vw;
+  width: 10vw;
 }
 
 .bg-image-2 {
@@ -1916,12 +1916,12 @@ blockquote {
   position: absolute;
   top: 5%;
   right: 32%;
-  display: none;
+  display: block;
   width: 80%;
   height: 80%;
-  max-height: 80vh;
+  max-height: 40vh;
   max-width: 90vw;
-  min-height: 80vh;
+  min-height: auto;
   min-width: 0vw;
   margin: auto;
   -webkit-box-orient: vertical;
@@ -1990,7 +1990,7 @@ blockquote {
   display: flex;
   width: 100%;
   height: 100%;
-  max-height: 100vh;
+  max-height: 40vh;
   max-width: 40vw;
   min-height: auto;
   min-width: auto;
@@ -2188,7 +2188,7 @@ blockquote {
 .why-div {
   position: relative;
   z-index: 2;
-  max-width: 90vw;
+  max-width: 70vw;
   margin-bottom: 5vh;
   background-color: #fff;
   font-size: 1.2em;
@@ -2499,8 +2499,8 @@ blockquote {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
-  -ms-grid-columns: 2.25fr 1fr;
-  grid-template-columns: 2.25fr 1fr;
+  -ms-grid-columns: 5.5fr 1fr;
+  grid-template-columns: 5.5fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
 }
@@ -2628,6 +2628,11 @@ blockquote {
 .list-item-with-space {
   margin-right: 5px;
   line-height: 1em;
+}
+
+.bold-text-2 {
+  font-style: italic;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 1280px) {
@@ -6067,6 +6072,72 @@ blockquote {
   grid-row-end: 3;
 }
 
+#w-node-_8d6a66a6-9287-3bfe-d0ef-356906d49a34-420da0e1 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-ade5a07c-b716-975f-d528-8f46b2ba268a-420da0e1 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-e16883bb-2c26-9d67-799e-afc06b9acaf2-420da0e1 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-e16883bb-2c26-9d67-799e-afc06b9acb03-420da0e1 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_87b140e3-e499-8ca0-44d5-4b3d63466251-420da0e1 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_87b140e3-e499-8ca0-44d5-4b3d63466262-420da0e1 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
 #w-node-_99be3cf6-0c0b-2234-d619-bf986844d42d-420da0e1 {
   -ms-grid-column: 2;
   grid-column-start: 2;
@@ -6345,6 +6416,24 @@ blockquote {
     justify-self: auto;
   }
 
+  #w-node-e16883bb-2c26-9d67-799e-afc06b9acb01-420da0e1 {
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
+    -ms-grid-column-align: auto;
+    justify-self: auto;
+  }
+
+  #w-node-_87b140e3-e499-8ca0-44d5-4b3d63466260-420da0e1 {
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
+    -ms-grid-column-align: auto;
+    justify-self: auto;
+  }
+
   #w-node-_99be3cf6-0c0b-2234-d619-bf986844d42d-420da0e1 {
     -ms-grid-column: 1;
     grid-column-start: 1;
@@ -6476,6 +6565,20 @@ blockquote {
   }
 
   #w-node-_9e2db4cb-9a8b-7177-2962-f0e0302c9083-420da0e1 {
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
+  }
+
+  #w-node-e16883bb-2c26-9d67-799e-afc06b9acb01-420da0e1 {
+    -webkit-box-ordinal-group: -9998;
+    -webkit-order: -9999;
+    -ms-flex-order: -9999;
+    order: -9999;
+  }
+
+  #w-node-_87b140e3-e499-8ca0-44d5-4b3d63466260-420da0e1 {
     -webkit-box-ordinal-group: -9998;
     -webkit-order: -9999;
     -ms-flex-order: -9999;
