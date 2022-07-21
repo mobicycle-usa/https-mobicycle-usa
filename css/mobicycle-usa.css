@@ -1205,6 +1205,11 @@ blockquote {
   line-height: 1.2em;
 }
 
+.list-item.mobicycle {
+  color: #4a5899;
+  line-height: 1.8em;
+}
+
 .addresses {
   margin-top: auto;
   padding-top: 0vh;
@@ -2819,6 +2824,10 @@ blockquote {
 
 .heading-24 {
   font-size: 1.5rem;
+}
+
+.list {
+  color: #4a5899;
 }
 
 @media screen and (min-width: 1280px) {
