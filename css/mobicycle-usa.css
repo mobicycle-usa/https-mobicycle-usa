@@ -2746,7 +2746,7 @@ blockquote {
   bottom: 0px;
   z-index: 2;
   width: 100%;
-  max-height: 250vw;
+  max-height: 280vw;
   max-width: 90vw;
   min-width: 90px;
   margin: auto;
