@@ -284,6 +284,10 @@ blockquote {
   text-align: left;
 }
 
+.page-container.last {
+  padding-bottom: 0vh;
+}
+
 .book-hero-heading {
   max-width: 760px;
   margin-top: 0px;
@@ -490,6 +494,7 @@ blockquote {
   margin-left: auto;
   padding-right: 10px;
   padding-left: 10px;
+  grid-auto-flow: column dense;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   -ms-grid-columns: 1fr 1fr;
@@ -1063,6 +1068,10 @@ blockquote {
   padding-bottom: 10vh;
   font-size: 1em;
   text-align: center;
+}
+
+.pitch-section.testimonial-section.last {
+  padding-bottom: 0vh;
 }
 
 .pitch-section.book-reselers {
@@ -2296,6 +2305,10 @@ blockquote {
   font-weight: 300;
 }
 
+.why-div.last {
+  margin-bottom: 0vh;
+}
+
 .platform-approach-paragraph {
   max-width: 50vw;
   margin-bottom: 5vh;
@@ -2766,6 +2779,10 @@ blockquote {
   border-bottom: 1px solid #fff;
   border-radius: 0px;
   background-color: #fff;
+}
+
+.pitch-grid.last {
+  padding-bottom: 0vh;
 }
 
 .pitch-image-grid {
