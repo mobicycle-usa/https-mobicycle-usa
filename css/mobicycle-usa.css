@@ -2300,13 +2300,17 @@ blockquote {
   font-style: normal;
 }
 
-.why-div.activists {
+.why-div.indent {
   padding-left: 40px;
   font-weight: 300;
 }
 
 .why-div.last {
   margin-bottom: 0vh;
+}
+
+.why-div.hide {
+  display: none;
 }
 
 .platform-approach-paragraph {
@@ -2759,7 +2763,7 @@ blockquote {
   bottom: 0px;
   z-index: 2;
   width: 100%;
-  max-height: 280vw;
+  max-height: 500vw;
   max-width: 90vw;
   min-width: 90px;
   margin: auto;
@@ -5212,7 +5216,7 @@ blockquote {
     grid-template-rows: auto auto auto;
   }
 
-  .why-div.activists {
+  .why-div.indent {
     padding-left: 30px;
   }
 
@@ -6070,7 +6074,7 @@ blockquote {
     text-align: center;
   }
 
-  .why-div.activists {
+  .why-div.indent {
     padding-left: 20px;
   }
 
