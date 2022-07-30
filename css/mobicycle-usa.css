@@ -1560,6 +1560,10 @@ blockquote {
   color: #dfab82;
 }
 
+.paragraph.note {
+  font-size: 0.8em;
+}
+
 .italic-text {
   max-width: 573.3499755859375vw;
   font-style: normal;
