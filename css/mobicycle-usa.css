@@ -1530,6 +1530,7 @@ blockquote {
 }
 
 .testimonial-author-name {
+  margin-top: auto;
   margin-bottom: 1vh;
   font-family: 'EB Garamond', sans-serif;
   color: #9aa7df;
@@ -2386,6 +2387,7 @@ blockquote {
   position: relative;
   left: 0px;
   margin: 5vh auto;
+  padding-top: 5vh;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
