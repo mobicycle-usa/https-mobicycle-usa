@@ -1533,6 +1533,7 @@ blockquote {
   margin-bottom: 1vh;
   font-family: 'EB Garamond', sans-serif;
   color: #9aa7df;
+  line-height: 3vh;
   font-weight: 800;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -1541,7 +1542,8 @@ blockquote {
 .testimonial-author-role {
   font-family: Muli, sans-serif;
   color: #5c6074;
-  font-size: 12px;
+  font-size: 0.7em;
+  line-height: 3vh;
   letter-spacing: 1px;
   text-transform: uppercase;
 }
@@ -2095,7 +2097,7 @@ blockquote {
 }
 
 .testimonial-bg-image.hide {
-  display: none;
+  display: block;
 }
 
 .text-for-image {
@@ -3118,6 +3120,14 @@ blockquote {
     margin-bottom: auto;
   }
 
+  .testimonial-author-name {
+    font-size: 1.5em;
+  }
+
+  .testimonial-author-role {
+    font-size: 0.9em;
+  }
+
   .paragraph {
     max-width: 45vw;
   }
@@ -3231,6 +3241,10 @@ blockquote {
   .hero-grid {
     max-width: 80vw;
     min-width: 80vw;
+  }
+
+  .why-div {
+    font-size: 1.4em;
   }
 
   .button-line {
