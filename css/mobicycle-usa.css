@@ -1344,6 +1344,9 @@ blockquote {
 
 .logo {
   max-width: 8vw;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  mix-blend-mode: screen;
 }
 
 .dropdown-2 {
@@ -3888,6 +3891,9 @@ blockquote {
   .cloudflare-logo {
     max-width: 12vw;
     margin-left: 0px;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    mix-blend-mode: screen;
   }
 
   .paragraph-max-402 {
