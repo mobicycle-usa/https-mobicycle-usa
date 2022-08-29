@@ -1336,6 +1336,7 @@ blockquote {
   margin-left: 0px;
   padding-top: 1vw;
   padding-right: 2vw;
+  padding-bottom: 7vh;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -2782,6 +2783,10 @@ blockquote {
     padding-left: 3vw;
   }
 
+  .nav-grid.desktop {
+    padding-bottom: 10vh;
+  }
+
   .logo {
     margin-left: auto;
     padding-left: 0px;
@@ -2981,7 +2986,7 @@ blockquote {
   }
 
   .dropdown-link-3 {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 
   .does-mobicycle-handle-div {
@@ -3001,7 +3006,7 @@ blockquote {
   }
 
   .nav-grid.desktop {
-    padding-bottom: 1vw;
+    padding-bottom: 5vw;
     padding-left: 5vw;
   }
 
@@ -3476,6 +3481,7 @@ blockquote {
 
   .nav-grid.desktop {
     margin-left: 0px;
+    padding-bottom: 3vw;
     padding-left: 5vw;
     grid-template-columns: repeat(auto-fit, minmax(15%, 15%)) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%);
   }
