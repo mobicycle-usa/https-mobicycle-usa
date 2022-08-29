@@ -709,20 +709,6 @@ blockquote {
   padding-bottom: 0vh;
 }
 
-.faq-answer {
-  max-width: 100%;
-  margin-right: 40px;
-  margin-bottom: 40px;
-  margin-left: 40px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  color: #4a5899;
-  font-size: 1.2em;
-  text-align: left;
-}
-
 .social-icons-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -933,28 +919,6 @@ blockquote {
   color: #dfab82;
 }
 
-.faq-question-wrap {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 40px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  color: #dfab82;
-  text-align: left;
-}
-
 .book-light-box-2 {
   position: absolute;
   top: 40%;
@@ -1053,6 +1017,7 @@ blockquote {
 
 .container.grid {
   padding-top: 30vh;
+  padding-bottom: 5vh;
 }
 
 .container.purple {
@@ -1919,13 +1884,6 @@ blockquote {
   font-family: Muli, sans-serif;
   font-size: 1.1em;
   font-weight: 700;
-}
-
-.faq-wrap {
-  margin-bottom: 5vh;
-  padding-bottom: 10px;
-  border: 1px dashed #dfab82;
-  background-color: #fff;
 }
 
 .plus-button {
@@ -2926,20 +2884,6 @@ blockquote {
   background-color: transparent;
 }
 
-.container-grid-2._2 {
-  width: 100vw;
-  background-image: url('../images/greg-rakozy-oMpAz-DN-9I-unsplash.jpg');
-  background-position: 0px 0px;
-  background-size: contain;
-}
-
-.container-grid-2._2b {
-  width: 100vw;
-  background-image: url('../images/rafael-garcin-sqZ4GeyYGx8-unsplash.jpg');
-  background-position: 0px 0px;
-  background-size: auto;
-}
-
 .container-grid-2.color {
   padding-top: 0vh;
   background-color: #fff;
@@ -3012,28 +2956,6 @@ blockquote {
   background-image: linear-gradient(180deg, #000, #fff);
 }
 
-.location-paragraph {
-  margin-bottom: 0px;
-  font-family: Poppins, sans-serif;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 300;
-}
-
-.form-contact {
-  display: block;
-  margin-top: 80px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
 .heading-on {
   margin-top: 10px;
   margin-right: 0px;
@@ -3076,77 +2998,16 @@ blockquote {
 .overflow-2 {
   position: relative;
   overflow: hidden;
+  margin-top: auto;
   margin-right: 0px;
   padding-right: 0px;
   padding-left: 0px;
   font-weight: 300;
 }
 
-.success {
-  background-color: #318570;
-}
-
-.right-button {
-  margin-right: 10px;
-  padding: 20px 45px 20px 22px;
-  border-radius: 0px;
-  background-color: #333;
-  background-image: url('../images/next-1.svg');
-  background-position: 86% 50%;
-  background-size: 11px;
-  background-repeat: no-repeat;
-  -webkit-transition: background-color 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-  transition: background-color 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-  transition: transform 300ms ease-in-out, background-color 300ms ease-in-out;
-  transition: transform 300ms ease-in-out, background-color 300ms ease-in-out, -webkit-transform 300ms ease-in-out;
-  font-family: Poppins, sans-serif;
-  color: #fff;
-  font-size: 18px;
-  line-height: 1;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.right-button:hover {
-  background-color: #f4bd03;
-  -webkit-transform: translate(3px, 0px);
-  -ms-transform: translate(3px, 0px);
-  transform: translate(3px, 0px);
-  color: #fff;
-}
-
 .container-info-contact {
   width: 100vw;
   height: 100vh;
-}
-
-.wrap-contact {
-  position: relative;
-  left: auto;
-  right: 0px;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  width: 40%;
-  height: 100%;
-  margin-right: auto;
-  padding-right: 40px;
-  padding-left: 40px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-  -webkit-flex-direction: column-reverse;
-  -ms-flex-direction: column-reverse;
-  flex-direction: column-reverse;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-  -ms-flex-align: start;
-  align-items: flex-start;
-  background-color: #111;
 }
 
 .wrapper-contact {
@@ -3174,12 +3035,6 @@ blockquote {
   color: #fff;
 }
 
-.empty-text {
-  font-family: Poppins, sans-serif;
-  color: #fff;
-  line-height: 1.2;
-}
-
 .contact-paragraph {
   max-width: 40vw;
   font-family: Muli, sans-serif;
@@ -3187,11 +3042,6 @@ blockquote {
   font-size: 1.7em;
   line-height: 1.8;
   font-weight: 200;
-}
-
-.wrap-text-contact {
-  margin-right: 0px;
-  margin-left: 0px;
 }
 
 .space-contact {
@@ -3215,29 +3065,6 @@ blockquote {
   font-weight: 400;
 }
 
-.form-contact-us {
-  width: 500px;
-  max-width: 600px;
-  margin-top: 0px;
-  -webkit-align-self: flex-start;
-  -ms-flex-item-align: start;
-  align-self: flex-start;
-}
-
-.textarea-contact {
-  height: auto;
-  margin-bottom: 30px;
-  border-style: none none solid;
-  border-width: 1px;
-  border-color: #000 #000 #fff;
-  background-color: transparent;
-  font-family: Poppins, sans-serif;
-}
-
-.textarea-contact:focus {
-  border-bottom-color: #f4bd03;
-}
-
 .heading-contact-info {
   width: auto;
   font-family: Muli, sans-serif;
@@ -3252,11 +3079,6 @@ blockquote {
   line-height: 1.3;
   font-style: italic;
   font-weight: 300;
-}
-
-.error {
-  padding: 20px;
-  background-color: #f85151;
 }
 
 .info-contact {
@@ -3285,24 +3107,6 @@ blockquote {
   -ms-flex-align: start;
   align-items: flex-start;
   background-color: #111;
-}
-
-.info-paragraph {
-  color: #a8a8a8;
-  text-transform: uppercase;
-}
-
-.text-field-contact {
-  border-style: none none solid;
-  border-width: 1px;
-  border-color: #8b6d4b #8b6d4b #fff;
-  background-color: transparent;
-  font-family: Poppins, sans-serif;
-}
-
-.text-field-contact:focus {
-  border-bottom-color: #f4bd03;
-  color: #fff;
 }
 
 .it {
@@ -3448,6 +3252,64 @@ blockquote {
   filter: grayscale(100%);
   -o-object-fit: fill;
   object-fit: fill;
+}
+
+.faq-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 1px solid #dfab82;
+  background-color: #fff;
+  box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.04);
+}
+
+.faq-question-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  color: #dfab82;
+  text-align: left;
+}
+
+.faq-question-2 {
+  margin-right: 40px;
+  margin-bottom: 0px;
+  color: #4a5899;
+  font-size: 1.8em;
+}
+
+.faq-answer {
+  max-width: 100%;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
+  color: #4a5899;
+  text-align: left;
 }
 
 @media screen and (min-width: 1280px) {
@@ -3993,20 +3855,6 @@ blockquote {
     background-color: transparent;
   }
 
-  .container-grid-2._2 {
-    margin-left: 0vw;
-    background-image: url('../images/2-1-1.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
-  .container-grid-2._2b {
-    margin-left: 0vw;
-    background-image: url('../images/2-1-1.jpg');
-    background-position: 50% 50%;
-    background-size: cover;
-  }
-
   .get-in-touch-grid {
     justify-items: center;
     -webkit-box-align: center;
@@ -4072,25 +3920,6 @@ blockquote {
     margin-left: 0vw;
   }
 
-  .wrap-contact {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 40%;
-    height: 100%;
-    margin-right: auto;
-    padding-left: 60px;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    align-self: center;
-    background-color: #111;
-  }
-
   .space-contact {
     position: static;
     left: 0%;
@@ -4103,18 +3932,6 @@ blockquote {
     margin-left: 0vw;
     background-color: transparent;
     background-image: none;
-  }
-
-  .textarea-contact {
-    font-family: Poppins, sans-serif;
-  }
-
-  .textarea-contact:active {
-    border-bottom-color: #f4bd03;
-  }
-
-  .textarea-contact:focus {
-    border-bottom-color: #f4bd03;
   }
 
   .heading-contact-info {
@@ -4153,14 +3970,6 @@ blockquote {
     -ms-flex-align: start;
     align-items: flex-start;
     background-color: #111;
-  }
-
-  .text-field-contact {
-    border-bottom-color: #fff;
-  }
-
-  .text-field-contact:focus {
-    border-bottom-color: #f4bd03;
   }
 
   .it.content-wrap.about {
@@ -4293,10 +4102,6 @@ blockquote {
     grid-template-columns: 1.5fr 1fr;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
-  }
-
-  .faq-answer {
-    font-size: 1em;
   }
 
   .faq-question {
@@ -5358,10 +5163,6 @@ blockquote {
     flex: 0 auto;
   }
 
-  .faq-wrap {
-    background-color: #fff;
-  }
-
   .plus-button {
     margin-bottom: auto;
     -webkit-transform: scale(0.6);
@@ -5670,12 +5471,6 @@ blockquote {
 
   .heading-on._3.no {
     font-size: 12vw;
-  }
-
-  .right-button {
-    display: inline-block;
-    width: auto;
-    max-width: none;
   }
 
   .heading-contact {
@@ -6390,26 +6185,6 @@ blockquote {
     padding-bottom: 140px;
   }
 
-  .container-grid-2._2 {
-    height: 800px;
-    padding-bottom: 0px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-
-  .container-grid-2._2b {
-    height: 800px;
-    padding-bottom: 0px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
-  }
-
   .get-in-touch-grid {
     padding-top: 10vh;
   }
@@ -6468,15 +6243,6 @@ blockquote {
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-  }
-
-  .wrap-contact {
-    width: 100%;
-    height: auto;
-    margin-top: auto;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    padding-left: 86px;
   }
 
   .wrapper-contact {
@@ -6812,13 +6578,6 @@ blockquote {
     margin-left: 20px;
   }
 
-  .faq-answer {
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: 10px;
-    padding-left: 10px;
-  }
-
   .social-icons-wrap {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -6928,12 +6687,6 @@ blockquote {
 
   .text-small.semi-bold.mobile {
     box-shadow: 1px 1px 3px 0 #b5b5b5;
-  }
-
-  .faq-question-wrap {
-    padding-right: 0px;
-    padding-left: 10px;
-    text-align: left;
   }
 
   .book-light-box-2 {
@@ -7471,26 +7224,12 @@ blockquote {
     grid-template-columns: 1fr;
   }
 
-  .form-contact {
-    width: 100%;
-  }
-
   .heading-on {
     font-size: 40vw;
   }
 
   .heading-on._3.no {
     font-size: 13vw;
-  }
-
-  .right-button {
-    display: inline-block;
-    font-family: Poppins, sans-serif;
-  }
-
-  .wrap-contact {
-    padding-right: 20px;
-    padding-left: 20px;
   }
 
   .wrapper-contact {
@@ -7508,10 +7247,6 @@ blockquote {
     font-size: 32px;
   }
 
-  .form-contact-us {
-    width: 100%;
-  }
-
   .heading-contact-info {
     font-size: 3em;
   }
@@ -7523,15 +7258,6 @@ blockquote {
   .info-contact {
     padding-right: 20px;
     padding-left: 20px;
-  }
-
-  .info-paragraph {
-    margin-top: 20px;
-    margin-bottom: 0px;
-  }
-
-  .text-field-contact {
-    font-family: Poppins, sans-serif;
   }
 
   .it {
@@ -7548,6 +7274,10 @@ blockquote {
 
   .heading-contact-big._3 {
     font-size: 16vw;
+  }
+
+  .faq-question-wrap {
+    text-align: left;
   }
 }
 
