@@ -1005,7 +1005,7 @@ blockquote {
   max-width: none;
   margin-top: auto;
   margin-bottom: auto;
-  padding: 10vh 5vw;
+  padding: 5vh 5vw 10vh;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1271,7 +1271,7 @@ blockquote {
   top: 0px;
   z-index: 10;
   display: block;
-  padding: 0px;
+  padding: 0px 0px 7vh;
   background-color: #4a5899;
 }
 
@@ -1336,7 +1336,7 @@ blockquote {
   margin-left: 0px;
   padding-top: 1vw;
   padding-right: 2vw;
-  padding-bottom: 7vh;
+  padding-bottom: 0vh;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1440,7 +1440,7 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   max-height: 15vh;
-  margin-top: 2vh;
+  margin-top: 0vh;
   margin-right: 2vw;
   margin-left: auto;
   -webkit-box-orient: vertical;
@@ -2784,7 +2784,7 @@ blockquote {
   }
 
   .nav-grid.desktop {
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
   }
 
   .logo {
@@ -3006,7 +3006,7 @@ blockquote {
   }
 
   .nav-grid.desktop {
-    padding-bottom: 5vw;
+    padding-bottom: 0vw;
     padding-left: 5vw;
   }
 
@@ -3481,7 +3481,7 @@ blockquote {
 
   .nav-grid.desktop {
     margin-left: 0px;
-    padding-bottom: 3vw;
+    padding-bottom: 0vw;
     padding-left: 5vw;
     grid-template-columns: repeat(auto-fit, minmax(15%, 15%)) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%) minmax(10%, 10%);
   }
