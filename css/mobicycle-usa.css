@@ -360,8 +360,10 @@ blockquote {
   color: #fff;
   font-size: 1.5em;
   line-height: 1.5em;
+  font-style: normal;
   text-align: center;
   letter-spacing: 2px;
+  text-transform: uppercase;
   -webkit-column-count: auto;
   column-count: auto;
   -webkit-column-gap: 0px;
@@ -5531,6 +5533,7 @@ blockquote {
 
   .button-text {
     font-size: 1.3em;
+    text-transform: uppercase;
   }
 
   .section {
