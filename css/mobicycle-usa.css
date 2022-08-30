@@ -2929,7 +2929,7 @@ blockquote {
   height: 100%;
   max-height: 80vh;
   max-width: 100vw;
-  margin-top: auto;
+  margin-top: 20vh;
   margin-right: auto;
   margin-bottom: 0px;
   -webkit-box-orient: vertical;
@@ -4357,8 +4357,8 @@ blockquote {
   }
 
   .contact-paragraph {
-    right: 15%;
-    max-width: 45vw;
+    right: 5%;
+    max-width: 50vw;
   }
 
   .slide--import {
@@ -5368,6 +5368,10 @@ blockquote {
 
   .overflow-mask {
     display: block;
+  }
+
+  .wrapper-contact {
+    margin-top: auto;
   }
 
   .contact-paragraph {
