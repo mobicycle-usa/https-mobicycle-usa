@@ -1243,6 +1243,7 @@ blockquote {
   font-family: 'EB Garamond', sans-serif;
   color: #4a5899;
   font-size: 1em;
+  text-transform: uppercase;
   white-space: nowrap;
 }
 
