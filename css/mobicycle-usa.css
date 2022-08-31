@@ -929,6 +929,24 @@ blockquote {
 }
 
 .button-7.inverted {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 0px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  -webkit-box-ordinal-group: 2;
+  -webkit-order: 1;
+  -ms-flex-order: 1;
+  order: 1;
   background-color: #fff;
   color: #dfab82;
 }
@@ -1081,15 +1099,15 @@ blockquote {
   margin-right: auto;
   margin-left: 0px;
   padding: 10px 60px 40px;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
   -webkit-box-align: end;
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
@@ -5045,13 +5063,14 @@ blockquote {
   }
 
   .order-book-sideflex {
-    top: 50%;
-    width: 80%;
-    margin-top: -15%;
+    top: auto;
+    width: 90%;
+    margin-top: 0%;
     padding-bottom: 40px;
   }
 
   .image-wrap {
+    top: 10%;
     background-image: none;
   }
 
@@ -6178,6 +6197,7 @@ blockquote {
     height: auto;
     max-height: 100vh;
     max-width: 80vw;
+    margin-top: 10vh;
     margin-left: auto;
     padding-bottom: 0vh;
     -webkit-box-flex: 0;
@@ -6285,10 +6305,11 @@ blockquote {
   }
 
   .order-book-sideflex {
+    top: auto;
     width: auto;
     height: 100%;
     max-height: 25vh;
-    min-height: auto;
+    min-height: 35vh;
     margin-top: 0%;
     padding-top: 40px;
     padding-bottom: 40px;
@@ -6312,7 +6333,7 @@ blockquote {
   }
 
   .image-wrap {
-    top: 15%;
+    top: 0%;
     right: 0px;
     height: auto;
     min-height: 50vh;
@@ -6557,6 +6578,10 @@ blockquote {
   .different-div {
     height: auto;
     min-height: 80vh;
+  }
+
+  .why-try-mobicycle {
+    text-align: center;
   }
 
   .heading-22 {
@@ -11373,6 +11398,8 @@ blockquote {
   grid-row-start: 2;
   -ms-grid-row-span: 1;
   grid-row-end: 3;
+  -ms-grid-row-align: auto;
+  align-self: auto;
 }
 
 #w-node-_62441596-e9b2-2266-5cb0-9ec13c395810-420da0e1 {
