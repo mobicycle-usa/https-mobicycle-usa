@@ -1050,6 +1050,10 @@ blockquote {
   background-color: #4a5899;
 }
 
+.container._5vw {
+  padding-bottom: 5vh;
+}
+
 .list-item-8 {
   display: none;
 }
@@ -4439,7 +4443,7 @@ blockquote {
   min-height: 80vh;
   margin-top: 0px;
   margin-bottom: 0px;
-  padding-top: 0vh;
+  padding-top: 25vh;
   padding-bottom: 0vh;
   background-color: #4a5899;
 }
@@ -4540,7 +4544,8 @@ blockquote {
 
 .hero-div-2 {
   width: 99.7532549776576%;
-  max-width: 85vw;
+  height: 100%;
+  max-width: 90vw;
   min-width: auto;
   margin: auto auto auto 0vw;
   padding-top: 0vh;
@@ -5033,6 +5038,10 @@ blockquote {
     height: 15%;
     background-color: transparent;
     box-shadow: 1px 1px 16px 4px #4a5899;
+  }
+
+  .container._5vw {
+    padding-bottom: 25vh;
   }
 
   .order-book-sideflex {
@@ -6266,7 +6275,7 @@ blockquote {
   }
 
   .container._5vw {
-    padding-bottom: 10vh;
+    padding-bottom: 25vh;
   }
 
   .button-text-3 {
@@ -7051,7 +7060,7 @@ blockquote {
 
   .book-hero-heading.line-1 {
     max-width: 90vw;
-    font-size: 6em;
+    font-size: 8em;
   }
 
   .button.inverted {
@@ -7290,6 +7299,7 @@ blockquote {
 
   .container._5vw {
     padding-right: 5vw;
+    padding-bottom: 10vh;
     padding-left: 5vw;
   }
 
@@ -7635,6 +7645,9 @@ blockquote {
   }
 
   .login-button.tablet {
+    bottom: 32%;
+    height: auto;
+    max-height: 100vh;
     -ms-grid-rows: auto auto;
     grid-template-rows: auto auto;
   }
@@ -8112,7 +8125,7 @@ blockquote {
 
   .client-heading {
     max-width: 40vw;
-    font-size: 25px;
+    font-size: 1em;
     line-height: 1.5;
   }
 
@@ -8296,8 +8309,12 @@ blockquote {
     height: 99.99998758186038%;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 8vw;
+    font-size: 6vw;
     text-shadow: 0 0 1px #525252;
+  }
+
+  .container-grid-2.purple {
+    padding-bottom: 10vh;
   }
 
   .fancy-buttons-2 {
@@ -8347,7 +8364,16 @@ blockquote {
   .hero-grid-2 {
     width: 100%;
     min-width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding-left: 20px;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    -webkit-align-content: space-around;
+    -ms-flex-line-pack: distribute;
+    align-content: space-around;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: auto auto;
@@ -8360,27 +8386,34 @@ blockquote {
   }
 
   .heading-contact-info-3 {
+    margin-left: auto;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    font-size: 4em;
+    font-size: 3em;
   }
 
   .nous-innovons {
+    margin-left: auto;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    font-size: 4em;
+    font-size: 2em;
   }
 
   .hero-div-2 {
+    position: relative;
+    top: -8%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
     width: 100%;
+    max-height: none;
+    max-width: 90vw;
     min-width: auto;
+    margin-top: 0px;
     margin-left: 0vw;
-    padding-top: 50vh;
-    padding-bottom: 10vh;
+    padding-top: 0vh;
+    padding-bottom: 0vh;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -8434,9 +8467,11 @@ blockquote {
   }
 
   .les-dechets {
+    max-width: 70vw;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
-    font-size: 4em;
+    font-size: 1.5em;
+    font-weight: 300;
   }
 }
 
@@ -8473,7 +8508,7 @@ blockquote {
 
   .book-hero-heading.line-1 {
     padding-top: 2vh;
-    font-size: 5em;
+    font-size: 7em;
   }
 
   .button.inverted {
@@ -8559,8 +8594,9 @@ blockquote {
   }
 
   .who-should-grab-h-wrap {
-    max-width: 80vw;
+    max-width: 90vw;
     margin-bottom: 40px;
+    margin-left: 5%;
   }
 
   .input.transparent-input {
@@ -8661,6 +8697,10 @@ blockquote {
     padding-top: 0vh;
     padding-right: 0vw;
     padding-left: 0vw;
+  }
+
+  .container._5vw {
+    padding-bottom: 0vh;
   }
 
   .order-book-sideflex {
@@ -8855,7 +8895,8 @@ blockquote {
 
   .mobicycle.ebgaramond.purple._3em.center {
     width: 100.00000537281306%;
-    max-width: 55vw;
+    max-width: 30vw;
+    font-size: 2.5em;
     text-align: left;
   }
 
@@ -8865,6 +8906,7 @@ blockquote {
 
   .why-try-mobicycle {
     padding-top: 10vh;
+    font-size: 2.5em;
   }
 
   .heading-22 {
@@ -9058,6 +9100,7 @@ blockquote {
     position: relative;
     width: auto;
     min-width: 80vw;
+    margin-top: 5vh;
     margin-right: auto;
     margin-left: auto;
     -webkit-box-orient: vertical;
@@ -9203,7 +9246,8 @@ blockquote {
   }
 
   .heading-on._3.no {
-    font-size: 18vw;
+    font-size: 10vw;
+    text-align: left;
   }
 
   .second {
@@ -9438,6 +9482,7 @@ blockquote {
   .get-started {
     margin-top: 10vh;
     margin-bottom: 5vh;
+    font-size: 2.5em;
   }
 
   .faq-question-bar-2 {
@@ -9460,6 +9505,16 @@ blockquote {
   .portfolio-link-2 {
     left: 0px;
     padding-left: 0px;
+  }
+
+  .overflow-4 {
+    margin-right: 5%;
+  }
+
+  .html-embed-21 {
+    height: 82.7437515258789%;
+    max-width: 40vw;
+    min-height: 100vh;
   }
 
   .container-grid {
@@ -9570,7 +9625,9 @@ blockquote {
   }
 
   .heading-contact-big._3 {
-    font-size: 18vw;
+    padding-top: 20px;
+    font-size: 10vw;
+    text-align: right;
   }
 
   .container-grid-2 {
@@ -9581,12 +9638,18 @@ blockquote {
 
   .container-grid-2._2 {
     height: 800px;
+    padding-top: 0px;
     padding-bottom: 0px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+  }
+
+  .container-grid-2.purple {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
   }
 
   .fancy-buttons-2 {
@@ -9600,9 +9663,11 @@ blockquote {
     width: 100%;
     height: auto;
     margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5vw;
     padding-top: 40px;
     padding-bottom: 40px;
-    padding-left: 86px;
+    padding-left: 0px;
   }
 
   .mobicycle-container {
@@ -9629,7 +9694,12 @@ blockquote {
     flex: 1;
   }
 
+  .mobicycle-container.purple {
+    padding-top: 5vh;
+  }
+
   .hero-grid-2 {
+    padding-left: 0px;
     grid-column-gap: 10vw;
     grid-row-gap: 10vw;
     -ms-grid-rows: auto auto;
@@ -9643,9 +9713,20 @@ blockquote {
     font-family: Muli, sans-serif;
   }
 
+  .heading-contact-info-3 {
+    position: relative;
+    bottom: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .nous-innovons {
+    max-width: 50vw;
+  }
+
   .hero-div-2 {
     padding-top: 0vh;
-    padding-bottom: 15vh;
+    padding-bottom: 5vh;
   }
 
   .slider.content-wrap.about {
@@ -9655,6 +9736,10 @@ blockquote {
 
   .login-button-div-2 {
     max-width: 90vw;
+  }
+
+  .contact-grid-3 {
+    margin-top: auto;
   }
 
   .options-button-2 {
@@ -9758,7 +9843,7 @@ blockquote {
 
   .book-hero-heading.line-1 {
     max-width: 327.16668701171875vw;
-    font-size: 4em;
+    font-size: 5em;
     text-align: left;
   }
 
@@ -10423,6 +10508,7 @@ blockquote {
 
   .mobicycle.ebgaramond.purple._3em.center {
     padding-top: 5vh;
+    font-size: 2.5em;
   }
 
   .heading-22 {
@@ -10496,6 +10582,7 @@ blockquote {
   }
 
   .login-button.tablet {
+    bottom: auto;
     max-width: 80vw;
   }
 
@@ -10636,7 +10723,7 @@ blockquote {
   }
 
   .heading-on._3.no {
-    font-size: 16vw;
+    font-size: 12vw;
   }
 
   .wrapper-contact {
@@ -10816,6 +10903,11 @@ blockquote {
     font-size: 30px;
   }
 
+  .html-embed-21 {
+    height: 50%;
+    min-height: 50vh;
+  }
+
   .get-in-touch-grid-2 {
     padding-left: 10px;
     -ms-grid-columns: 20px 0.9fr 1.5fr 20px;
@@ -10883,7 +10975,12 @@ blockquote {
   }
 
   .heading-contact-big._3 {
-    font-size: 16vw;
+    font-size: 13vw;
+    line-height: 1;
+  }
+
+  .container-grid-2.purple {
+    padding-top: 0vh;
   }
 
   .fancy-buttons-2 {
@@ -10945,21 +11042,23 @@ blockquote {
   }
 
   .heading-contact-info-3 {
+    display: block;
+    height: 100%;
     font-size: 30px;
   }
 
   .label-2 {
-    font-size: 0.85em;
+    font-size: 1em;
     text-align: left;
   }
 
   .nous-innovons {
-    font-size: 30px;
+    font-size: 1.5em;
   }
 
   .hero-div-2 {
     margin-left: 0px;
-    padding-top: 10vh;
+    padding-top: 5vh;
     padding-bottom: 10vh;
   }
 
@@ -11005,6 +11104,7 @@ blockquote {
     max-width: 80vw;
     margin-right: auto;
     margin-left: auto;
+    font-size: 1.3em;
     text-align: center;
   }
 
@@ -11016,7 +11116,8 @@ blockquote {
   }
 
   .les-dechets {
-    font-size: 30px;
+    margin-top: 0vh;
+    font-size: 1.2em;
   }
 }
 
