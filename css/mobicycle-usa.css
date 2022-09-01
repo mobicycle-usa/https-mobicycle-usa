@@ -1071,7 +1071,7 @@ blockquote {
 }
 
 .container._5vw {
-  padding-bottom: 5vh;
+  padding-bottom: 10vh;
 }
 
 .list-item-8 {
@@ -3592,7 +3592,9 @@ blockquote {
   left: auto;
   bottom: 0px;
   z-index: 2;
-  margin-left: 0%;
+  max-width: 85vw;
+  margin-right: auto;
+  margin-left: auto;
   padding-top: 0px;
   padding-right: 0%;
   -webkit-box-pack: center;
