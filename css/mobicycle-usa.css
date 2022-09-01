@@ -4858,6 +4858,7 @@ blockquote {
 }
 
 .process-content {
+  width: 100.0000047646492%;
   padding: 20px 30px;
   border-top: 1px solid hsla(0, 0%, 100%, 0.2);
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
@@ -4956,7 +4957,7 @@ blockquote {
 }
 
 .process-wrapper {
-  max-width: 70%;
+  max-width: 80%;
   margin-right: auto;
   margin-left: auto;
 }
@@ -4970,6 +4971,10 @@ blockquote {
 .how-are-we-different {
   -ms-grid-columns: 1.75fr 1fr;
   grid-template-columns: 1.75fr 1fr;
+}
+
+.paragraph-3 {
+  max-width: 60vw;
 }
 
 @media screen and (min-width: 1280px) {
@@ -7449,6 +7454,7 @@ blockquote {
 
   .line-faq.purple {
     max-width: 50vw;
+    background-color: #dfab82;
   }
 
   .button-text {
@@ -8056,7 +8062,7 @@ blockquote {
   }
 
   .spacer.white {
-    padding-top: 25vh;
+    padding-top: 0vh;
   }
 
   .columns {
@@ -8520,7 +8526,7 @@ blockquote {
     left: auto;
     width: 100%;
     min-width: 100vw;
-    padding-top: 0px;
+    padding-top: 20vh;
     padding-right: 0%;
     padding-left: 5vw;
     -webkit-box-flex: 1;
@@ -8853,7 +8859,7 @@ blockquote {
   }
 
   .display-2 {
-    font-size: 47px;
+    font-size: 4em;
   }
 
   .get-started-section {
@@ -8947,7 +8953,7 @@ blockquote {
   }
 
   .button-text {
-    font-size: 1.8em;
+    font-size: 1.2em;
   }
 
   .nav-link {
@@ -9036,7 +9042,7 @@ blockquote {
   }
 
   .platform-grid {
-    max-width: 70vw;
+    max-width: 90vw;
     margin: 60px auto 40px;
     -webkit-box-pack: stretch;
     -webkit-justify-content: stretch;
@@ -9049,10 +9055,10 @@ blockquote {
     -webkit-align-content: stretch;
     -ms-flex-line-pack: stretch;
     align-content: stretch;
-    -ms-grid-columns: 1fr;
-    grid-template-columns: 1fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 
   .text-small {
@@ -9062,6 +9068,11 @@ blockquote {
 
   .text-small.semi-bold {
     max-width: 40vw;
+  }
+
+  .button-7.inverted {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .book-light-box-2 {
@@ -9102,7 +9113,7 @@ blockquote {
   }
 
   .container._5vw {
-    padding-bottom: 0vh;
+    padding-bottom: 10vh;
   }
 
   .order-book-sideflex {
@@ -9312,7 +9323,8 @@ blockquote {
   }
 
   .heading-22 {
-    max-width: 90vw;
+    max-width: 80vw;
+    font-size: 1.9em;
   }
 
   .reference-grid {
@@ -10029,6 +10041,7 @@ blockquote {
   .heading-contact-big._3 {
     padding-top: 20px;
     font-size: 10vw;
+    line-height: 1.2;
     text-align: right;
   }
 
@@ -10152,13 +10165,53 @@ blockquote {
     font-size: 1.2em;
   }
 
+  .les-dechets {
+    font-size: 1.3em;
+    line-height: 1.7;
+  }
+
+  .process-grid {
+    margin-right: 0px;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    justify-items: stretch;
+  }
+
+  .process-part-1 {
+    margin-right: 0px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
   .process-part-2 {
     padding-left: 43px;
   }
 
   .display-2 {
-    font-size: 38px;
-    line-height: 38px;
+    font-size: 4em;
+    line-height: 1.2em;
+  }
+
+  .process-image {
+    margin-right: 0px;
+  }
+
+  .get-started-image {
+    width: 11vw;
+    margin-right: 0px;
+  }
+
+  .how-are-we-different {
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
+  }
+
+  .paragraph-4 {
+    max-width: 60vw;
   }
 }
 
@@ -10369,12 +10422,12 @@ blockquote {
   }
 
   .section._7 {
-    padding-top: 25vh;
+    padding-top: 10vh;
     background-color: #fff;
   }
 
   .learn-grid {
-    max-width: 80vw;
+    max-width: 90vw;
     min-height: auto;
     padding-right: 0px;
     padding-left: 0px;
@@ -10397,7 +10450,8 @@ blockquote {
   }
 
   .learn-item.learn-it-2 {
-    max-width: 80vw;
+    width: 100%;
+    max-width: 90vw;
     padding-right: 10px;
     padding-left: 10px;
     -webkit-box-align: start;
@@ -10579,9 +10633,9 @@ blockquote {
   .container {
     left: 0px;
     max-width: 100vw;
-    margin-bottom: 10vh;
-    padding-right: 3vw;
-    padding-left: 5vw;
+    margin-bottom: auto;
+    padding-right: 0vw;
+    padding-left: 0vw;
     -webkit-box-flex: 1;
     -webkit-flex: 1;
     -ms-flex: 1;
@@ -10601,7 +10655,7 @@ blockquote {
   }
 
   .order-book-sideflex {
-    margin-top: 40px;
+    margin-top: auto;
     padding: 10px 10px 60px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -11013,7 +11067,12 @@ blockquote {
   }
 
   .spacer.white {
-    display: none;
+    display: block;
+    padding-bottom: 40vh;
+  }
+
+  .columns {
+    margin-top: 10vh;
   }
 
   .ewaste._3 {
@@ -11224,14 +11283,14 @@ blockquote {
   }
 
   .client-heading {
-    max-width: 50vw;
+    max-width: 65vw;
     color: #fff;
     font-size: 22px;
   }
 
   .faq-question-wrap-2 {
     padding-right: 0px;
-    padding-left: 27px;
+    padding-left: 0px;
   }
 
   .faq-content {
@@ -11241,6 +11300,7 @@ blockquote {
   .container-dropdown.margin {
     bottom: 0px;
     width: 100%;
+    max-width: 100vw;
     min-width: auto;
     padding-top: 61px;
   }
@@ -11253,6 +11313,7 @@ blockquote {
   .order-number {
     left: -2%;
     top: 27px;
+    display: none;
     font-size: 18px;
   }
 
@@ -11390,6 +11451,10 @@ blockquote {
     line-height: 1;
   }
 
+  .container-grid-2._2 {
+    height: auto;
+  }
+
   .container-grid-2.purple {
     padding-top: 0vh;
   }
@@ -11470,7 +11535,7 @@ blockquote {
   .hero-div-2 {
     margin-left: 0px;
     padding-top: 5vh;
-    padding-bottom: 10vh;
+    padding-bottom: 0vh;
   }
 
   .hero-content-2 {
@@ -11506,6 +11571,7 @@ blockquote {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    font-size: 1.4em;
     text-align: center;
   }
 
@@ -11552,8 +11618,8 @@ blockquote {
   }
 
   .display-2 {
-    font-size: 30px;
-    line-height: 32px;
+    font-size: 4em;
+    line-height: 1.2em;
   }
 
   .process-content {
@@ -11566,8 +11632,9 @@ blockquote {
   }
 
   .process-image {
-    width: 40px;
-    height: 40px;
+    width: auto;
+    height: auto;
+    margin-bottom: 20px;
   }
 
   .margin-80px.make-40px {
@@ -11577,6 +11644,20 @@ blockquote {
   .get-started-section {
     padding-top: 60px;
     padding-bottom: 60px;
+  }
+
+  .get-started-image {
+    width: 30vw;
+    margin-bottom: 0px;
+  }
+
+  .how-are-we-different {
+    width: 90%;
+    margin-right: auto;
+  }
+
+  .paragraph-3 {
+    max-width: 90vw;
   }
 }
 
