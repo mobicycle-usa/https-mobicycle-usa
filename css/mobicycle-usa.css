@@ -4964,7 +4964,7 @@ blockquote {
   filter: grayscale(100%);
 }
 
-.grid-3 {
+.how-are-we-different {
   -ms-grid-columns: 1.75fr 1fr;
   grid-template-columns: 1.75fr 1fr;
 }
@@ -5248,8 +5248,8 @@ blockquote {
 
   .book-light-box-2 {
     top: 25%;
-    width: 18%;
-    height: 15%;
+    width: 26%;
+    height: 20%;
     background-color: transparent;
     box-shadow: 1px 1px 16px 4px #4a5899;
   }
@@ -7364,6 +7364,7 @@ blockquote {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
+    color: #dfab82;
   }
 
   .delete-this.purple {
@@ -7388,6 +7389,12 @@ blockquote {
     align-items: center;
   }
 
+  .section.white {
+    height: 100%;
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+
   .section.transparent {
     display: block;
   }
@@ -7400,6 +7407,7 @@ blockquote {
 
   .learn-grid {
     height: auto;
+    max-width: 70vw;
     grid-row-gap: 10vh;
     -ms-grid-rows: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
@@ -7495,7 +7503,7 @@ blockquote {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
-    color: #4a5899;
+    color: #dfab82;
     font-size: 1.5em;
   }
 
@@ -7576,6 +7584,25 @@ blockquote {
     min-width: auto;
     margin-top: 0px;
     padding-top: 0px;
+  }
+
+  .image-wrap {
+    display: none;
+    height: auto;
+    margin-bottom: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .paragraph {
@@ -7946,6 +7973,10 @@ blockquote {
     max-width: 50vw;
     min-width: auto;
     margin: auto;
+  }
+
+  .spacer.white {
+    padding-top: 25vh;
   }
 
   .columns {
@@ -8391,7 +8422,7 @@ blockquote {
   }
 
   .client-heading {
-    max-width: 40vw;
+    max-width: 35vw;
     font-size: 1em;
     line-height: 1.5;
   }
@@ -8752,6 +8783,17 @@ blockquote {
 
   .process-wrapper {
     max-width: 100%;
+  }
+
+  .get-started-image {
+    width: 8vw;
+  }
+
+  .how-are-we-different {
+    -ms-grid-columns: 6fr;
+    grid-template-columns: 6fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
   }
 }
 
@@ -13228,6 +13270,8 @@ blockquote {
     grid-column-end: 3;
     -ms-grid-row-span: 1;
     grid-row-end: 3;
+    -ms-grid-column-align: start;
+    justify-self: start;
   }
 
   #w-node-_14c2324e-2d8e-8248-429a-8b252f1f63de-420da0e1 {
