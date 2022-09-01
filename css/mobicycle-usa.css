@@ -1071,7 +1071,7 @@ blockquote {
 }
 
 .container._5vw {
-  padding-bottom: 10vh;
+  padding-bottom: 20vh;
 }
 
 .list-item-8 {
@@ -1115,7 +1115,8 @@ blockquote {
   align-items: center;
   border-radius: 20px;
   background-color: transparent;
-  background-image: linear-gradient(16deg, rgba(0, 0, 0, 0.56), #dfab82);
+  background-image: linear-gradient(16deg, #4a5899, #535d98 48%, #dfab82);
+  box-shadow: 1px 1px 3px 0 #000;
   color: #fff;
 }
 
@@ -2871,7 +2872,7 @@ blockquote {
   background-color: transparent;
 }
 
-.html-embed-16 {
+.ghg-emissions {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4123,7 +4124,7 @@ blockquote {
   font-weight: 200;
 }
 
-.space-contact {
+.electronic-waste-is {
   display: block;
   width: 100vw;
   height: 100vh;
@@ -5182,6 +5183,10 @@ blockquote {
     line-height: 1.2em;
   }
 
+  .the-platform-button-2 {
+    font-size: 1.8em;
+  }
+
   .hero-grid-2 {
     width: 100.0000013108925%;
     -ms-grid-columns: 1.75fr 1fr;
@@ -5202,7 +5207,7 @@ blockquote {
   }
 
   .login-button-div-2 {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .options-button-2 {
@@ -5213,7 +5218,8 @@ blockquote {
   }
 
   .les-dechets {
-    font-size: 3vw;
+    margin-top: 20vh;
+    font-size: 1.5vw;
   }
 }
 
@@ -5590,7 +5596,7 @@ blockquote {
     padding-left: 27px;
   }
 
-  .html-embed-16 {
+  .ghg-emissions {
     min-height: 100vh;
   }
 
@@ -6075,7 +6081,7 @@ blockquote {
     margin-left: 0vw;
   }
 
-  .space-contact {
+  .electronic-waste-is {
     position: static;
     left: 0%;
     top: 0%;
@@ -6084,6 +6090,8 @@ blockquote {
     z-index: 0;
     width: 100vw;
     height: 100vh;
+    max-height: 100vh;
+    margin-top: auto;
     margin-left: 0vw;
     background-color: transparent;
     background-image: none;
@@ -6285,6 +6293,11 @@ blockquote {
     margin-bottom: 0px;
   }
 
+  .blue-iceberg-2 {
+    max-height: 100vh;
+    margin-right: 0px;
+  }
+
   .hero-content-2 {
     max-width: 40vw;
     min-width: 40vw;
@@ -6322,10 +6335,12 @@ blockquote {
   }
 
   .les-dechets {
-    margin-top: auto;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: auto;
     padding-left: 0px;
     color: #fff;
-    font-size: 1.5em;
+    font-size: 1.3em;
     line-height: 1.7;
   }
 
@@ -6535,6 +6550,7 @@ blockquote {
   }
 
   .container._5vw {
+    padding-top: 0vh;
     padding-bottom: 25vh;
   }
 
@@ -6547,8 +6563,10 @@ blockquote {
     width: auto;
     height: 100%;
     max-height: 25vh;
+    max-width: 60vw;
     min-height: 35vh;
     margin-top: 0%;
+    margin-left: auto;
     padding-top: 40px;
     padding-bottom: 40px;
     -webkit-box-orient: horizontal;
@@ -6568,6 +6586,7 @@ blockquote {
     -webkit-flex: 1;
     -ms-flex: 1;
     flex: 1;
+    box-shadow: 1px 1px 3px 0 #000;
   }
 
   .image-wrap {
@@ -8236,7 +8255,7 @@ blockquote {
     margin-top: 0vh;
   }
 
-  .html-embed-16 {
+  .ghg-emissions {
     height: 100vh;
   }
 
@@ -9598,7 +9617,7 @@ blockquote {
     padding-left: 8.66%;
   }
 
-  .html-embed-16 {
+  .ghg-emissions {
     height: 100vh;
   }
 
@@ -9967,7 +9986,7 @@ blockquote {
     align-items: stretch;
   }
 
-  .space-contact {
+  .electronic-waste-is {
     height: auto;
   }
 
@@ -11093,7 +11112,7 @@ blockquote {
     margin-right: 2%;
   }
 
-  .html-embed-16 {
+  .ghg-emissions {
     height: 100.0001538660546vh;
     min-height: auto;
   }
