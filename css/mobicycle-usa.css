@@ -304,7 +304,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 25vw;
+  max-width: 40vw;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -6082,7 +6082,15 @@ blockquote {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    max-width: 100vw;
     margin-top: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
     background-color: transparent;
   }
 
@@ -6893,6 +6901,7 @@ blockquote {
     display: -ms-flexbox;
     display: flex;
     height: 100%;
+    min-height: 70vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -7062,14 +7071,14 @@ blockquote {
   }
 
   .get-started-image {
-    width: 8vw;
+    width: 10vw;
   }
 
   .how-are-we-different {
     -ms-grid-columns: 6fr;
     grid-template-columns: 6fr;
-    -ms-grid-rows: auto auto;
-    grid-template-rows: auto auto;
+    -ms-grid-rows: auto;
+    grid-template-rows: auto;
   }
 
   .panel-1 {
@@ -7147,6 +7156,11 @@ blockquote {
     height: 100vh;
     max-height: 100vh;
     min-height: 100vh;
+  }
+
+  .does-mobicycle {
+    font-size: 5em;
+    font-style: normal;
   }
 
   .background-pic-div {
@@ -7336,6 +7350,10 @@ blockquote {
   .nav-link {
     margin-right: 15px;
     margin-left: 0px;
+  }
+
+  .section.white {
+    padding-top: 5vh;
   }
 
   .section.gradient {
@@ -8037,7 +8055,7 @@ blockquote {
   }
 
   .embed-electronics {
-    min-height: auto;
+    min-height: 70vh;
   }
 
   .handle-or-process {
@@ -8125,6 +8143,7 @@ blockquote {
 
   .process-part-1 {
     margin-right: 0px;
+    padding-right: 5vw;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -8193,6 +8212,10 @@ blockquote {
   .item {
     padding-top: 0px;
     padding-bottom: 0px;
+  }
+
+  .does-mobicycle {
+    font-size: 4em;
   }
 
   .background-pic {
@@ -9205,10 +9228,12 @@ blockquote {
 
   .privacy-grid {
     max-width: 80vw;
-    grid-column-gap: 10vh;
-    grid-row-gap: 10vh;
+    grid-column-gap: 5vh;
+    grid-row-gap: 5vh;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
+    -ms-grid-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
   }
 
   .addresses {
@@ -9536,7 +9561,7 @@ blockquote {
   }
 
   .does-mobicycle {
-    font-size: 2em;
+    font-size: 3em;
   }
 
   .navbar-logo-center {
