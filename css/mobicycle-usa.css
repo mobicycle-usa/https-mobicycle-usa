@@ -7718,7 +7718,7 @@ blockquote {
   }
 
   .heading-22 {
-    max-width: 80vw;
+    max-width: 70vw;
     font-size: 1.9em;
   }
 
@@ -9077,7 +9077,9 @@ blockquote {
   }
 
   .heading-22 {
-    text-align: center;
+    max-width: 70vw;
+    font-size: 1.5em;
+    text-align: left;
   }
 
   .reference-grid {
