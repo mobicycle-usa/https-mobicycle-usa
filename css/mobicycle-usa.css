@@ -3901,8 +3901,14 @@ blockquote {
 .background-pic {
   position: static;
   z-index: 1;
-  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
   height: 100%;
+  max-width: 40vw;
+  min-height: 100vh;
 }
 
 .background-pic-div {
