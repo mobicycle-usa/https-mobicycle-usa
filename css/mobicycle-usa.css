@@ -3298,6 +3298,7 @@ blockquote {
 .hero-grid-2 {
   width: 99.9999984244926%;
   height: auto;
+  max-width: 100vw;
   min-width: auto;
   margin: 5vh auto auto 0px;
   justify-items: center;
@@ -3432,7 +3433,7 @@ blockquote {
   display: flex;
   width: 100%;
   height: auto;
-  max-width: 95vw;
+  max-width: 90vw;
   min-width: auto;
   margin: auto 0px auto 0vw;
   padding-top: 0vh;
@@ -4471,7 +4472,10 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 100%;
   margin-top: 5vh;
+  margin-right: auto;
+  margin-left: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -6218,6 +6222,7 @@ blockquote {
 
   .panel-5 {
     max-height: 95vh;
+    max-width: 90vw;
     margin-top: auto;
   }
 
@@ -7272,6 +7277,12 @@ blockquote {
 
   ._154-mouse-wrapper {
     margin-top: 3vh;
+    margin-right: 0px;
+    margin-left: auto;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
   }
 
   ._154-mouse {
@@ -13109,6 +13120,11 @@ blockquote {
     grid-row-start: span 1;
     -ms-grid-row-span: 1;
     grid-row-end: span 1;
+    -ms-grid-column-align: end;
+    justify-self: end;
+  }
+
+  #w-node-_48437e09-a9e0-9f5d-7be7-9b2377342719-420da0e1 {
     -ms-grid-column-align: end;
     justify-self: end;
   }
