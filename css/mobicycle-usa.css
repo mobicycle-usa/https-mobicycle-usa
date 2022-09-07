@@ -1444,8 +1444,8 @@ blockquote {
   display: flex;
   overflow: hidden;
   max-height: 8vh;
-  margin-top: 0vh;
-  margin-right: 3vw;
+  margin-top: 1vh;
+  margin-right: 2vw;
   margin-left: auto;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -5467,7 +5467,7 @@ blockquote {
 
   .google {
     left: -25px;
-    margin-right: 3vw;
+    margin-right: 2vw;
   }
 
   .blur-pic {
@@ -5852,7 +5852,8 @@ blockquote {
   .google {
     left: -32px;
     max-height: 5vh;
-    margin-right: 3vw;
+    margin-top: 1vh;
+    margin-right: 2vw;
   }
 
   .google-embed {
