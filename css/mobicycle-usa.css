@@ -3356,8 +3356,8 @@ blockquote {
   height: auto;
   max-width: none;
   min-height: auto;
-  margin: auto 0px 25%;
-  padding: 0px 10vw;
+  margin: auto 0px 15%;
+  padding: 0px 5vw;
   -webkit-align-self: auto;
   -ms-flex-item-align: auto;
   align-self: auto;
@@ -5369,8 +5369,10 @@ blockquote {
   display: none;
 }
 
-.div-block-17 {
+.does-mobicycle-div {
+  margin-right: 0px;
   margin-bottom: 10%;
+  margin-left: auto;
 }
 
 @media screen and (min-width: 1280px) {
@@ -5624,6 +5626,10 @@ blockquote {
     width: 100.0000013108925%;
     -ms-grid-columns: 1.75fr 1fr;
     grid-template-columns: 1.75fr 1fr;
+  }
+
+  .not-at-all {
+    margin-bottom: 15%;
   }
 
   .we-innovate {
@@ -6162,7 +6168,7 @@ blockquote {
   }
 
   .not-at-all {
-    height: 25%;
+    height: auto;
     padding-left: 0px;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -7337,6 +7343,10 @@ blockquote {
     padding-top: 10px;
     font-size: 0.9em;
   }
+
+  .does-mobicycle-div {
+    margin-right: 10px;
+  }
 }
 
 @media screen and (max-width: 991px) {
@@ -8272,7 +8282,7 @@ blockquote {
     left: auto;
     width: 100%;
     min-width: 100vw;
-    padding-top: 5vh;
+    padding-top: 15vh;
     padding-right: 0%;
     padding-left: 5vw;
     -webkit-box-flex: 1;
