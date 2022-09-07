@@ -1073,6 +1073,10 @@ blockquote {
   padding-bottom: 20vh;
 }
 
+.container._10vh-bottom {
+  padding-bottom: 10vh;
+}
+
 .list-item-8 {
   display: none;
 }
@@ -3634,7 +3638,7 @@ blockquote {
 .container-2 {
   position: relative;
   z-index: 1;
-  max-width: 1200px;
+  max-width: 90vw;
   margin-right: auto;
   margin-left: auto;
   -webkit-box-flex: 1;
@@ -3749,7 +3753,7 @@ blockquote {
 
 .get-started-section {
   position: relative;
-  padding: 100px 130px;
+  padding: 0vh 0px 0px;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.2);
   background-color: #4a5899;
 }
@@ -5429,6 +5433,14 @@ blockquote {
     height: 10vh;
   }
 
+  .container._10vh-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
   .order-book-sideflex {
     margin-top: -3%;
   }
@@ -6234,6 +6246,10 @@ blockquote {
     margin-top: auto;
     margin-bottom: auto;
     padding-top: 5vh;
+  }
+
+  .get-started-section {
+    padding-left: 0px;
   }
 
   .panel-1 {
