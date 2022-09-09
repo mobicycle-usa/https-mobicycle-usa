@@ -1422,10 +1422,7 @@ blockquote {
 .google {
   position: relative;
   left: auto;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: hidden;
   width: auto;
   height: 100%;
