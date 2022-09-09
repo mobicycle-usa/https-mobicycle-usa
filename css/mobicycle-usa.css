@@ -3955,7 +3955,7 @@ blockquote {
 }
 
 .list-item-12 {
-  max-width: 5vw;
+  max-width: none;
   padding-right: 0vw;
   -o-object-fit: contain;
   object-fit: contain;
