@@ -3026,7 +3026,7 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  max-width: 80vw;
+  max-width: 90vw;
   margin-top: auto;
   margin-bottom: auto;
   margin-left: auto;
@@ -3046,7 +3046,7 @@ blockquote {
   flex: 0 auto;
   background-color: #fff;
   font-family: Muli, sans-serif;
-  font-size: 8vw;
+  font-size: 7vw;
   text-align: right;
   text-shadow: 0 0 6px #000;
   -webkit-background-clip: text;
@@ -3761,7 +3761,7 @@ blockquote {
   flex: 0 auto;
   font-family: Muli, sans-serif;
   color: #fff;
-  font-size: 6em;
+  font-size: 4.5em;
   text-align: right;
 }
 
@@ -3928,7 +3928,7 @@ blockquote {
   letter-spacing: 10px;
 }
 
-.grid-2 {
+.mobicycle-grid {
   max-height: 543.5499877929688vh;
   min-height: auto;
   margin-top: auto;
@@ -4087,7 +4087,7 @@ blockquote {
   font-weight: 400;
 }
 
-.section-6 {
+.mobicycle-head {
   position: relative;
   height: 100vh;
 }
@@ -4362,6 +4362,11 @@ blockquote {
     padding-top: 0px;
   }
 
+  .handle-or-process._3 {
+    max-width: 90vw;
+    font-size: 7.5vw;
+  }
+
   .fancy-buttons-2 {
     font-size: 1em;
     line-height: 1.2em;
@@ -4417,8 +4422,8 @@ blockquote {
   }
 
   .does-mobicycle {
-    padding-bottom: 0vh;
-    font-size: 7em;
+    padding-bottom: 1vh;
+    font-size: 6em;
   }
 }
 
@@ -4847,9 +4852,10 @@ blockquote {
   }
 
   .handle-or-process._3 {
+    max-width: 90vw;
     margin-top: auto;
     margin-bottom: auto;
-    font-size: 5vw;
+    font-size: 7.5vw;
     line-height: 1;
     text-shadow: 0 0 9px #000;
   }
@@ -4969,7 +4975,7 @@ blockquote {
 
   .does-mobicycle {
     padding-bottom: 1vh;
-    font-size: 8em;
+    font-size: 6em;
   }
 
   ._154-mouse-wrapper {
@@ -5754,11 +5760,13 @@ blockquote {
   }
 
   .handle-or-process._3 {
+    max-width: 95vw;
     margin-top: 0px;
     -webkit-box-flex: 0;
     -webkit-flex: 0 auto;
     -ms-flex: 0 auto;
     flex: 0 auto;
+    font-size: 7.5vw;
   }
 
   .fancy-buttons-2 {
@@ -8389,7 +8397,7 @@ blockquote {
     background-image: linear-gradient(86deg, #000 53%, transparent);
   }
 
-  .grid-2 {
+  .mobicycle-grid {
     padding-bottom: 0vh;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
@@ -9789,7 +9797,7 @@ blockquote {
     text-shadow: 1px 1px 6px #000;
   }
 
-  .grid-2 {
+  .mobicycle-grid {
     padding-bottom: 0vh;
     -ms-grid-rows: auto;
     grid-template-rows: auto;
