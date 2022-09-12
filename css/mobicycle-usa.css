@@ -4384,7 +4384,7 @@ blockquote {
   justify-content: flex-start;
 }
 
-.grid-2 {
+.navbar-grid-areas {
   width: 99.97681369369%;
   height: 100%;
   min-height: 65vh;
@@ -4395,11 +4395,11 @@ blockquote {
   align-content: space-between;
   -ms-grid-columns: 0.75fr 1fr 1fr;
   grid-template-columns: 0.75fr 1fr 1fr;
-  -ms-grid-rows: auto;
-  grid-template-rows: auto;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
 }
 
-.div-block-15 {
+.webpages-div {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -10190,6 +10190,28 @@ blockquote {
   grid-column-start: span 1;
   -ms-grid-column-span: 1;
   grid-column-end: span 1;
+}
+
+#w-node-bde8c32b-266d-c770-ae68-7fd56ed459fa-420da0e1 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
+}
+
+#w-node-_56ca49e0-e134-4be9-36bc-64a050ca96ab-420da0e1 {
+  -ms-grid-column: span 1;
+  grid-column-start: span 1;
+  -ms-grid-column-span: 1;
+  grid-column-end: span 1;
+  -ms-grid-row: span 1;
+  grid-row-start: span 1;
+  -ms-grid-row-span: 1;
+  grid-row-end: span 1;
 }
 
 #w-node-_9919b259-bf5b-9fee-48ae-00a724b6ce66-420da0e1 {
