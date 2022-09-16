@@ -2739,7 +2739,7 @@ blockquote {
   margin-right: auto;
   margin-bottom: auto;
   margin-left: auto;
-  padding-bottom: 10vh;
+  padding-bottom: 0vh;
   background-color: #4a5899;
   color: #fff;
   font-size: 0.8em;
@@ -6502,10 +6502,12 @@ blockquote {
   }
 
   .footer {
+    bottom: 0px;
     display: block;
-    height: 75vh;
+    height: auto;
     margin-top: auto;
     margin-bottom: 0px;
+    padding-bottom: 10vh;
   }
 
   .addresses-div {
@@ -6592,6 +6594,8 @@ blockquote {
   }
 
   .footer-div-all {
+    height: auto;
+    min-height: auto;
     padding-bottom: 3vh;
   }
 
