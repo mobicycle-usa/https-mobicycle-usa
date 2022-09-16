@@ -4474,8 +4474,8 @@ blockquote {
   align-content: space-between;
   grid-column-gap: 2vw;
   grid-row-gap: 2vw;
-  -ms-grid-columns: 1.25fr 1.5fr 1fr 1fr;
-  grid-template-columns: 1.25fr 1.5fr 1fr 1fr;
+  -ms-grid-columns: 1fr 1.25fr 1.25fr 1fr;
+  grid-template-columns: 1fr 1.25fr 1.25fr 1fr;
   -ms-grid-rows: auto;
   grid-template-rows: auto;
   background-color: rgba(0, 0, 0, 0.94);
