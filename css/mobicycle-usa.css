@@ -3506,19 +3506,18 @@ blockquote {
   display: -ms-flexbox;
   display: flex;
   width: auto;
-  height: 100%;
+  height: auto;
   max-width: 50vw;
   margin: auto;
-  padding: 5vw 4vw 0vw;
-  -webkit-box-orient: horizontal;
+  padding: 0vw 2vw;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -webkit-flex-direction: row;
-  -ms-flex-direction: row;
-  flex-direction: row;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -3533,6 +3532,8 @@ blockquote {
   line-height: 1.8;
   font-style: italic;
   font-weight: 200;
+  -o-object-fit: scale-down;
+  object-fit: scale-down;
 }
 
 .text-block {
@@ -5289,9 +5290,9 @@ blockquote {
     bottom: auto;
     max-width: 55vw;
     margin-top: auto;
-    padding-right: 4vw;
+    padding-right: 2vw;
     padding-bottom: 0vw;
-    padding-left: 4vw;
+    padding-left: 2vw;
     font-size: 1.8vw;
   }
 
@@ -5324,6 +5325,10 @@ blockquote {
     color: #fff;
     font-size: 1.8em;
     text-shadow: none;
+  }
+
+  ._154-mouse-wrapper {
+    max-height: 10vh;
   }
 }
 
@@ -5850,11 +5855,12 @@ blockquote {
 
   .les-dechets {
     bottom: auto;
-    height: 100%;
+    height: auto;
     max-width: 55vw;
     margin-top: auto;
     margin-bottom: auto;
-    padding-left: 5vw;
+    padding-bottom: 5vw;
+    padding-left: 2vw;
     color: #fff;
     font-size: 1.8vw;
     line-height: 1.7;
@@ -6785,14 +6791,15 @@ blockquote {
 
   .les-dechets {
     bottom: auto;
+    height: auto;
+    max-height: none;
     max-width: 45vw;
-    margin-left: 0px;
-    padding-right: 1vw;
-    padding-left: 5vw;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    margin-left: auto;
+    padding-right: 0vw;
+    padding-left: 0vw;
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
     font-size: 1.4vw;
   }
 
