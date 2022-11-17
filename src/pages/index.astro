@@ -2,10 +2,14 @@
 import Head from "../components/Head/Head.astro";
 import NavBar from "../components/NavBar/NavBar.astro";
 import Slides from "../components/Body/Slides.astro";
+import Menu from "../components/Body/Menu.astro";
 import Ewaste from "../components/Body/Ewaste.astro";
+import Usp from "../components/Body/Usp.astro";
 import Different from "../components/Body/Different.astro";
+import Menu2 from "../components/Body/Menu2.astro";
 import Newsletter from "../components/Body/Newsletter.astro";
 import Footer from "../components/Footer/Footer.astro";
+
 
 ---
 <!DOCTYPE html>
@@ -20,54 +24,12 @@ import Footer from "../components/Footer/Footer.astro";
   <div class="page-wrapper">
     <div class="section transparent wf-section"></div>
     <div class="section gradient wf-section">
-      <div class="container grid w-container">
-        <div class="w-layout-grid reference-grid xs">
-          <div id="w-node-_17a8ef5e-ca24-74c4-fdc1-e07cfe3f9b23-420da0e1" data-w-id="17a8ef5e-ca24-74c4-fdc1-e07cfe3f9b23" class="text-small semi-bold mobile">BUSINESS PLAN</div>
-          <div class="text-small semi-bold">PRODUCT DEMOS</div>
-          <div data-w-id="8a90abba-9379-ac6a-c47b-3f0c2f4d734b" class="text-small semi-bold">CASE STUDIES</div>
-          <div data-w-id="8a90abba-9379-ac6a-c47b-3f0c2f4d7344" class="text-small semi-bold">CAPABILITIES STATEMENTS</div>
-          <div data-w-id="a1ae78b0-ef27-1977-d1ce-eb1658a5f5f8" class="text-small semi-bold">INDUSTRY GUIDES</div>
-          <div data-w-id="1c84291c-16c8-031f-8b14-e93284b0a7c7" class="text-small semi-bold">ELEVATOR PITCH</div>
-        </div>
-      </div>
-    </div>
-    <!-- -->
+    <Menu />
+    <Ewaste />
     <div class="spacer white hide"></div>
-    <div class="section orange2 wf-section">
-      <div class="container w-container">
-        <div class="columns w-row">
-          <div class="w-col w-col-3">
-            <div data-w-id="b1c6e618-9f72-9efb-91e5-5bc05a6af693" style="opacity:0" class="who-should-grab-h-wrap">
-              <p class="paragraph-max-402">We can be forgiven for thinking of electronic waste as <em>digital</em> waste as opposed to a physical product.</p>
-              <h3 data-w-id="b1c6e618-9f72-9efb-91e5-5bc05a6af699" style="opacity:0" class="mobicycle ebgaramond purple _3em center">eWaste or electronic waste</h3>
-            </div>
-          </div>
-          <div class="w-col w-col-4">
-            <div data-w-id="5ffe5380-0e66-eebb-5c63-cf4e0db3ade3" style="opacity:0" class="w-layout-grid ewaste _1">
-              <div data-w-id="b1c6e618-9f72-9efb-91e5-5bc05a6af6b1" style="opacity:0" class="no-color w-embed"><img src="https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/6a80a1a9-aeb6-4970-ef3c-ec0d9ec1dd00/public" alt="logo" width="100%" height="200vw"></div>
-              <h4 class="title">A critical resource</h4>
-              <p class="paragraph ewaste muli">Abandoned electronics contain precious metals. By some estimates, $62.5 billion-worth of value exists in discarded electronic items worldwide.</p>
-            </div>
-            <div data-w-id="501d4615-849b-f467-abbf-314f37bbae46" style="opacity:0" class="w-layout-grid ewaste _3">
-              <div class="no-color w-embed"><img src="https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/2fd53f9e-3864-4d91-ca1d-36ec2a536100/public" alt="logo" width="100%" height="200vw"></div>
-              <h4 class="title">Unwanted</h4>
-              <p class="paragraph ewaste muli">The term &#x27;eWaste&#x27; refers to products that are unwanted, not working, and nearing or at the end of their <strong><em>useful</em></strong> life.</p>
-            </div>
-          </div>
-          <div class="w-col w-col-5">
-            <div data-w-id="c7c37d70-5025-22c3-75de-6974ce0407dc" style="opacity:0" class="w-layout-grid ewaste _2">
-              <div class="no-color w-embed"><img src="https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/8385ce97-713b-4ecc-6a15-18f4f2c5a800/public" alt="logo" width="100%" height="200vh"></div>
-              <h4 class="title">A pollutant</h4>
-              <p class="paragraph ewaste muli">As the world&#x27;s fastest growing waste stream, improperly discarded ewaste pollutes our air, soil, and water.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- -->
-<Ewaste />
-    <!-- SPACER -->
+    <Usp />
     <div class="spacer white hide"></div>
+
     <!-- -->
     <div data-w-id="8391ff0b-a6b3-f929-4ae4-6d3b7f26f1f4" class="get-started-section wf-section">
       <div class="container _10vh-bottom">
@@ -191,42 +153,15 @@ import Footer from "../components/Footer/Footer.astro";
         </div>
       </div>
     </div>
+    
     <div class="spacer white hide"></div>
-    <!--  -->
-    <div id="Learn" class="section white wf-section">
-      <div class="container w-container">
-        <div class="w-layout-grid learn-grid">
-          <div id="w-node-_8570f2c3-9cc1-d1ec-25bb-06777274dc87-7274dc84" data-w-id="8570f2c3-9cc1-d1ec-25bb-06777274dc87" class="learn-item learn-it-2">
-            <p class="feature-paragraph">Leverage hardware and software applications to comply with environmental regulations. Replace your manual eWaste processes with digital solutions.</p>
-            <h4 class="feature-heading">MobiCycle Tech</h4>
-            <a href="https://mobicycle.tech" target="_blank" class="link"> Visit MobiCycle Tech</a>
-          </div>
-          <div id="w-node-_8570f2c3-9cc1-d1ec-25bb-06777274dc8e-7274dc84" data-w-id="8570f2c3-9cc1-d1ec-25bb-06777274dc8e" class="learn-item learn-it-1">
-            <h4 class="feature-heading">MobiCycle Consulting</h4>
-            <p class="feature-paragraph">Start with an independent review of your business processes, sustainability goals and targets.</p>
-            <a href="https://mobicycle.consulting" target="_blank" class="link"> Visit MobiCycle Consulting</a>
-          </div>
-          <div id="w-node-_8570f2c3-9cc1-d1ec-25bb-06777274dc95-7274dc84" data-w-id="8570f2c3-9cc1-d1ec-25bb-06777274dc95" class="learn-item learn-it-3">
-            <h4 class="feature-heading">MobiCycle Games</h4>
-            <p class="feature-paragraph">Navigate worlds built around the challenges of climate change, pollution and eWaste. Envision a better planet.</p>
-            <a href="https://mobicycle.games" target="_blank" class="link"> Visit MobiCycle Games</a>
-          </div>
-          <div id="w-node-_8570f2c3-9cc1-d1ec-25bb-06777274dc9c-7274dc84" data-w-id="8570f2c3-9cc1-d1ec-25bb-06777274dc9c" class="learn-item learn-it-4">
-            <h4 class="feature-heading">MobiCycle Marketing</h4>
-            <p class="feature-paragraph">Advertise your progress to your customers. Share how your best practices and technological innovations have led to sustainable outcomes.</p>
-            <a href="https://mobicycle.marketing" target="_blank" class="link"> Visit MobiCycle Marketing</a>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Menu2 />
     <div class="spacer white _25vh"></div>
-    <!-- How are we different -->
-<Different />
+    <Different />
     <div class="spacer white hide"></div>
     <div class="section transparent wf-section"></div>
-
-<Newsletter/>
-
+    <Newsletter/>
+    
   </div>
 <Footer />
 
@@ -245,7 +180,7 @@ function googleTranslateElementInit() {
 
 
   <!--  Cloudflare Web Analytics  -->
-  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{"token": "683467e738c04054bf3997ed27a815ea"}"></script>
+  <script defer="" src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon="{"token":"683467e738c04054bf3997ed27a815ea"}"></script>
   <!--  End Cloudflare Web Analytics  -->
 </body>
 </html>
