@@ -1058,6 +1058,8 @@ blockquote {
 .container.grid {
   padding-top: 10vh;
   padding-bottom: 15vh;
+  font-size: medium;
+  max-width: 10vw;
 }
 
 .container.grid.climate-change {
