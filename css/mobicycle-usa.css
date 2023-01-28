@@ -12,7 +12,7 @@
 
 body {
   font-family: Muli, sans-serif;
-  color: #000;
+  color: rgb(167, 164, 164);
   font-size: 14px;
   line-height: 20px;
 }
@@ -11217,6 +11217,21 @@ blockquote {
     z-index: 10;
     margin-top: auto;
     margin-bottom: auto;
+  }
+
+  .conclusion {
+    color: #e9e7eb;
+    line-height: 1.7em;
+  }
+
+  .conclusion-heading {
+    color: #fff;
+    text-shadow: none;
+  }
+
+  .conclusion-heading. _2 {
+    color: #fff;
+    text-shadow: none;
   }
 }
 
