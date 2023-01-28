@@ -14,6 +14,8 @@ module.exports = {
 			650: "#fff4d3",
 		  },
 		},
+		keyframes: {},
+		animation: {},
 	  },
 	},
 	plugins: [],
