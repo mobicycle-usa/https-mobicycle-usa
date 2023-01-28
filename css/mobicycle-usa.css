@@ -2127,6 +2127,10 @@ blockquote {
   text-align: center;
 }
 
+.mobicycle.width.half {
+  width: 50vw;
+}
+
 .heading-22 {
   max-width: none;
   margin-top: 60px;
