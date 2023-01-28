@@ -11220,12 +11220,13 @@ blockquote {
   }
 
   .conclusion {
-    color: #e9e7eb;
+    color: #dfab82;
     line-height: 1.7em;
+    font-size: medium;
   }
 
   .conclusion-heading {
-    color: #fff;
+    color: #dfab82;
     text-shadow: none;
   }
 
