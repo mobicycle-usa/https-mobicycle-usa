@@ -1,0 +1,20 @@
+---
+
+---
+<div class="relative pt-0 mr-4 md:mr-8 z-50">
+    <div @click="showMenu = !showMenu" class="flex items-center justify-center w-12 h-12 md:w-14 md:h-14 bg-gradient-to-bl from-gray-900 mix-blend-color-burn cursor-pointer hover:bg-purple-650 border-4" x-data="{ showMenu: false }">
+
+        <!-- THE THREE LINES -->
+        <svg class="w-10 h-10 text-gray-100 hover:text-gray-100" 
+        x-show="!showMenu" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" stroke="currentColor">
+            <path d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+
+        <!-- THE 'X' -->
+        <svg class="w-8 h-8 text-gray-100 hover:text-gray-100" 
+        x-show="showMenu" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" class=""></path>
+        </svg>
+        
+    </div>
+</div>

@@ -4358,25 +4358,25 @@ blockquote {
 }
 
 .parallax.sky {
-  background-image: url('../images/parallax-landscape-sky2.png');
+  background-image: url('https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/fde8716c-ca6a-4614-03a6-a9922d36d100/2000');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .parallax.mountains {
-  background-image: url('../images/parallax-landscape-mountains2.png');
+  background-image: url('https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/95897b23-c845-4ca9-932a-4fac7dcb6c00/2000');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .parallax.hill {
-  background-image: url('../images/parallas-landscape-hill2.png');
+  background-image: url('https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/9bc17223-ec67-491d-948a-0e1f908fa600/2000');
   background-position: 0px 0px;
   background-size: cover;
 }
 
 .parallax.forrest {
-  background-image: url('../images/parallax-landscape-forrest.png');
+  background-image: url('https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/0844a762-d277-481d-5dbc-f2c69820bf00/2000');
   background-position: 0px 0px;
   background-size: cover;
 }
@@ -13069,6 +13069,22 @@ blockquote {
   #w-node-_78f60d40-f203-03e4-acb6-0bff87bb1690-e1281808 {
     -ms-grid-column-align: center;
     justify-self: center;
+  }
+
+  @-webkit-keyframes blur {
+    0% { -webkit-filter: blur(0px);}
+    50%; { -webkit-filter: blur(5px);}
+    100% { -webkit-filter: blur(0px);}
+  }
+
+  #image {
+      width    : 500px;
+      height   : 500px;
+      background: url(https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/dbc4b5c8-6705-41a1-00c6-e026e5ef6b00/public);
+  }
+
+  #image:hover {
+      -webkit-animation: blur 2s; 
   }
 }
 

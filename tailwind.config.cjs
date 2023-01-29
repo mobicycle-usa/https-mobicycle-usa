@@ -14,6 +14,13 @@ module.exports = {
 			650: "#fff4d3",
 		  },
 		},
+		leading: {
+			'extra-loose': '5.0',
+			'10': '5rem',
+		},
+		lineHeight: {
+			'tracking-widest': '3rem'
+		},
 		keyframes: {},
 		animation: {},
 	  },
