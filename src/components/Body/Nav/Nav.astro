@@ -8,7 +8,7 @@ import Logo from "./Logo.astro";
 <Logo/>
 
 <nav 
-class="absolute right-0 select-none z-50 md:z-10" 
+class="absolute right-0 select-none" 
 :class="{'flex fixed': showMenu, 'hidden': !showMenu"> 
 
 <div
@@ -58,6 +58,7 @@ class="absolute right-0 select-none z-50 md:z-10"
         style="display: none;"
         class="absolute 
         z-50
+        md:z-20
         right-0 
         mt-4 
         shadow-md 
