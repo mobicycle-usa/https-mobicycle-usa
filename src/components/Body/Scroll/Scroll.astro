@@ -1,4 +1,6 @@
 ---
+import './css/keyframes.css';
+
 import Scroll1 from "./Scroll1.astro";
 import Scroll2 from "./Scroll2.astro";
 import Scroll3 from "./Scroll3.astro";
@@ -7,17 +9,14 @@ import Scroll5 from "./Scroll5.astro";
 ---
 
 <!-- SCROLL-->
-<div data-w-id="bb3e46c7-3f9a-31b2-d8f1-0349f268104a" class="track wf-section">
-    <div class="camera">
-      <div class="background-pic-div">
-        <div class="background-pic w-embed"><img src="https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/fa0f4cc3-381d-4d42-b35f-1c5b47bea700/800"></div>
-      </div>
-      <div class="frame">
-        <Scroll1/>
-        <Scroll2/>
-        <Scroll3/>
-        <Scroll4/>
-        <Scroll5/>
-      </div>
-    </div>
+<section id="track" class="w-full h-screen">
+<div id="camera" class="top-0 w-screen h-screen">
+  <div id="frame" class="w-full h-full"></div>
+  <div id="item"><Scroll1/></div>
+  <div id="item"><Scroll2/></div>
+  <div id="item"><Scroll3/></div>
+  <div id="item"><Scroll4/></div>
+  <div id="item"><Scroll5/></div>  
 </div>
+</section>
+
