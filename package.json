@@ -16,7 +16,8 @@
     "@types/alpinejs": "^3.7.1",
     "alpinejs": "^3.11.1",
     "animate.css": "^4.1.1",
-    "astro": "^2.0.4"
+    "astro": "^2.0.4",
+    "tailwindcss-animatecss": "^3.0.2"
   },
   "devDependencies": {
     "tailwindcss": "^3.2.4",
