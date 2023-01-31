@@ -21,10 +21,10 @@ module.exports = {
 		lineHeight: {
 			'tracking-widest': '3rem'
 		},
-		keyframes: {},
-		animation: {},
 	  },
 	},
-	plugins: [],
+	plugins: [
+		require("tailwindcss-animate"),
+	],
   };
   
