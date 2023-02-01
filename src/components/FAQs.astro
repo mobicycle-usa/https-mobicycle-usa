@@ -80,7 +80,7 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
 
       <!-- QUESTION 3 -->
       <div x-data="{
-        id: 2,
+        id: 3,
         get expanded() {
             return this.active === this.id
         },
@@ -109,7 +109,36 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
 
       <!-- QUESTION 4 -->
       <div x-data="{
-        id: 2,
+        id: 4,
+        get expanded() {
+            return this.active === this.id
+        },
+        set expanded(value) {
+            this.active = value ? this.id : null
+        },
+    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-600 shadow">
+        <h2>
+            <button
+                x-on:click="expanded = !expanded"
+                :aria-expanded="expanded"
+                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold"
+            >
+                <span>How much do your solutions cost?</span>
+                <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
+                <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
+            </button>
+        </h2>
+
+        <div x-show="expanded" x-collapse>
+            <div class="px-6 pb-4">
+              Pricing information is available at <a href="https:/pricing.mobicycle.group">here</a>.
+            </div>
+        </div>
+    </div>
+
+      <!-- QUESTION 5 -->
+      <div x-data="{
+        id: 5,
         get expanded() {
             return this.active === this.id
         },
