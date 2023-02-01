@@ -27,15 +27,21 @@
       <!-- BOX -->
       <div class="w-full md:w-1/2 p-6">
         <div class="md:max-w-xl">
+          
+          <!-- FORM -->
+          <form method="POST" action="/api/submit">
           <div class="mb-5 p-1 flex flex-col md:flex-row bg-gray-900 overflow-hidden focus-within:ring-4 focus-within:ring-purple-650">
-            <input class="w-full flex-1 px-5 py-3.5 text-base text-gray-500 bg-transparent outline-none placeholder-gray-500 rounded-tl-md rounded-bl-md" type="text" placeholder="Your email address">
+
+            <label for="i-email"></label>
+            <input class="w-full flex-1 px-5 py-3.5 text-base text-gray-500 bg-transparent outline-none placeholder-gray-500 rounded-tl-md rounded-bl-md" id="i-email" type="email" name="email" required placeholder="Your email address">
+
             <div class="group relative">
 
               <!-- ??? -->
               <div class="absolute top-0 left-0 w-full h-full bg-gradient-orange opacity-0 group-hover:opacity-50 rounded-lg transition ease-out duration-300"></div>
 
               <!-- BUTTON -->
-              <button class="p-1 w-full font-heading font-semibold text-xs text-white uppercase tracking-px overflow-hidden rounded-md">
+              <button class="p-1 w-full font-heading font-semibold text-xs text-white uppercase tracking-px overflow-hidden rounded-md" type="submit">
                 <div class="relative py-4 px-8 bg-gradient-orange overflow-hidden rounded-md">
                   <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gray-900 transition ease-in-out duration-500"></div>
                   <p class="relative z-10">Subscribe now</p>
@@ -44,8 +50,10 @@
 
             </div>
           </div>
+        </form>
         </div>
       </div>
+
     </div>
   </div>
 </section>
