@@ -1,9 +1,17 @@
 ---
+import Nav from "../components/Body/Header/Nav/Nav.astro";
+import Footer from "../components/Body/Footer/Footer.astro";
 import Head from "../components/Head/Head.astro";
 import WhitePaper from "../components/WhitePaper.astro";
 ---
 
 <html lang="en">
-<Head/>
-<WhitePaper/>
+    <div class="bg-gray-400">
+        <Head/>
+        <div class="pt-14">
+            <Nav/>
+        </div>
+        <WhitePaper/>
+        <Footer/>
+    </div>
 </html>
