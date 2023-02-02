@@ -165,5 +165,62 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
         </div>
     </div>
 
+      <!-- QUESTION 6 -->
+      <div x-data="{
+        id: 6,
+        get expanded() {
+            return this.active === this.id
+        },
+        set expanded(value) {
+            this.active = value ? this.id : null
+        },
+    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-600 shadow">
+        <h2>
+            <button
+                x-on:click="expanded = !expanded"
+                :aria-expanded="expanded"
+                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold"
+            >
+                <span>How do your calculations differ from others?</span>
+                <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
+                <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
+            </button>
+        </h2>
+
+        <div x-show="expanded" x-collapse>
+            <div class="px-6 pb-4">
+              We focus on supply chain emissions for electronics and electricals. We also consider biodiversity loss and pollution in general. 
+            </div>
+        </div>
+    </div>
+
+      <!-- QUESTION 7 -->
+      <div x-data="{
+        id: 7,
+        get expanded() {
+            return this.active === this.id
+        },
+        set expanded(value) {
+            this.active = value ? this.id : null
+        },
+    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-600 shadow">
+        <h2>
+            <button
+                x-on:click="expanded = !expanded"
+                :aria-expanded="expanded"
+                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold"
+            >
+                <span>How does your methodology differ?</span>
+                <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
+                <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
+            </button>
+        </h2>
+
+        <div x-show="expanded" x-collapse>
+            <div class="px-6 pb-4">
+              We focus on supply chain emissions for electronics and electricals. We also consider biodiversity loss and pollution in general. 
+            </div>
+        </div>
+    </div>
 
 </section>
