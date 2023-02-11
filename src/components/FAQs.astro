@@ -3,14 +3,14 @@ import PlusSVG from "./Body/SVG/plusSVG.astro";
 import MinusSVG from "./Body/SVG/minusSVG.astro";
 ---
 <!-- FAQs -->
-<section class="py-24 text-gray-300" style="background-image: url('flex-ui-assets/elements/pattern-dark2.svg'); background-position: center;">
+<section class="py-24 text-gray-300">
 
   <!-- HEADER -->
   <div class="container px-4 mx-auto pb-32">
     <div class="max-w-2xl mx-auto text-center space-y-10">
       <h2 class="mb-4 text-orange-650 text-3xl md:text-4xl font-heading font-bold">Scope 3 emissions. Pollution. Biodiversity Loss.</h2>
       <p class="mb-6 text-lg md:text-xl font-heading font-medium text-orange-650">It's a lot to take in. We get it.</p>
-      <a class="inline-block py-3 px-7 w-full md:w-auto text-lg leading-7 text-green-50 bg-purple-650 hover:bg-orange-650 font-medium text-center focus:ring-2 focus:ring-green-500 focus:ring-opacity-50 border border-gray-200 rounded-md shadow-sm" href="https://mobicycle.support">Talk to Support</a>
+      <a class="inline-block py-3 px-7 w-full md:w-auto text-lg leading-7 text-green-50 bg-purple-650 hover:bg-orange-650 font-medium text-center focus:ring-2 focus:ring-purple-650 focus:ring-opacity-50 border rounded-md shadow-white" href="https://mobicycle.support">Talk to Support</a>
     </div>
   </div>
 
@@ -19,7 +19,7 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
   <div class="max-w-4xl mx-auto space-y-10">
 
     <!-- QUESTION 1 -->
-    <div x-data="{ active: 1 }" class="mx-auto max-w-3xl w-full min-h-[16rem] space-y-4">
+    <div x-data="{ active: 1 }" class="mx-auto max-w-3xl w-full min-h-[16rem] space-y-6">
       <div x-data="{
           id: 1,
           get expanded() {
@@ -28,21 +28,21 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
           set expanded(value) {
               this.active = value ? this.id : null
           },
-      }" role="region" class="rounded-lg bg-gradient-to-r from-gray-100 shadow">
+      }" role="region" class="rounded-lg bg-gradient-to-r from-gray-700 shadow">
           <h2>
               <button
                   x-on:click="expanded = !expanded"
                   :aria-expanded="expanded"
-                  class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold"
+                  class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
               >
-                  <span class="text-slate-500">How do I schedule a demo?</span>
+                  <span class="text-purple-650 font-mono">How do I schedule a demo?</span>
                   <span x-show="expanded" aria-hidden="true" class="ml-4"> <PlusSVG/></span>
                   <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
               </button>
           </h2>
   
           <div x-show="expanded" x-collapse>
-              <div class="px-6 pb-4 text-orange-650">
+              <div class="px-6 py-4 text-gray-200 max-w-lg">
                 Please contact Sales to schedule a private demo.
               </div>
           </div>
@@ -58,21 +58,21 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
           set expanded(value) {
               this.active = value ? this.id : null
           },
-      }" role="region" class="rounded-lg bg-gradient-to-r from-gray-100 shadow">
+      }" role="region" class="rounded-lg bg-gradient-to-r from-gray-700 shadow">
           <h2>
               <button
                   x-on:click="expanded = !expanded"
                   :aria-expanded="expanded"
-                  class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold"
+                  class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
               >
-                  <span class="text-slate-500">How do I reach Sales or Support?</span>
+                  <span class="text-purple-650 font-mono">How do I reach Sales or Support?</span>
                   <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                   <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
               </button>
           </h2>
   
           <div x-show="expanded" x-collapse>
-              <div class="px-6 pb-4 ">
+              <div class="px-6 py-4 text-gray-200 max-w-lg">
                 Please click the link above or navigate to <a href="https://mobicycle.support">MobiCycle Support</a>.
               </div>
           </div>
@@ -87,21 +87,21 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
         set expanded(value) {
             this.active = value ? this.id : null
         },
-    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-100 shadow">
+    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-700 shadow">
         <h2>
             <button
                 x-on:click="expanded = !expanded"
                 :aria-expanded="expanded"
-                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold"
+                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
             >
-                <span class="text-slate-500">Do you handle or collect waste?</span>
+                <span class="text-purple-650 font-mono">Do you handle or collect waste?</span>
                 <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                 <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
             </button>
         </h2>
 
         <div x-show="expanded" x-collapse>
-            <div class="px-6 pb-4">
+            <div class="px-6 py-4 text-gray-200 max-w-lg">
               We are a technology services provider. We do not handle waste. We do, however, sell specialty waste containers.
             </div>
         </div>
@@ -116,21 +116,21 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
         set expanded(value) {
             this.active = value ? this.id : null
         },
-    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-100 shadow">
+    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-700 shadow">
         <h2>
             <button
                 x-on:click="expanded = !expanded"
                 :aria-expanded="expanded"
-                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold"
+                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
             >
-                <span class="text-slate-500">How much do your solutions cost?</span>
+                <span class="text-purple-650 font-mono">How much do your solutions cost?</span>
                 <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                 <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
             </button>
         </h2>
 
         <div x-show="expanded" x-collapse>
-            <div class="px-6 pb-4">
+            <div class="px-6 py-4 text-gray-200 max-w-lg">
               Pricing information is available at <a href="https:/pricing.mobicycle.group">here</a>.
             </div>
         </div>
@@ -145,21 +145,21 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
         set expanded(value) {
             this.active = value ? this.id : null
         },
-    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-100 shadow">
+    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-700 shadow">
         <h2>
             <button
                 x-on:click="expanded = !expanded"
                 :aria-expanded="expanded"
-                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold"
+                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
             >
-                <span class="text-slate-500">What if I have trouble logging in?</span>
+                <span class="text-purple-650 font-mono">What if I have trouble logging in?</span>
                 <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                 <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
             </button>
         </h2>
 
         <div x-show="expanded" x-collapse>
-            <div class="px-6 pb-4">
+            <div class="px-6 py-4 text-gray-200 max-w-lg">
               Please click the link above or navigate to <a href="https://mobicycle.support">MobiCycle Support</a>.
             </div>
         </div>
@@ -174,21 +174,21 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
         set expanded(value) {
             this.active = value ? this.id : null
         },
-    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-100 shadow">
+    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-700 shadow">
         <h2>
             <button
                 x-on:click="expanded = !expanded"
                 :aria-expanded="expanded"
-                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold"
+                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
             >
-                <span class="text-slate-500">How do your calculations differ from others?</span>
+                <span class="text-purple-650 font-mono">How do your calculations differ from others?</span>
                 <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                 <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
             </button>
         </h2>
 
         <div x-show="expanded" x-collapse>
-            <div class="px-6 pb-4">
+            <div class="px-6 py-4 text-gray-200 max-w-lg">
               We focus on supply chain emissions for electronics and electricals. We also consider biodiversity loss and pollution in general. 
             </div>
         </div>
@@ -203,21 +203,21 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
         set expanded(value) {
             this.active = value ? this.id : null
         },
-    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-100 shadow">
+    }" role="region" class="rounded-lg bg-gradient-to-r from-gray-700 shadow">
         <h2>
             <button
                 x-on:click="expanded = !expanded"
                 :aria-expanded="expanded"
-                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold"
+                class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
             >
-                <span class="text-slate-500">How does your methodology differ?</span>
+                <span class="text-purple-650 font-mono">How does your methodology differ?</span>
                 <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                 <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
             </button>
         </h2>
 
         <div x-show="expanded" x-collapse>
-            <div class="px-6 pb-4">
+            <div class="px-6 py-4 text-gray-200 max-w-lg">
               We focus on supply chain emissions for electronics and electricals. We also consider biodiversity loss and pollution in general. 
             </div>
         </div>
