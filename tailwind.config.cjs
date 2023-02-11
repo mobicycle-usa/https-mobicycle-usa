@@ -35,7 +35,6 @@ module.exports = {
 		require('tailwindcss-animatecss'),
 		require('@tailwindcss/typography'),
 		require('@tailwindcss/forms'),
-
 	],
   };
   
