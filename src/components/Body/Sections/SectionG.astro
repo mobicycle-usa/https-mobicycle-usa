@@ -11,7 +11,7 @@ import Newsletter from "../Forms/Newsletter.astro";
           <div class="flex flex-wrap -m-3">
             <div class="w-auto p-3">
               <div class="flex items-center justify-center w-12 h-12 bg-gradient-green rounded-full">
-                <svg width="26" height="26" viewbox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M3.25 20.5833V10.9095C3.25 10.1851 3.61205 9.50861 4.21482 9.10676L11.7982 4.05121C12.5259 3.56602 13.4741 3.56602 14.2019 4.05121L21.7852 9.10676C22.3879 9.50861 22.75 10.1851 22.75 10.9095V20.5833M3.25 20.5833C3.25 21.7799 4.22005 22.75 5.41667 22.75H20.5833C21.78 22.75 22.75 21.7799 22.75 20.5833M3.25 20.5833L10.5625 15.7083M22.75 20.5833L15.4375 15.7083M3.25 10.8333L10.5625 15.7083M22.75 10.8333L15.4375 15.7083M15.4375 15.7083L14.2019 16.5321C13.4741 17.0173 12.5259 17.0173 11.7982 16.5321L10.5625 15.7083" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                 </svg>
               </div>
@@ -27,23 +27,7 @@ import Newsletter from "../Forms/Newsletter.astro";
       <!-- BOX -->
       <div class="w-full md:w-1/2 p-6">
         <div class="md:max-w-xl">
-          <div class="mb-5 p-1 flex flex-col md:flex-row bg-gray-900 overflow-hidden focus-within:ring-4 focus-within:ring-purple-650">
-            <input class="w-full flex-1 px-5 py-3.5 text-base text-gray-500 bg-transparent outline-none placeholder-gray-500 rounded-tl-md rounded-bl-md" type="text" placeholder="Your email address">
-            <div class="group relative">
-
-              <!-- ??? -->
-              <div class="absolute top-0 left-0 w-full h-full bg-gradient-orange opacity-0 group-hover:opacity-50 rounded-lg transition ease-out duration-300"></div>
-
-              <!-- BUTTON -->
-              <button class="p-1 w-full font-heading font-semibold text-xs text-white uppercase tracking-px overflow-hidden rounded-md">
-                <div class="relative py-4 px-8 bg-gradient-orange overflow-hidden rounded-md">
-                  <div class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-gray-900 transition ease-in-out duration-500"></div>
-                  <p class="relative z-10">Subscribe now</p>
-                </div>
-              </button>
-
-            </div>
-          </div>
+          <Newsletter/>
         </div>
       </div>
     </div>
