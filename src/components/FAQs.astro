@@ -35,15 +35,15 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
                   :aria-expanded="expanded"
                   class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
               >
-                  <span class="text-purple-650 font-mono">How do I schedule a demo?</span>
+                  <span class="text-purple-650 font-serif">How do I schedule a demo?</span>
                   <span x-show="expanded" aria-hidden="true" class="ml-4"> <PlusSVG/></span>
                   <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
               </button>
           </h2>
   
           <div x-show="expanded" x-collapse>
-              <div class="px-6 py-4 text-gray-200 max-w-lg">
-                Please contact Sales to schedule a private demo.
+              <div class="px-6 py-4 text-gray-200 max-w-full">
+                Please contact <a href="https://mobicycle.support" class="text-orange-650 italic hover:not-italic hover:text-gray-300"> Sales </a>to schedule a private demo.
               </div>
           </div>
       </div>
@@ -65,15 +65,15 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
                   :aria-expanded="expanded"
                   class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
               >
-                  <span class="text-purple-650 font-mono">How do I reach Sales or Support?</span>
+                  <span class="text-purple-650 font-serif">How do I reach Sales or Support?</span>
                   <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                   <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
               </button>
           </h2>
   
           <div x-show="expanded" x-collapse>
-              <div class="px-6 py-4 text-gray-200 max-w-lg">
-                Please click the link above or navigate to <a href="https://mobicycle.support">MobiCycle Support</a>.
+              <div class="px-6 py-4 text-gray-200 max-w-full">
+                Please navigate to <a href="https://mobicycle.support" class="text-orange-650 italic hover:not-italic hover:text-gray-300"> MobiCycle Support</a> on https://mobicycle.support.
               </div>
           </div>
       </div>
@@ -94,15 +94,15 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
                 :aria-expanded="expanded"
                 class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
             >
-                <span class="text-purple-650 font-mono">Do you handle or collect waste?</span>
+                <span class="text-purple-650 font-serif">Do you handle or collect waste?</span>
                 <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                 <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
             </button>
         </h2>
 
         <div x-show="expanded" x-collapse>
-            <div class="px-6 py-4 text-gray-200 max-w-lg">
-              We are a technology services provider. We do not handle waste. We do, however, sell specialty waste containers.
+            <div class="px-6 py-4 text-gray-200 max-w-full">
+              As a technology services provider, we prefer not to handle waste. We can, however, sell you <a href="https://bins.mobi" class="text-orange-650 italic hover:not-italic hover:text-gray-300">specialty waste containers</a>.
             </div>
         </div>
     </div>
@@ -123,15 +123,15 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
                 :aria-expanded="expanded"
                 class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
             >
-                <span class="text-purple-650 font-mono">How much do your solutions cost?</span>
+                <span class="text-purple-650 font-serif">How much do your solutions cost?</span>
                 <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                 <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
             </button>
         </h2>
 
         <div x-show="expanded" x-collapse>
-            <div class="px-6 py-4 text-gray-200 max-w-lg">
-              Pricing information is available at <a href="https:/pricing.mobicycle.group">https://pricing.mobicycle.group</a>.
+            <div class="px-6 py-4 text-gray-200 max-w-full">
+                <a href="https://mobicycle.support" class="text-orange-650 italic hover:not-italic hover:text-gray-300">Pricing</a> information is available at <a href="https:/pricing.mobicycle.group">https://pricing.mobicycle.group</a>.
             </div>
         </div>
     </div>
@@ -152,7 +152,7 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
                 :aria-expanded="expanded"
                 class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
             >
-                <span class="text-purple-650 font-mono">What if I have trouble logging in?</span>
+                <span class="text-purple-650 font-serif">What if I have trouble logging in?</span>
                 <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                 <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
             </button>
@@ -160,7 +160,7 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
 
         <div x-show="expanded" x-collapse>
             <div class="px-6 py-4 text-gray-200 max-w-lg">
-              Please click the link above or navigate to <a href="https://mobicycle.support">MobiCycle Support</a>.
+                Please contact <a href="https://mobicycle.support" class="text-orange-650 italic hover:not-italic hover:text-gray-300"> MobiCycle Support </a>.
             </div>
         </div>
     </div>
@@ -181,7 +181,7 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
                 :aria-expanded="expanded"
                 class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
             >
-                <span class="text-purple-650 font-mono">How do your calculations differ from others?</span>
+                <span class="text-purple-650 font-serif">How do your calculations differ from others?</span>
                 <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                 <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
             </button>
@@ -189,7 +189,7 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
 
         <div x-show="expanded" x-collapse>
             <div class="px-6 py-4 text-gray-200 max-w-lg">
-              We focus on supply chain emissions for electronics and electricals. We also consider biodiversity loss and pollution in general. 
+               We go beyond the Greenhouse Gas Protocol, Principal Adverse Indicators or a generic list of sustainability factors.
             </div>
         </div>
     </div>
@@ -210,7 +210,7 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
                 :aria-expanded="expanded"
                 class="flex w-full items-center justify-between px-6 py-4 text-xl font-bold rounded-t-lg bg-gradient-to-r from-gray-200 shadow"
             >
-                <span class="text-purple-650 font-mono">How does your methodology differ?</span>
+                <span class="text-purple-650 font-serif">How does your methodology differ?</span>
                 <span x-show="expanded" aria-hidden="true" class="ml-4"><PlusSVG/></span>
                 <span x-show="!expanded" aria-hidden="true" class="ml-4"><MinusSVG/></span>
             </button>
@@ -218,7 +218,7 @@ import MinusSVG from "./Body/SVG/minusSVG.astro";
 
         <div x-show="expanded" x-collapse>
             <div class="px-6 py-4 text-gray-200 max-w-lg">
-              We focus on supply chain emissions for electronics and electricals. We also consider biodiversity loss and pollution in general. 
+               We focus on supply chain emissions for electronics and electricals. We also account for environmental impacts due to biodiversity loss and pollution.
             </div>
         </div>
     </div>
