@@ -22,6 +22,9 @@ dependencies:
   astro:
     specifier: ^2.0.4
     version: 2.0.4
+  dayjs:
+    specifier: ^1.11.9
+    version: 1.11.9
   tailwindcss-animatecss:
     specifier: ^3.0.2
     version: 3.0.2(tailwindcss@3.3.0)
@@ -1822,6 +1825,10 @@ packages:
 
   /dateformat@3.0.3:
     resolution: {integrity: sha512-jyCETtSl3VMZMWeRo7iY1FL19ges1t55hMo5yaam4Jrsm5EPL89UQkoQRyiI+Yf4k8r2ZpdngkV8hr1lIdjb3Q==}
+    dev: false
+
+  /dayjs@1.11.9:
+    resolution: {integrity: sha512-QvzAURSbQ0pKdIye2txOzNaHmxtUBXerpY0FJsFXUMKbIZeFm5ht1LS/jFsrncjnmtv8HsG0W2g6c0zUjZWmpA==}
     dev: false
 
   /debug@4.3.4:
