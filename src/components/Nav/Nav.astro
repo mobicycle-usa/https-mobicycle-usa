@@ -9,15 +9,15 @@ import Logo200 from '../Logos/Logo_200.astro';
 <!-- NAVIGATION BAR -->
 <Logo200 />
 
-<nav class="fixed right-10 select-none">
+<nav class="fixed select-none right-10">
 	<div class="relative text-right">
 		<!-- BURGER -->
-		<button id="toggleButton" type="button" class="relative rounded-md mb-6 shadow-orange-650">
+		<button id="toggleButton" type="button" class="relative mb-6 rounded-md">
 			<Burger />
 		</button>
 
 		<!-- MENU -->
-		<div id="menuPanel" class="absolute -right-10 z-10 shadow-md rounded-t-lg bg-gray-900 lg:bg-transparent" style="display: none; opacity: 0; transition: opacity 1s ease-in-out;">
+		<div id="menuPanel" class="absolute z-10 bg-gray-900 rounded-t-lg shadow-md -right-10 lg:bg-transparent" style="display: none; opacity: 0; transition: opacity 1s ease-in-out;">
 			<Menu />
 			<Demo />
 		</div>
