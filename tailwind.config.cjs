@@ -31,10 +31,8 @@ module.exports = {
 	  }
 	},
 	plugins: [
-		require("tailwindcss-animate"),
 		require('tailwindcss-animatecss'),
 		require('@tailwindcss/typography'),
 		require('@tailwindcss/forms'),
 	],
   };
-  
