@@ -1,9 +1,8 @@
 ---
 import Title from "./Titles/Title.astro";
-import Gradient from "../Body/Gradient.astro";
+import One from "./One.astro";
 import Three from "./Three.astro";
-import Four from "./Four.astro";
-import Six from "./Six.astro";
+import Two from "./Two.astro";
 import Footer from "../Footer/Footer.astro";
 import Memberships from "./Memberships.astro";
 import Background from "./Header/Background/Background.astro";
@@ -14,13 +13,14 @@ import Background from "./Header/Background/Background.astro";
 
 <!-- CONTENT -->
 
-<div class="space-y-20 lg:space-y-20 mt-20">
-	<div class="flex justify px-8 xl:px-32"><Three /></div>
-	<div class="flex justify p-8 xl:px-32"><Four /></div>
+<div class="space-y-40 mt-20 container mx-auto">
+	<div class="flex justify px-8"><One /></div>
+	<div class="flex justify px-8"><Two /></div>
+	<div class="flex justify px-8"><Three /></div>
 </div>
 <!-- FOOTER -->
-<div class="flex justify-end px-8 xl:px-32"><Six /></div>
-<div class="space-y-20 lg:space-y-0 mt-20">
+
+<div class="space-y-0">
 	<div class="flex justify-end p-8 xl:px-32 dark:invert hover:bg-gradient-to-l hover:from-white-650"><Memberships /></div>
 	<div class="px-8 xl:px-32 pb-10 hover:bg-slate-650 dark:bg-black"><Footer /></div>
 </div>
