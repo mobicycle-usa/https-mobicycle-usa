@@ -4,20 +4,20 @@ import Burger from './Burger.astro';
 import Menu from './Menu.astro';
 import Demo from './Demo.astro';
 import Logo200 from '../Logos/Logo_200.astro';
+import Logo50 from '../Logos/Logo_50.astro';
 ---
+<div class="hidden md:flex pt-0 2xl:pt-10"><Logo50/></div>
+<div class="absolute md:hidden left-10"><Logo200/></div>
 
-<!-- NAVIGATION BAR -->
-<Logo200 />
-
-<nav class="fixed select-none right-10">
+<nav class="fixed right-10 select-none pb-20">
 	<div class="relative text-right">
 		<!-- BURGER -->
-		<button id="toggleButton" type="button" class="relative mb-6 rounded-md">
+		<button id="toggleButton" type="button" class="relative rounded-md mb-6 shadow-orange-650 md:pr-10">
 			<Burger />
 		</button>
 
 		<!-- MENU -->
-		<div id="menuPanel" class="absolute z-10 bg-gray-900 rounded-t-lg shadow-md -right-10 lg:bg-transparent" style="display: none; opacity: 0; transition: opacity 1s ease-in-out;">
+		<div id="menuPanel" class="absolute -right-10 z-10 shadow-md rounded-t-lg bg-gray-900 lg:bg-transparent" style="display: none; opacity: 0; transition: opacity 1s ease-in-out;">
 			<Menu />
 			<Demo />
 		</div>
