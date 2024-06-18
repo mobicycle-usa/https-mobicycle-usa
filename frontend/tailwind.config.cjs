@@ -25,6 +25,9 @@ module.exports = {
 		  slate: {
 			650: "#111827",
 		  },
+		  transparent: {
+			650: "transparent",
+		  },
 		},
 		leading: {
 			'extra-loose': '5.0',
