@@ -40,15 +40,23 @@
 </div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        var menuToggle = document.getElementById('menuToggle');
-        var openIcon = document.getElementById('openIcon');
-        var closeIcon = document.getElementById('closeIcon');
+document.addEventListener('DOMContentLoaded', function () {
+    var menuToggle = document.getElementById('menuToggle');
+    var openIcon = document.getElementById('openIcon');
+    var closeIcon = document.getElementById('closeIcon');
 
+    // Ensure all elements are not null before proceeding
+    if (menuToggle && openIcon && closeIcon) {
         menuToggle.addEventListener('click', function () {
-            var isMenuOpen = closeIcon.style.display === 'block';
-            openIcon.style.display = isMenuOpen ? 'block' : 'none';
-            closeIcon.style.display = isMenuOpen ? 'none' : 'block';
+            if (closeIcon && openIcon) { // Check both closeIcon and openIcon again
+                var isMenuOpen = closeIcon.style.display === 'block';
+                openIcon.style.display = isMenuOpen ? 'none' : 'block';
+                closeIcon.style.display = isMenuOpen ? 'block' : 'none';
+            }
         });
-    });
+    } else {
+        // Log to console if any element is missing
+        console.log('One or more elements are missing: menuToggle, openIcon, or closeIcon!');
+    }
+});
 </script>
