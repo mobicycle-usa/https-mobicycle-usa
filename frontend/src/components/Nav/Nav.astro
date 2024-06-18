@@ -26,52 +26,41 @@ import Logo50 from '../Logos/Logo_50.astro';
 
 <script>
 document.addEventListener('DOMContentLoaded', function () {
-    var button = document.getElementById('toggleButton');
-    var menu = document.getElementById('menuPanel');
+    const button = document.getElementById('toggleButton');
+    const menu = document.getElementById('menuPanel');
 
-    // Ensure that button is not null before adding event listeners
-    if (button !== null) {
-        button.addEventListener('click', function () {
-            // Check if menu is not null each time the button is clicked
-            if (menu !== null) {
-                var isClosed = menu.style.display === 'none';
-                if (isClosed) {
-                    menu.style.display = 'block';
-                    setTimeout(() => {
-                        // Recheck menu is not null after the timeout
-                        if (menu !== null) {
-                            menu.style.opacity = '1';
-                        }
-                    }, 10);
-                } else {
-                    menu.style.opacity = '0';
-                    menu.addEventListener('transitionend', function hideMenu() {
-                        // Check menu is not null inside the event listener
-                        if (menu !== null && menu.style.opacity === '0') {
-                            menu.style.display = 'none';
-                            menu.removeEventListener('transitionend', hideMenu);
-                        }
-                    });
-                }
+    if (button && menu) {
+        button.addEventListener('click', function (event: MouseEvent) {
+            const isClosed = menu.style.display === 'none';
+            if (isClosed) {
+                menu.style.display = 'block';
+                setTimeout(() => {
+                    if (menu) {
+                        menu.style.opacity = '1';
+                    }
+                }, 10);
+            } else {
+                menu.style.opacity = '0';
+                menu.addEventListener('transitionend', function handleTransitionEnd(event: TransitionEvent) {
+                    if (menu.style.opacity === '0') {
+                        menu.style.display = 'none';
+                        menu.removeEventListener('transitionend', handleTransitionEnd);
+                    }
+                });
             }
         });
 
-        window.addEventListener('keydown', function (event) {
-            if (event.key === 'Escape' && menu !== null && menu.style.display === 'block') {
+        window.addEventListener('keydown', function (event: KeyboardEvent) {
+            if (event.key === 'Escape' && menu.style.display === 'block') {
                 menu.style.opacity = '0';
             }
         });
 
-		window.addEventListener('click', function (event) {
-    // Ensure both 'menu' and 'button' are not null before accessing their properties
-    if (button !== null && menu !== null && menu.style.display === 'block') {
-        // Use 'contains' to check if the clicked target is outside both 'button' and 'menu'
-        if (!button.contains(event.target as Node) && !menu.contains(event.target as Node)) {
-            menu.style.opacity = '0';
-        }
+        window.addEventListener('click', function (event: MouseEvent) {
+            if (menu.style.display === 'block' && !button.contains(event.target as Node) && !menu.contains(event.target as Node)) {
+                menu.style.opacity = '0';
+            }
+        });
     }
 });
-    }
-});
-
 </script>
