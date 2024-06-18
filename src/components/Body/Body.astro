@@ -1,11 +1,12 @@
 ---
 import Title from "./Titles/Title.astro";
 import One from "./One.astro";
-import Three from "./Three.astro";
+import Four from "./Four.astro";
 import Two from "./Two.astro";
 import Footer from "../Footer/Footer.astro";
 import Memberships from "./Memberships.astro";
 import Background from "./Header/Background/Background.astro";
+import Three from "./Three.astro";
 ---
 
 <Background/>
@@ -17,10 +18,11 @@ import Background from "./Header/Background/Background.astro";
 	<div class="flex justify px-8"><One /></div>
 	<div class="flex justify px-8"><Two /></div>
 	<div class="flex justify px-8"><Three /></div>
+	<div class="flex justify px-8"><Four /></div>
 </div>
 <!-- FOOTER -->
 
 <div class="space-y-0">
-	<div class="flex justify-end p-8 xl:px-32 dark:invert hover:bg-gradient-to-l hover:from-white-650"><Memberships /></div>
+	<div class="flex justify-end px-40 py-2 dark:invert hover:bg-gradient-to-l hover:from-white-650"><Memberships /></div>
 	<div class="px-8 xl:px-32 pb-10 hover:bg-slate-650 dark:bg-black"><Footer /></div>
 </div>
