@@ -1,0 +1,62 @@
+---
+// /frontend/src/components/Nav/Nav.astro
+import Burger from './Burger.astro';
+import Menu from './Menu.astro';
+import Demo from './Demo.astro';
+import Logo200 from '../Logos/Logo_200.astro';
+---
+
+<!-- NAVIGATION BAR -->
+<Logo200 />
+
+<nav class="fixed select-none right-10">
+	<div class="relative text-right">
+		<!-- BURGER -->
+		<button id="toggleButton" type="button" class="relative mb-6 rounded-md">
+			<Burger />
+		</button>
+
+		<!-- MENU -->
+		<div id="menuPanel" class="absolute z-10 bg-gray-900 rounded-t-lg shadow-md -right-10 lg:bg-transparent" style="display: none; opacity: 0; transition: opacity 1s ease-in-out;">
+			<Menu />
+			<Demo />
+		</div>
+	</div>
+</nav>
+
+<script>
+	document.addEventListener('DOMContentLoaded', function () {
+		var button = document.getElementById('toggleButton');
+		var menu = document.getElementById('menuPanel');
+
+		button.addEventListener('click', function () {
+			var isClosed = menu.style.display === 'none';
+			if (isClosed) {
+				menu.style.display = 'block';
+				// Use setTimeout to allow the display change to take effect
+				setTimeout(() => (menu.style.opacity = '1'), 10);
+			} else {
+				menu.style.opacity = '0';
+				// Use transitionend event to set display to 'none' after the transition
+				menu.addEventListener('transitionend', function hideMenu() {
+					if (menu.style.opacity === '0') {
+						menu.style.display = 'none';
+						menu.removeEventListener('transitionend', hideMenu);
+					}
+				});
+			}
+		});
+
+		window.addEventListener('keydown', function (event) {
+			if (event.key === 'Escape' && menu.style.display === 'block') {
+				menu.style.opacity = '0';
+			}
+		});
+
+		window.addEventListener('click', function (event) {
+			if (menu.style.display === 'block' && !button.contains(event.target) && !menu.contains(event.target)) {
+				menu.style.opacity = '0';
+			}
+		});
+	});
+</script>

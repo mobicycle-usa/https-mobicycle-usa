@@ -1,0 +1,54 @@
+---
+---
+
+<div class="relative z-50">
+	<div
+		id="menuToggle"
+		class="flex items-center justify-center border-4 border-orange-650 cursor-auto sm:w-14 sm:h-14 bg-gradient-to-r from-orange-650 mix-blend-color-burn hover:bg-purple-650">
+		<!-- THE THREE LINES -->
+		<svg
+			id="openIcon"
+			class="w-10 h-10 text-yellow-650 hover:text-gray-100"
+			fill="none"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+			stroke-width="2"
+			viewBox="0 0 24 24"
+			stroke="currentColor"
+			style="display: block;">
+			<path d="M4 6h16M4 12h16M4 18h16"></path>
+		</svg>
+
+		<!-- THE 'X' -->
+		<svg
+			id="closeIcon"
+			class="w-8 h-8 text-gray-100 hover:text-gray-100"
+			fill="none"
+			stroke="currentColor"
+			viewBox="0 0 24 24"
+			xmlns="http://www.w3.org/2000/svg"
+			style="display: none;">
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				stroke-width="2"
+				d="M6 18L18 6M6 6l12 12"
+				class=""
+			></path>
+		</svg>
+	</div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        var menuToggle = document.getElementById('menuToggle');
+        var openIcon = document.getElementById('openIcon');
+        var closeIcon = document.getElementById('closeIcon');
+
+        menuToggle.addEventListener('click', function () {
+            var isMenuOpen = closeIcon.style.display === 'block';
+            openIcon.style.display = isMenuOpen ? 'block' : 'none';
+            closeIcon.style.display = isMenuOpen ? 'none' : 'block';
+        });
+    });
+</script>
