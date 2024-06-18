@@ -25,38 +25,53 @@ import Logo200 from '../Logos/Logo_200.astro';
 </nav>
 
 <script>
-	document.addEventListener('DOMContentLoaded', function () {
-		var button = document.getElementById('toggleButton');
-		var menu = document.getElementById('menuPanel');
+document.addEventListener('DOMContentLoaded', function () {
+    var button = document.getElementById('toggleButton');
+    var menu = document.getElementById('menuPanel');
 
-		button.addEventListener('click', function () {
-			var isClosed = menu.style.display === 'none';
-			if (isClosed) {
-				menu.style.display = 'block';
-				// Use setTimeout to allow the display change to take effect
-				setTimeout(() => (menu.style.opacity = '1'), 10);
-			} else {
-				menu.style.opacity = '0';
-				// Use transitionend event to set display to 'none' after the transition
-				menu.addEventListener('transitionend', function hideMenu() {
-					if (menu.style.opacity === '0') {
-						menu.style.display = 'none';
-						menu.removeEventListener('transitionend', hideMenu);
-					}
-				});
-			}
-		});
+    // Ensure that button is not null before adding event listeners
+    if (button !== null) {
+        button.addEventListener('click', function () {
+            // Check if menu is not null each time the button is clicked
+            if (menu !== null) {
+                var isClosed = menu.style.display === 'none';
+                if (isClosed) {
+                    menu.style.display = 'block';
+                    setTimeout(() => {
+                        // Recheck menu is not null after the timeout
+                        if (menu !== null) {
+                            menu.style.opacity = '1';
+                        }
+                    }, 10);
+                } else {
+                    menu.style.opacity = '0';
+                    menu.addEventListener('transitionend', function hideMenu() {
+                        // Check menu is not null inside the event listener
+                        if (menu !== null && menu.style.opacity === '0') {
+                            menu.style.display = 'none';
+                            menu.removeEventListener('transitionend', hideMenu);
+                        }
+                    });
+                }
+            }
+        });
 
-		window.addEventListener('keydown', function (event) {
-			if (event.key === 'Escape' && menu.style.display === 'block') {
-				menu.style.opacity = '0';
-			}
-		});
+        window.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape' && menu !== null && menu.style.display === 'block') {
+                menu.style.opacity = '0';
+            }
+        });
 
 		window.addEventListener('click', function (event) {
-			if (menu.style.display === 'block' && !button.contains(event.target) && !menu.contains(event.target)) {
-				menu.style.opacity = '0';
-			}
-		});
-	});
+    // Ensure both 'menu' and 'button' are not null before accessing their properties
+    if (button !== null && menu !== null && menu.style.display === 'block') {
+        // Use 'contains' to check if the clicked target is outside both 'button' and 'menu'
+        if (!button.contains(event.target as Node) && !menu.contains(event.target as Node)) {
+            menu.style.opacity = '0';
+        }
+    }
+});
+    }
+});
+
 </script>
