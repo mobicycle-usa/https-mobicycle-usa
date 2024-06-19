@@ -1,73 +1,66 @@
 ---
-import Memberships from "../Body/Memberships.astro";
+import Memberships from"../Body/Memberships.astro";
 ---
 
 <!-- FOOTER -->
-<section class="overflow-hidden">
-    <div class="rounded-3xl">
-      <!-- LOGO 
-      <div class="w-full"><a class="inline-block" href="https://about.mobicycle.group"><Logo50/></a></div>-->
-      
-      <!-- ALL CONTENT -->
-      <div class="space-y-10 py-10 border-purple-650 rounded-3xl text-slate-50">
-        
-        <!-- MEMBERSHIPS -->
-        <div class="flex justify-end mx-auto"><Memberships /></div>
-     
-        <!-- PLATFORM CONTENT -->
-        <div class="grid sm:grid-flow-col sm:grid-cols-4 text-inherit md:px-4 space-y-6 md:space-y-0">
-           <!-- TECHNOLOGY -->
-          <div class="w-auto p-4 space-y-7">
-            <h3 class="font-bold text-inherit font-heading font-display">TECHNOLOGY</h3>
-            <ul class="space-y-4">
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://mobicycle.ai">EE Management</a></li>
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://ewaste.tools">eWaste Management</a></li>
-            </ul>
-          </div>
-          <!-- SERVICES -->
-          <div class="w-auto p-4 space-y-7">
-            <h3 class="font-bold text-inherit font-heading font-display">SERVICES</h3>
-            <ul class="space-y-4">
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://mobicycle.consulting">Consulting</a></li>
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://mobicycle.games">Games</a></li>
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://mobicycle.marketing">Marketing</a></li>
-            </ul>
-          </div>
-          <!-- COMPANY -->
-          <div class="w-auto p-4 space-y-7">
-            <h3 class="font-bold text-inherit font-heading font-display">COMPANY</h3>
-            <ul class="space-y-4">
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://about.mobicycle.group">About us</a></li>
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://case-studies.mobicycle.group">Case studies</a></li>
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://capabilities.mobicycle.group">Capabilities statements</a></li>
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://about.mobicycle.group">Careers</a></li>
-            </ul>
-          </div>
-          <!-- LEGAL -->
-          <div class="w-auto p-4 space-y-7">
-            <h3 class="font-bold text-inherit font-heading font-display">LEGAL</h3>
-            <ul class="space-y-4">
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://disclaimer.mobicycle.group">Disclaimer</a></li>
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://cookie-policy.mobicycle.group/">Cookies</a></li>
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://privacy.mobicycle.group">Privacy</a></li>
-              <li><a class="inline-block font-light text-inherit hover:text-orange-650 hover:bg-black hover:p-2 hover:border hover:rounded-sm" href="https://terms.mobicycle.group">Terms</a></li>
-            </ul>
-          </div>
-        </div>
-        
-      <!-- ADDRESS -->
-      <div class="flex flex-wrap items-center justify-center space-x-2 space-y-4 md:-m-1 sm:space-y-0 py-4 font-thin text-white-650 opacity-80 bg-slate-650 md:bg-gradient-to-t from-slate-650 border-purple-650 rounded-xl">
-        <div class="max-w-xs text-sm text-center text-gray-400 sm:text-left sm:text-base sm:max-w-full"><p>1603 Capitol Ave. Suite 310 A223 Cheyenne, Wyoming 82001 </p></div>
-        <div class="text-center text-transparent md:text-gray-400"> | </div>
-        <div class="text-sm text-right text-gray-400 sm:text-base"> <p>Rue de la Presse, 4 - 1000 Bruxelles Belgium</p>
-      </div>
-      
-      <!-- COPYRIGHT -->   
-      <div class="w-auto p-1">
-        <p class="text-sm text-center text-inherit sm:text-base">&copy; Copyright 2024. All rights reserved by MobiCycle LLC.</p>
-      </div>
+<section class="space-y-20 py-10 border-purple-650 rounded-3xl text-slate-50">
 
-      </div>
+  <!-- MEMBERSHIPS -->
+  <div class="flex justify-end mx-auto"><Memberships /></div>
 
+  <!-- PLATFORM CONTENT -->
+   <div class="flex mx-auto container justify-evenly">
+      <div class="grid grid-flow-col space-y-6 md:space-y-0 gap-40">
+      <!-- TECHNOLOGY -->
+      <div class="space-y-7">
+        <h3 class="font-bold font-display">TECHNOLOGY</h3>
+        <ul class="space-y-4">
+          <li><a class="inline-block font-light" href="https://mobicycle.ai">EE Management</a></li>
+          <li><a class="inline-block font-light" href="https://ewaste.tools">eWaste Management</a></li>
+        </ul>
+      </div>
+      <!-- SERVICES -->
+      <div class="space-y-7">
+        <h3 class="font-bold font-display">SERVICES</h3>
+        <ul class="space-y-4">
+          <li><a class="inline-block font-light" href="https://mobicycle.consulting">Consulting</a></li>
+          <li><a class="inline-block font-light" href="https://mobicycle.games">Games</a></li>
+          <li><a class="inline-block font-light" href="https://mobicycle.marketing">Marketing</a></li>
+        </ul>
+      </div>
+      <!-- COMPANY -->
+      <div class="space-y-7">
+        <h3 class="font-bold font-display">COMPANY</h3>
+        <ul class="space-y-4">
+          <li><a class="inline-block font-light" href="https://about.mobicycle.group">About us</a></li>
+          <li><a class="inline-block font-light" href="https://case-studies.mobicycle.group">Case studies</a></li>
+          <li><a class="inline-block font-light" href="https://capabilities.mobicycle.group">Capabilities statements</a></li>
+          <li><a class="inline-block font-light" href="https://about.mobicycle.group">Careers</a></li>
+        </ul>
+      </div>
+      <!-- LEGAL -->
+      <div class="space-y-7">
+        <h3 class="font-bold font-display">LEGAL</h3>
+        <ul class="space-y-4">
+          <li><a class="inline-block font-light" href="https://disclaimer.mobicycle.group">Disclaimer</a></li>
+          <li><a class="inline-block font-light" href="https://cookie-policy.mobicycle.group/">Cookies</a></li>
+          <li><a class="inline-block font-light" href="https://privacy.mobicycle.group">Privacy</a></li>
+          <li><a class="inline-block font-light" href="https://terms.mobicycle.group">Terms</a></li>
+        </ul>
+      </div>
     </div>
+  </div>
+
+  <div class="lg:space-y-4">
+    <!-- ADDRESS -->
+    <div class="w-fit flex justify-between items-center mx-auto container space-x-4 bg-gradient-to-l from-slate-800 px-3 border-transparent rounded-lg">
+      <div class="text-sm sm:text-base text-orange-650"><p>1603 Capitol Ave. Suite 310 A223 Cheyenne, Wyoming 82001</p></div>
+      <div class="text-gray-400 hidden sm:block"> | </div>
+      <div class="text-sm sm:text-base text-orange-650"><p>Rue de la Presse, 4 - 1000 Bruxelles Belgium</p></div>
+    </div>
+    
+    <!-- COPYRIGHT -->   
+    <div class="w-auto p-1"><p class="text-sm text-center text-inherit sm:text-base text-slate-400">&copy; Copyright 2024. All rights reserved by MobiCycle LLC.</p></div>
+  </div>
+
 </section>
