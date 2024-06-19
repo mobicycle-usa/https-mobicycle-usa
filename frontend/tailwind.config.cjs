@@ -2,12 +2,11 @@
 module.exports = {
 	content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
 	theme: {
-		extend: {
-			backgroundImage: {
-				'picture1': 'url(/cdn-cgi/image/width=2000,quality=80/https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/00c06c7c-f42b-49e5-648d-3c7983e55400/original)',
-				'picture2': 'url(/cdn-cgi/image/width=1080,quality=80/https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/42b49db8-3006-48a3-ebe7-c184a596b500/original)',
-			  }
-      },
+	  extend: {
+		backgroundImage: {
+		  'picture1': 'url(/cdn-cgi/image/width=2000,quality=80/https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/00c06c7c-f42b-49e5-648d-3c7983e55400/original)',
+		  'picture2': 'url(/cdn-cgi/image/width=1080,quality=80/https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/42b49db8-3006-48a3-ebe7-c184a596b500/original)',
+		},
 		colors: {
 		  purple: {
 			650: "#4a5899",
@@ -19,8 +18,7 @@ module.exports = {
 			650: "#fff4d3",
 		  },
 		  white: {
-			650: "#ffffff",
-			opacity: 50,
+			650: "#ffffff", // Note: custom opacity under colors is not typically how Tailwind handles opacity.
 		  },
 		  slate: {
 			650: "#111827",
@@ -29,13 +27,13 @@ module.exports = {
 			650: "transparent",
 		  },
 		},
-		leading: {
-			'extra-loose': '5.0',
-			'10': '5rem',
-		},
 		lineHeight: {
-			'tracking-widest': '3rem'
+		  'extra-loose': '5.0',
+		  '10': '5rem',
 		},
+		letterSpacing: {
+		  'tracking-widest': '3rem'
+		}
 	  },
 	  fontFamily: {
 		'sans': ['ui-sans-serif', 'system-ui'],
@@ -45,3 +43,4 @@ module.exports = {
 		'body': ['"Open Sans"'],
 	  }
 	}
+  }
