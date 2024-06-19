@@ -4,8 +4,8 @@ module.exports = {
 	theme: {
 	  extend: {
 		backgroundImage: {
-		  'picture1': 'url(/cdn-cgi/image/width=2000,quality=80/https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/00c06c7c-f42b-49e5-648d-3c7983e55400/original)',
-		  'picture2': 'url(/cdn-cgi/image/width=1080,quality=80/https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/42b49db8-3006-48a3-ebe7-c184a596b500/original)',
+		  'picture1': 'url(/cdn-cgi/image/width=2000,quality=100/https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/00c06c7c-f42b-49e5-648d-3c7983e55400/original)',
+		  'picture2': 'url(/cdn-cgi/image/width=1080,quality=100/https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/42b49db8-3006-48a3-ebe7-c184a596b500/original)',
 		},
 		colors: {
 		  purple: {
