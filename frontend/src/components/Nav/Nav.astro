@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const menu = document.getElementById('menuPanel');
 
     if (button && menu) {
-        button.addEventListener('click', function (event: MouseEvent) {
+        button.addEventListener('click', function (_event: MouseEvent) {
             const isClosed = menu.style.display === 'none';
             if (isClosed) {
                 menu.style.display = 'block';
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 }, 10);
             } else {
                 menu.style.opacity = '0';
-                menu.addEventListener('transitionend', function handleTransitionEnd(event: TransitionEvent) {
+                menu.addEventListener('transitionend', function handleTransitionEnd(_event: TransitionEvent) {
                     if (menu.style.opacity === '0') {
                         menu.style.display = 'none';
                         menu.removeEventListener('transitionend', handleTransitionEnd);
