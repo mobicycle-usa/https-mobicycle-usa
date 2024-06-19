@@ -1,82 +1,95 @@
 ---
 //frontend/src/components/Body/Two.astro
 ---
-<!-- WHAT SETS US APART? -->
+
 <section>
-  <div class="container mx-auto px-0 py-0">
-    <h2 class="font-heading mb-10 text-4xl text-slate-300 md:text-white-650 tracking-tight">
+  <div class="grid grid-flow-row container mx-auto w-full">
+    <h2 class="font-heading mb-0 text-4xl text-slate-300 md:text-white-650 tracking-tight">
       <span>What sets us</span>
-      <span class="text-orange-650">apart?</span>
+      <span class="text-orange-650 italic">apart?</span>
     </h2>
 
-    <!-- Grid for content and video -->
-    <div class="grid lg:grid-cols-3 gap-4 mb-2 text-purple-650 dark:text-white-650 dark:hover:bg-black">
+    <!-- Grid for platform -->
+    <div class="pl-8 pr-10 border-transparent rounded-lg hover:bg-black grid lg:grid-cols-4 gap-24 bg-gradient-to-t from purple-650 text-purple-650 dark:text-slate-50 mt-10">
+      
+      <!-- MOBICYCLE CONSULTING -->
+      <div class="py-10 col-span-2 w-full">
+        <div class="h-full border-transparent rounded lg:bg-slate-100 lg:opacity-80 hover:opacity-100 dark:bg-transparent-650">
+          <div class="flex flex-col justify-between h-full space-y-8 min-w-full">
 
-      <!-- LEFT Content Section -->
-      <div class="flex flex-wrap space-y-6 lg:px-4 lg:py-8 lg:col-span-2 lg:bg-gradient-to-l from-slate-100 to-100% via-slate-200 via-55% lg:opacity-85 hover:bg-slate-100 hover:opacity-100 dark:bg-transparent-650 border-orange-650 rounded-md dark:via-0% dark:to-0% dark:opacity-100">
-        <!-- Item ONE -->
-        <div class="w-full">
-          <div class="flex gap-3">
-            <!-- NUMBER -->
-            <div class="w-12 h-12 bg-gradient-to-b from-orange-650 rounded flex items-center justify-center">01</div>
-            <!-- CONTENT -->
-            <div>
-              <h1 class="font-heading mb-2 text-lg text-orange-650">
-                Shifting priorities away from profit-driven approaches
-              </h1>
-              <p class="">
-                Unlike waste brokers, our primary concern is finding effective ways to minimize your greenhouse gas emissions, address biodiversity loss, and mitigate pollution.
-              </p>
+          <!-- Item ONE -->
+          <div class="w-full">
+            <div class="flex gap-3">
+              <!-- NUMBER -->
+              <div class="w-12 h-12 bg-gradient-to-b from-orange-650 rounded flex items-center justify-center">01</div>
+              <!-- CONTENT -->
+              <div>
+                <h3 class="font-heading mb-2 text-xl text-orange-650">
+                  Shifting priorities away from profit-driven approaches
+                </h3>
+                <p class="max-w-xl">
+                  Unlike waste brokers, our primary concern is finding effective ways to minimize your greenhouse gas emissions, address biodiversity loss, and mitigate pollution.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Item TWO -->
-        <div class="w-full">
-          <div class="flex gap-3">
-            <!-- NUMBER -->
-            <div class="w-12 h-12 bg-gradient-to-b from-orange-650 rounded flex items-center justify-center">02</div>
-            <!-- CONTENT -->
-            <div>
-              <h3 class="font-heading mb-2 text-lg text-orange-650">
-                Providing a nuanced perspective
-              </h3>
-              <p class="">
-                We act as intermediaries between you and your suppliers, ensuring objectivity in our recommendations and solutions. It's important to note that we do not handle waste directly.
-              </p>
+          <!-- Item TWO -->
+          <div class="w-full">
+            <div class="flex gap-3">
+              <!-- NUMBER -->
+              <div class="w-12 h-12 bg-gradient-to-b from-orange-650 rounded flex items-center justify-center">02</div>
+              <!-- CONTENT -->
+              <div>
+                <h3 class="font-heading mb-2 text-xl text-orange-650">
+                  Providing a nuanced perspective
+                </h3>
+                <p class="max-w-xl">
+                  We act as intermediaries between you and your suppliers, ensuring objectivity in our recommendations and solutions. It's important to note that we do not handle waste directly.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Item THREE -->
-        <div class="w-full">
-          <div class="flex gap-3">
-            <!-- NUMBER -->
-            <div class="w-12 h-12 bg-gradient-to-b from-orange-650 rounded flex items-center justify-center">03</div>
-            <!-- CONTENT -->
-            <div>
-              <h3 class="font-heading mb-2 text-lg text-orange-650">
-                Specializing in emissions from electronics and electricals
-              </h3>
-              <p class="">
-                While large consultancies may have a broad focus, we concentrate specifically on Scope 3 emissions generated by electronics and electricals.
-              </p>
+          <!-- Item THREE -->
+          <div class="w-full">
+            <div class="flex gap-3">
+              <!-- NUMBER -->
+              <div class="w-12 h-12 bg-gradient-to-b from-orange-650 rounded flex items-center justify-center">03</div>
+              <!-- CONTENT -->
+              <div>
+                <h3 class="font-heading mb-2 text-xl text-orange-650">
+                  Specializing in emissions from electronics and electricals
+                </h3>
+                <p class="max-w-xl">
+                  While large consultancies may have a broad focus, we concentrate specifically on Scope 3 emissions generated by electronics and electricals.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
+
+           </div>
+        </div>    
       </div>
 
+
+
+
       <!-- RIGHT - VIDEO Section -->
-      <div class="relative lg:col-span-1 overflow-hidden rounded-lg" style="position: relative; padding-top: 56.25%;">
+      <div class="relative lg:col-span-2 overflow-hidden rounded-lg min-w-full" style="position: relative; padding-top: 56.25%;">
         <iframe
           src="https://customer-zyqhqr3nriw4xbsg.cloudflarestream.com/094a245b68e882d3242c936785611862/iframe?preload=true&poster=https%3A%2F%2Fcustomer-zyqhqr3nriw4xbsg.cloudflarestream.com%2F094a245b68e882d3242c936785611862%2Fthumbnails%2Fthumbnail.jpg%3Ftime%3D%26height%3D600"
           loading="lazy"
           style="border: none; position: absolute; top: 0; left: 0; height: 100%; width: 100%;"
           allow="accelerometer; gyroscope; autoplay; encrypted-media; picture-in-picture;"
-                    allowfullscreen="true"
-        ></iframe>
+          allowfullscreen="true">
+        </iframe>
       </div>
 
-    </div> <!-- Corrected closing tags for grid -->
+
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
