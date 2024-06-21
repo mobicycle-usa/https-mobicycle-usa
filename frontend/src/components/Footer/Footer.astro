@@ -1,66 +1,28 @@
 ---
-import Memberships from"../Body/Memberships.astro";
+import Memberships from "../Body/Memberships.astro";
+import Address from "./Address.astro";
+import Casper from "./Casper.astro";
+import Legal from "./Legal.astro";
 ---
 
 <!-- FOOTER -->
 <section class="space-y-20 py-10 border-purple-650 rounded-3xl text-slate-950 md:text-slate-50 dark:text-slate-50">
 
   <!-- MEMBERSHIPS -->
-  <div class="flex justify-end mx-auto md:pr-24 md:invert-0 invert dark:invert-0"><Memberships /></div>
+  <div class="flex justify-end mx-auto md:pr-24 md:invert-0 dark:invert-0"><Memberships /></div>
 
-  <!-- PLATFORM CONTENT -->
-   <div class="flex mx-auto container md:justify-evenly">
-      <div class="grid md:grid-flow-col space-y-6 md:space-y-0 gap-8 md:gap-40">
-      <!-- TECHNOLOGY -->
-      <div class="space-y-7">
-        <h3 class="font-bold font-display text-orange-650 md:text-inherit">TECHNOLOGY</h3>
-        <ul class="space-y-4">
-          <li><a class="inline-block font-light hover:text-yellow-50" href="https://mobicycle.ai">EE Management</a></li>
-          <li><a class="inline-block font-light" href="https://ewaste.tools">eWaste Management</a></li>
-        </ul>
-      </div>
-      <!-- SERVICES -->
-      <div class="space-y-7">
-        <h3 class="font-bold font-display text-orange-650 md:text-inherit">SERVICES</h3>
-        <ul class="space-y-4">
-          <li><a class="inline-block font-light" href="https://mobicycle.consulting">Consulting</a></li>
-          <li><a class="inline-block font-light" href="https://mobicycle.games">Games</a></li>
-          <li><a class="inline-block font-light" href="https://mobicycle.marketing">Marketing</a></li>
-        </ul>
-      </div>
-      <!-- COMPANY -->
-      <div class="space-y-7">
-        <h3 class="font-bold font-display text-orange-650 md:text-inherit">COMPANY</h3>
-        <ul class="space-y-4">
-          <li><a class="inline-block font-light" href="https://about.mobicycle.group">About us</a></li>
-          <li><a class="inline-block font-light" href="https://case-studies.mobicycle.group">Case studies</a></li>
-          <li><a class="inline-block font-light" href="https://capabilities.mobicycle.group">Capabilities statements</a></li>
-          <li><a class="inline-block font-light" href="https://careers.mobicycle.group">Careers</a></li>
-        </ul>
-      </div>
-      <!-- LEGAL -->
-      <div class="space-y-7">
-        <h3 class="font-bold font-display text-orange-650 md:text-inherit">LEGAL</h3>
-        <ul class="space-y-4">
-          <li><a class="inline-block font-light" href="https://disclaimer.mobicycle.group">Disclaimer</a></li>
-          <li><a class="inline-block font-light" href="https://cookie-policy.mobicycle.group/">Cookies</a></li>
-          <li><a class="inline-block font-light" href="https://privacy.mobicycle.group">Privacy</a></li>
-          <li><a class="inline-block font-light" href="https://terms.mobicycle.group">Terms</a></li>
-        </ul>
-      </div>
+  <!-- PLATFORM CONTENT -->      
+  <div class="relative">
+    <div class="flex mx-auto container md:justify-evenly">
+      <div class="grid md:grid-flow-col space-y-6 md:space-y-0 gap-8 md:gap-40 z-100">
+        <Legal/>
+       </div>
     </div>
   </div>
 
-  <div class="space-y-4">
-    <!-- ADDRESS -->
-    <div class="w-fit flex md:justify-between items-center mx-auto container space-x-4 lg:bg-gradient-to-l from-slate-800 md:px-3 border-transparent rounded-lg">
-      <div class="text-sm sm:text-base text-slate-950 md:text-orange-650 dark:text-inherit"><p>1603 Capitol Ave. Suite 310 A223 Cheyenne, Wyoming 82001</p></div>
-      <div class="dark:text-inherit md:text-slate-400 sm:block"> | </div>
-      <div class="text-sm sm:text-base text-slate-950 md:text-orange-650 dark:text-inherit"><p>Rue de la Presse, 4 - 1000 Bruxelles Belgium</p></div>
-    </div>
-    
-    <!-- COPYRIGHT -->   
-    <div class="w-auto md:p-1"><p class="text-sm md:text-center dark:text-orange-650 text-inherit sm:text-base text-purple-650 md:text-slate-400">&copy; Copyright 2024. All rights reserved by MobiCycle LLC.</p></div>
-  </div>
-
+  <!-- ADDRESS AND COPYRIGHT -->
+   <Address/>
+   
 </section>
+
+<Casper/>
