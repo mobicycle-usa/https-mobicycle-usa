@@ -32,6 +32,11 @@ document.addEventListener('DOMContentLoaded', function() {
     const openIcon = document.getElementById('openIcon');
     const closeIcon = document.getElementById('closeIcon');
 
+    if (!burgerButton || !menu || !openIcon || !closeIcon) {
+        console.error('One or more navigation elements are missing!');
+        return;
+    }
+
     burgerButton.addEventListener('click', function() {
         if (menu.classList.contains('invisible')) {
             // Open the menu
@@ -42,9 +47,11 @@ document.addEventListener('DOMContentLoaded', function() {
             // Close the menu
             menu.classList.add('opacity-0');
             menu.addEventListener('transitionend', () => {
-                menu.classList.add('invisible');
-                openIcon.classList.remove('hidden');
-                closeIcon.classList.add('hidden');
+                if (menu) { // Check if the menu is not null before accessing it
+                    menu.classList.add('invisible');
+                    openIcon.classList.remove('hidden');
+                    closeIcon.classList.add('hidden');
+                }
             }, { once: true });
         }
     });
