@@ -7,9 +7,12 @@ import Burger from './Burger.astro';
 ---
 <!-- Mobile Nav -->
 <nav class="px-10 py-10 w-full">
+    <!--  -->
     <div class="flex justify-between items-center">
+        
         <!-- LOGO -->
         <div class="invert dark:invert-0 md:invert-0"><Logo50 /></div>
+
         <!-- BURGER -->
         <div id="toggleButton" type="button" class="div">
             <div class="relative z-50">
@@ -33,7 +36,7 @@ import Burger from './Burger.astro';
                     <!-- THE 'X' -->
                     <svg
                         id="closeIcon"
-                        class="w-8 h-8 text-gray-100 hover:text-gray-100"
+                        class="w-10 h-10 text-gray-100 hover:text-gray-100"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"
@@ -51,20 +54,15 @@ import Burger from './Burger.astro';
             </div>
         </div>
     </div>
+
+    <!--  -->
     <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50 bg-black">
-        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25 z-50"></div>
+        
         <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
-            <div class="flex items-center mb-8">
-                <a class="mr-auto text-2xl font-semibold leading-none" href="#">
-                    <img class="h-8" src="mockup-assets/logos/shuffle-ux.svg" alt="" width="auto">
-                </a>
-                <button class="navbar-close">
-                    <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
-                    </svg>
-                </button>
-            </div>
             <div id="menuPanel" class="absolute -right-10 shadow-md rounded-t-lg bg-slate-950 lg:bg-transparent" style="display: none; opacity: 0; transition: opacity 1s ease-in-out;">
+                
+                <!-- MENU -->
                 <div class="w-screen bg-slate-650">
                     <div class="flex flex-col px-4 py-10 space-y-8 lg:bg-slate-900 text-white-650">
                         <a href="https://about.mobicycle.us" class="flex p-2 mx-0 w-fit lg:mx-3 hover:text-orange-650 hover:border border-orange-650 md:text-right"> About MobiCycle USA</a>
@@ -81,9 +79,11 @@ import Burger from './Burger.astro';
                     class="text-white-650 px-4 py-2 uppercase hover:text-white-650 hover:border-2 border-white-650">
                     DEMOS</a>
                 </div>
+
             </div>
         </nav>
     </div>
+
 </nav>
 
 <script>
