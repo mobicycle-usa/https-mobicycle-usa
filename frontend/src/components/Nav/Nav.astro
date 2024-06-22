@@ -1,69 +1,68 @@
 ---
 // /frontend/src/components/Nav/Nav.astro
-import Burger from './Burger.astro';
 import Menu from './Menu.astro';
 import Demo from './Demo.astro';
-import Logo200 from '../Logos/Logo_200.astro';
 import Logo50 from '../Logos/Logo_50.astro';
+import Burger from './Burger.astro';
 ---
-
-<nav class="fixed right-10 select-none pb-20">
-	<div class="relative text-right">
-        <div class="hidden ml-8"><Logo200/></div>
-        <div class="flex">
-            <div class="flex container mx-auto pt-4 mr-6 invert dark:invert-0 md:invert-0 "><Logo50/></div>
-
-            <!-- BURGER -->
-            <button id="toggleButton" type="button" class="relative rounded-md mb-6 shadow-orange-650 md:pr-10">
-                <Burger />
-            </button>
-        </div>
-
-		<!-- MENU -->
-		<div id="menuPanel" class="absolute -right-10 shadow-md rounded-t-lg bg-gray-900 lg:bg-transparent" style="display: none; opacity: 0; transition: opacity 1s ease-in-out;">
-			<Menu />
-			<Demo />
-		</div>
-	</div>
+<!-- Mobile Nav -->
+<nav class="px-10 py-10 w-full">
+    <div class="flex justify-between items-center">
+        <div class="invert md:invert-0"><Logo50 /></div>
+        <div id="toggleButton" type="button" class="div"><Burger /></div>
+    </div>
+    <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50">
+        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"></div>
+        <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
+            <div class="flex items-center mb-8">
+                <a class="mr-auto text-2xl font-semibold leading-none" href="#">
+                    <img class="h-8" src="mockup-assets/logos/shuffle-ux.svg" alt="" width="auto">
+                </a>
+                <button class="navbar-close">
+                    <svg class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                    </svg>
+                </button>
+            </div>
+            <div id="menuPanel" class="absolute -right-10 shadow-md rounded-t-lg bg-gray-900 lg:bg-transparent" style="display: none; opacity: 0; transition: opacity 1s ease-in-out;">
+                <Menu />
+                <Demo/>
+            </div>
+        </nav>
+    </div>
 </nav>
 
 <script>
-document.addEventListener('DOMContentLoaded', function () {
-    const button = document.getElementById('toggleButton');
-    const menu = document.getElementById('menuPanel');
+    document.addEventListener('DOMContentLoaded', function () {
+        const button = document.getElementById('toggleButton');
+        const menu = document.getElementById('menuPanel');
 
-    if (button && menu) {
-        button.addEventListener('click', function (_event: MouseEvent) {
-            const isClosed = menu.style.display === 'none';
-            if (isClosed) {
-                menu.style.display = 'block';
-                setTimeout(() => {
-                    if (menu) {
-                        menu.style.opacity = '1';
-                    }
-                }, 10);
-            } else {
-                menu.style.opacity = '0';
-                menu.addEventListener('transitionend', function handleTransitionEnd(_event: TransitionEvent) {
-                    if (menu.style.opacity === '0') {
-                        menu.style.display = 'none';
-                        menu.removeEventListener('transitionend', handleTransitionEnd);
-                    }
-                });
-            }
-        });
+        const toggleMenuVisibility = () => {
+            const isClosed = menu.style.display === 'none' || menu.style.display === '';
+            menu.style.display = isClosed ? 'block' : 'none';
+            menu.style.opacity = isClosed ? '1' : '0';
+        };
 
-        window.addEventListener('keydown', function (event: KeyboardEvent) {
-            if (event.key === 'Escape' && menu.style.display === 'block') {
-                menu.style.opacity = '0';
-            }
-        });
+        if (button && menu) {
+            button.addEventListener('click', toggleMenuVisibility);
+    
+            menu.addEventListener('transitionend', function (_event) {
+                if (menu.style.opacity === '0') {
+                    menu.style.display = 'none';
+                }
+            });
 
-        window.addEventListener('click', function (event: MouseEvent) {
-            if (menu.style.display === 'block' && !button.contains(event.target as Node) && !menu.contains(event.target as Node)) {
-                menu.style.opacity = '0';
-            }
-        });
-    }
-});
+            window.addEventListener('keydown', function (event) {
+                if (event.key === 'Escape' && menu.style.display === 'block') {
+                    toggleMenuVisibility();
+                }
+            });
+
+            window.addEventListener('click', function (event) {
+                if (menu.style.display === 'block' && !button.contains(event.target) && !menu.contains(event.target)) {
+                    toggleMenuVisibility();
+                }
+            });
+        }
+    });
 </script>
