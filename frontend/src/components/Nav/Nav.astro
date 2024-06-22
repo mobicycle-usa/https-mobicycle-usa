@@ -1,133 +1,52 @@
 ---
-// /frontend/src/components/Nav/Nav.astro
 import Menu from './Menu.astro';
 import Demo from './Demo.astro';
 import Logo50 from '../Logos/Logo_50.astro';
 import Burger from './Burger.astro';
 ---
-<!-- Mobile Nav -->
-<nav class="px-10 py-10 w-full">
-    <!--  -->
-    <div class="flex justify-between items-center">
-        
-        <!-- LOGO -->
-        <div class="invert dark:invert-0 md:invert-0"><Logo50 /></div>
 
-        <!-- BURGER -->
-        <div id="toggleButton" type="button" class="div">
-            <div class="relative z-50">
-                <div
-                    id="menuToggle"
-                    class="flex items-center justify-center border-4 border-orange-650 cursor-auto sm:w-14 sm:h-14 bg-gradient-to-r from-orange-650 mix-blend-color-burn hover:bg-purple-650">
-                    <!-- THE THREE LINES -->
-                    <svg
-                        id="openIcon"
-                        class="w-10 h-10 text-yellow-650 hover:text-gray-100"
-                        fill="none"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        stroke-width="2"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                        style="display: block;">
-                        <path d="M4 6h16M4 12h16M4 18h16"></path>
-                    </svg>
-
-                    <!-- THE 'X' -->
-                    <svg
-                        id="closeIcon"
-                        class="w-10 h-10 text-gray-100 hover:text-gray-100"
-                        fill="none"
-                        stroke="currentColor"
-                        viewBox="0 0 24 24"
-                        xmlns="http://www.w3.org/2000/svg"
-                        style="display: none;">
-                        <path
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            stroke-width="2"
-                            d="M6 18L18 6M6 6l12 12"
-                            class=""
-                        ></path>
-                    </svg>
-                </div>
-            </div>
-        </div>
+<!-- Navigation structure -->
+<nav class="py-10 w-full text-slate-50">
+    <div class="container px-4 mx-auto flex justify-between items-center">
+        <Logo50 /> <!-- Logo component -->
+        <button class="navbar-burger">
+            <Burger /> <!-- Burger icon component embedded -->
+        </button>
     </div>
 
-    <!--  -->
-    <div class="hidden navbar-menu fixed top-0 left-0 bottom-0 w-5/6 max-w-sm z-50 bg-black">
-        <div class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25 z-50"></div>
-        
-        <nav class="relative flex flex-col py-6 px-6 w-full h-full bg-white border-r overflow-y-auto">
-            <div id="menuPanel" class="absolute -right-10 shadow-md rounded-t-lg bg-slate-950 lg:bg-transparent" style="display: none; opacity: 0; transition: opacity 1s ease-in-out;">
-                
-                <!-- MENU -->
-                <div class="w-screen bg-slate-650">
-                    <div class="flex flex-col px-4 py-10 space-y-8 lg:bg-slate-900 text-white-650">
-                        <a href="https://about.mobicycle.us" class="flex p-2 mx-0 w-fit lg:mx-3 hover:text-orange-650 hover:border border-orange-650 md:text-right"> About MobiCycle USA</a>
-                        <a href="https://mobicycle.consulting" class="flex p-2 mx-0 w-fit  lg:mx-3 hover:text-orange-650 hover:border border-orange-650"> Consulting</a>
-                        <a href="https://mobicycle.tech" class="flex p-2 mx-0 w-fit  lg:mx-3 hover:text-orange-650 hover:border border-orange-650"> Technologies</a>
-                        <a href="https://mobicycle.marketing" class="flex p-2 mx-0 w-fit  lg:mx-3 hover:text-orange-650 hover:border border-orange-650"> Games</a>
-                        <a href="https://mobicycle.marketing" class="flex p-2 mx-0 w-fit  lg:mx-3 hover:text-orange-650 hover:border border-orange-650"> Marketing</a>
-                    </div>
-                </div>
-               
-                <!-- DEMO BUTTON -->
-                <div class="flex flex-col w-full items-end font-semibold border-orange-650 bg-gradient-to-l from-orange-650 via-slate-650 tracking-widest">
-                    <a href="https://demos.mobicycle.group/" 
-                    class="text-white-650 px-4 py-2 uppercase hover:text-white-650 hover:border-2 border-white-650">
-                    DEMOS</a>
-                </div>
-
-            </div>
+    <!-- Hidden menu that will toggle visibility -->
+    <div class="navbar-menu fixed inset-0 transition-opacity duration-1000 opacity-0 invisible">
+        <div class="navbar-backdrop fixed inset-0 bg-slate-800 opacity-75"></div>
+        <nav class="relative flex flex-col w-full h-full overflow-y-auto">
+            <!-- Close button is handled inside the Burger component now -->
+            <div class=" mt-56 md:mt-40"><Menu /></div>
+            <Demo />
         </nav>
     </div>
-
 </nav>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function () {
-        const toggleButton = document.getElementById('toggleButton');
-        const menuPanel = document.getElementById('menuPanel');
-        const openIcon = document.getElementById('openIcon');
-        const closeIcon = document.getElementById('closeIcon');
-    
-        // Function to toggle menu visibility and icons
-        function toggleMenu() {
-            // Toggle menu visibility
-            const isClosed = menuPanel.style.display === 'none' || menuPanel.style.display === '';
-            menuPanel.style.display = isClosed ? 'block' : 'none';
-            menuPanel.style.opacity = isClosed ? '1' : '0';
-    
-            // Toggle icons visibility
-            openIcon.style.display = isClosed ? 'none' : 'block';
-            closeIcon.style.display = isClosed ? 'block' : 'none';
+document.addEventListener('DOMContentLoaded', function() {
+    const burgerButton = document.querySelector('.navbar-burger');
+    const menu = document.querySelector('.navbar-menu');
+    const openIcon = document.getElementById('openIcon');
+    const closeIcon = document.getElementById('closeIcon');
+
+    burgerButton.addEventListener('click', function() {
+        if (menu.classList.contains('invisible')) {
+            // Open the menu
+            menu.classList.remove('invisible', 'opacity-0');
+            openIcon.classList.add('hidden');
+            closeIcon.classList.remove('hidden');
+        } else {
+            // Close the menu
+            menu.classList.add('opacity-0');
+            menu.addEventListener('transitionend', () => {
+                menu.classList.add('invisible');
+                openIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+            }, { once: true });
         }
-    
-        // Event listener for the toggle button
-        if (toggleButton) {
-            toggleButton.addEventListener('click', toggleMenu);
-        }
-    
-        // Event listeners to hide the menu on 'Escape' key or clicking outside the menu
-        window.addEventListener('keydown', function (event) {
-            if (event.key === 'Escape' && menuPanel.style.display === 'block') {
-                toggleMenu();
-            }
-        });
-    
-        window.addEventListener('click', function (event) {
-            if (menuPanel.style.display === 'block' && !toggleButton.contains(event.target) && !menuPanel.contains(event.target)) {
-                toggleMenu();
-            }
-        });
-    
-        // Handle transition ends for smoother hiding
-        menuPanel.addEventListener('transitionend', function () {
-            if (menuPanel.style.opacity === '0') {
-                menuPanel.style.display = 'none';
-            }
-        });
     });
-    </script>
+});
+</script>
