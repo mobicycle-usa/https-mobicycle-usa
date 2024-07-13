@@ -1,4 +1,5 @@
 ---
+// /Nav/Nav.astro
 import Menu from './Menu.astro';
 import Demo from './Demo.astro';
 import Logo50 from '../Logos/Logo_50.astro';
@@ -6,20 +7,17 @@ import Burger from './Burger.astro';
 ---
 
 <!-- Navigation structure -->
-<nav class="py-10 w-full text-slate-50">
-    <div class="container px-4 mx-auto flex justify-between items-center">
-        <div class="invert md:invert-0 dark:invert-0"><Logo50 /></div> <!-- Logo component -->
-        <button class="navbar-burger">
-            <Burger /> <!-- Burger icon component embedded -->
-        </button>
-    </div>
-
+<nav class="p-10 lg:px-16">
+    <div class="mx-auto">
+        <div class="flex justify-between h-16 items-center">
+    <div class="flex-shrink-0"><Logo50 /></div> 
+    <button class="navbar-burger"><Burger /></button>
     <!-- Hidden menu that will toggle visibility -->
     <div class="navbar-menu fixed inset-0 transition-opacity duration-1000 opacity-0 invisible">
-        <div class="navbar-backdrop fixed inset-0 bg-slate-800 opacity-75"></div>
+        <div class="navbar-backdrop fixed inset-0 bg-slate-800 opacity-95 md:opacity-75"></div>
         <nav class="relative flex flex-col w-full h-full overflow-y-auto">
             <!-- Close button is handled inside the Burger component now -->
-            <div class=" mt-56 md:mt-40"><Menu /></div>
+            <div class="mt-56 md:mt-40"><Menu /></div>
             <Demo />
         </nav>
     </div>
