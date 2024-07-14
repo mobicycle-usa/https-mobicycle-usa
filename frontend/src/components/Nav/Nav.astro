@@ -1,5 +1,4 @@
 ---
-// /Nav/Nav.astro
 import Menu from './Menu.astro';
 import Demo from './Demo.astro';
 import Logo50 from '../Logos/Logo_50.astro';
@@ -10,48 +9,70 @@ import Burger from './Burger.astro';
 <nav class="p-10 lg:px-16">
     <div class="mx-auto">
         <div class="flex justify-between h-16 items-center">
-    <div class="flex-shrink-0"><Logo50 /></div> 
-    <button class="navbar-burger"><Burger /></button>
-    <!-- Hidden menu that will toggle visibility -->
-    <div class="navbar-menu fixed inset-0 transition-opacity duration-1000 opacity-0 invisible">
-        <div class="navbar-backdrop fixed inset-0 bg-slate-800 opacity-95 md:opacity-75"></div>
-        <nav class="relative flex flex-col w-full h-full overflow-y-auto">
-            <!-- Close button is handled inside the Burger component now -->
-            <div class="mt-56 md:mt-40"><Menu /></div>
-            <Demo />
-        </nav>
+            <div class="flex-shrink-0">
+                <Logo50 />
+            </div>
+            <button id="menuToggle" class="relative z-50">
+                <Burger />
+            </button>
+            <!-- Hidden menu that will toggle visibility -->
+            <div class="navbar-menu fixed inset-0 transition-opacity duration-1000 opacity-0 invisible z-50">
+                <div class="navbar-backdrop fixed inset-0 bg-slate-800 opacity-95 md:opacity-75"></div>
+                <nav class="relative flex flex-col w-full h-full overflow-y-auto">
+                    <!-- Close button is handled inside the Burger component now -->
+                    <div class="mt-56 md:mt-40">
+                        <Menu />
+                    </div>
+                    <Demo />
+                </nav>
+            </div>
+        </div>
     </div>
 </nav>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
-    const burgerButton = document.querySelector('.navbar-burger');
+    console.log('Navbar script loaded and DOM fully parsed');
+
+    const burgerButton = document.getElementById('menuToggle');
     const menu = document.querySelector('.navbar-menu');
     const openIcon = document.getElementById('openIcon');
     const closeIcon = document.getElementById('closeIcon');
 
     if (!burgerButton || !menu || !openIcon || !closeIcon) {
-        console.error('One or more navigation elements are missing!');
+        console.error('One or more navigation elements are missing!', {burgerButton, menu, openIcon, closeIcon});
         return;
     }
 
     burgerButton.addEventListener('click', function() {
+        console.log('Burger button clicked');
+
         if (menu.classList.contains('invisible')) {
+            console.log('Opening menu');
             // Open the menu
             menu.classList.remove('invisible', 'opacity-0');
+            menu.classList.add('opacity-100');
             openIcon.classList.add('hidden');
             closeIcon.classList.remove('hidden');
         } else {
+            console.log('Closing menu');
             // Close the menu
             menu.classList.add('opacity-0');
-            menu.addEventListener('transitionend', () => {
-                if (menu) { // Check if the menu is not null before accessing it
-                    menu.classList.add('invisible');
-                    openIcon.classList.remove('hidden');
-                    closeIcon.classList.add('hidden');
-                }
+            menu.classList.remove('opacity-100');
+            menu.addEventListener('transitionend', function handleTransitionEnd() {
+                console.log('Transition ended');
+                menu.classList.add('invisible');
+                openIcon.classList.remove('hidden');
+                closeIcon.classList.add('hidden');
+                menu.removeEventListener('transitionend', handleTransitionEnd);
             }, { once: true });
         }
     });
 });
 </script>
+
+<style>
+.navbar-menu {
+    @apply flex transition-opacity duration-1000 ease-in-out;
+}
+</style>
