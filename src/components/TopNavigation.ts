@@ -32,7 +32,7 @@ export function renderNavigation(): string {
           </button>
           <!-- Hidden menu that will toggle visibility -->
           <div class="navbar-menu fixed inset-0 transition-opacity duration-1000 opacity-0 invisible">
-            <div class="navbar-backdrop fixed inset-0</div>
+            <div class="navbar-backdrop fixed inset-0></div>
             <nav class="relative flex flex-col w-full h-full overflow-y-auto items-center justify-center">
               <div>
                 <div class="w-screen">
