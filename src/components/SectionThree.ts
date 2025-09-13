@@ -1,0 +1,132 @@
+export function renderSectionThree(): string {
+  return `
+    <!-- OUR PLATFORM -->
+    <section class="">
+      <div class="container mx-auto px-0 py-0">
+        <h2 class="font-heading mb-0 text-4xl text-slate-500 dark:text-slate-50 md:text-slate-50 tracking-tight">
+          <span>Our</span>
+          <span class="text-orange-650"> Platform</span>
+        </h2>
+
+        <!-- Grid for platform -->
+        <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8 mb-2 pt-10 rounded text-slate-500 dark:text-slate-50 md:text-slate-50">
+          
+          <!-- MOBICYCLE CONSULTING -->
+          <div class="w-full transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 z-10">
+            <div class="py-16 px-8 text-center h-full border-transparent rounded lg:bg-gradient-to-bl from-slate-950 ">
+              <div class="flex flex-col justify-between h-full">
+
+                <div class="flex-initial mb-10">
+                  <span class="inline-block mb-6 text-sm text-inherit uppercase tracking-widest">MobiCycle Consulting</span>
+                    <h1>Start with an independent evaluation of your electronics and
+                      electricals supply chain through our independent review
+                      process.
+                    </h1>
+                </div>
+
+                <div class="flex-initial">
+                  <div class="flex flex-wrap justify-center -m-2">
+                    <div class="w-full md:w-auto p-2">
+                      <a
+                        class="block w-full px-8 py-3.5 text-lg text-center text-inherit focus:ring-0 focus:ring-blue-200 border rounded"
+                        href="https://mobicycle.consulting"
+                        >Visit MobiCycle Consulting</a>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+
+          <!-- MOBICYCLE TECHNOLOGIES -->
+          <div class="w-full transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:hover:transform-none z-10">
+            <div class="py-16 px-8 text-center h-full border-transparent rounded lg:bg-gradient-to-tl from-slate-950 via-slate-800">
+              <div class="flex flex-col justify-between h-full">
+
+                <div class="flex-initial mb-10">
+                  <span class="inline-block mb-6 text-sm text-inherit uppercase"
+                    >MobiCycle Technologies</span>
+                    <h1>We leverage AI to understand emissions from your suppliers.
+                      Our comprehensive suite of digital tools supports efficient
+                      eWaste operations. To facilitate proper waste management, we
+                      offer specialized waste bins.</h1>
+                </div>
+
+                <div class="flex-initial">
+                  <div class="flex flex-wrap justify-center -m-2">
+                    <div class="w-full md:w-auto p-2">
+                      <a
+                        class="block w-full px-8 py-3.5 text-lg text-center text-inherit focus:ring-0 focus:ring-blue-200 border rounded"
+                        href="https://mobicycle.tech"
+                        >Visit MobiCycle Technologies</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- MOBICYCLE GAMES -->
+          <div class="w-full transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:hover:transform-none z-10">
+            <div class="py-16 px-8 text-center h-full border-transparent rounded lg:bg-gradient-to-tr from-slate-950 via-slate-800">
+              <div class="flex flex-col justify-between h-full">
+
+                <div class="flex-initial mb-10">
+                  <span class="inline-block mb-6 text-sm text-inherit uppercase tracking-widest">MobiCycle Games</span>
+                    <h1>Embark on immersive journeys through virtual worlds centered
+                      around the challenges of climate change, pollution, and
+                      eWaste. Envision a more sustainable future and explore ways to
+                      create a better planet.</h1>
+                </div>
+
+                <div class="flex-initial">
+                  <div class="flex flex-wrap justify-center -m-2">
+                    <div class="w-full md:w-auto p-2">
+                      <a
+                        class="block w-full px-8 py-3.5 text-lg text-center text-inherit focus:ring-0 focus:ring-blue-200 border rounded"
+                        href="https://mobicycle.games">Visit MobiCycle Games</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+
+          <!-- MOBICYCLE MARKETING -->
+          <div class="w-full box transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 z-10" id="delay">
+            <div class="py-16 px-8 text-center h-full border-transparent rounded lg:bg-gradient-to-b from-slate-950 via-slate-800">
+              <div class="flex flex-col justify-between h-full">
+
+                <div class="flex-initial mb-10">
+                  <span class="inline-block mb-6 text-sm text-inherit uppercase"
+                    >MobiCycle Marketing</span>
+                    <h1>
+                      Promote your environmental progress to your customers by
+                      showcasing your best practices and technological innovations
+                      that have contributed to sustainable outcomes. Share your
+                      success stories and inspire others to follow suit.
+                    </h1>
+                </div>
+
+                <div class="flex-initial">
+                  <div class="flex flex-wrap justify-center -m-2">
+                    <div class="w-full md:w-auto p-2">
+                      <a
+                        class="block w-full px-8 py-3.5 text-lg text-center text-inherit focus:ring-0 focus:ring-blue-200 border rounded"
+                        href="https://mobicycle.marketing"
+                        >Visit MobiCycle Marketing</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+}

@@ -1,0 +1,118 @@
+export function renderSectionFour(): string {
+  return `
+    <!-- GET STARTED -->
+    <section class="z-10">
+      <div class="container mx-auto px-0 py-0">
+        <h2 class="font-heading mb-0 text-4xl text-slate-500 dark:text-slate-50 md:text-slate-50 tracking-tight">
+          <span>Get</span>
+          <span class="text-orange-650"> Started</span>
+        </h2>
+
+        <!-- Grid for platform -->
+        <div class="grid md:grid-cols-1 lg:grid-cols-2 gap-8 mb-2 pt-10 bg-gradient-to-t from-transparent-650 rounded text-slate-500 dark:text-slate-50 md:text-slate-50">
+          
+          <!-- LEARN -->
+          <div class="w-full transition-all ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 z-10">
+            <div class="py-16 px-8 text-center h-full border-transparent rounded lg:bg-slate-950">
+              <div class="flex flex-col justify-between h-full">
+                <div class="flex-initial mb-10">
+                  <span class="inline-block mb-6 text-sm text-inherit uppercase tracking-widest">LEARN</span>
+                    <h1>
+                      Dive into the world of our innovative solutions by exploring detailed resources designed to enhance your understanding and appreciation of our products. 
+                      Access our comprehensive library of <b>white papers</b>, <b>blog posts</b> and <b>videos</b> that provide valuable insights into how our technology can streamline your operations and drive sustainability.
+                    </h1>
+               </div>
+                <div class="flex-initial">
+                  <div class="flex flex-wrap justify-center -m-2">
+                    <div class="w-full md:w-auto p-2">
+                      <a
+                        class="block w-full px-8 py-3.5 text-lg text-center text-inherit focus:ring-0 focus:ring-blue-200 border rounded"
+                        href="https://about.mobicycle.group">About Us</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- TRY -->
+          <div class="w-full transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:hover:transform-none">
+            <div class="py-16 px-8 text-center h-full border-transparent rounded lg:bg-gradient-to-tl from-slate-950 via-slate-800">
+              <div class="flex flex-col justify-between h-full">
+                <div class="flex-initial mb-10">
+                  <span class="inline-block mb-6 text-sm text-inherit uppercase">TRY</span>
+                    <h1>
+                      Put our platform to the test with a free trial that gives you full access to our platform's capabilities. Experiment with our tools and features in real-world scenarios to see firsthand how they can resolve your specific challenges. No commitments, just a straightforward opportunity to evaluate our solutions at your pace.
+                    </h1>
+                </div>
+
+                <div class="flex-initial">
+                  <div class="flex flex-wrap justify-center -m-2">
+                    <div class="w-full md:w-auto p-2">
+                      <a
+                        class="block w-full px-8 py-3.5 text-lg text-center text-inherit focus:ring-0 focus:ring-blue-200 border rounded"
+                        href="https://demos.mobicycle.group">Demos</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- BUY -->
+          <div class="w-full transition transform hover:-translate-y-3 motion-reduce:transition-none motion-reduce:hover:transform-none">
+            <div class="py-16 px-8 text-center h-full border-transparent rounded lg:bg-gradient-to-bl from-slate-950 via-slate-800">
+              <div class="flex flex-col justify-between h-full">
+                
+                <!-- BUY  -->
+                <div class="flex-initial mb-10">
+                  <span class="inline-block mb-6 text-sm text-inherit uppercase tracking-widest">BUY</span>
+                    <h1>
+                      Ready to take the next step? Purchasing our solution is simple and straightforward. Choose the package that best suits your needs, and gain full access to our suite of tools and customer support. Our sales team is ready to assist with personalized options and special offers that align with your business requirements. 
+                    </h1>
+                </div>
+
+                <!-- PRICING BUTTON -->
+                <div class="flex-initial">
+                  <div class="flex flex-wrap justify-center -m-2">
+                    <div class="w-full md:w-auto p-2">
+                      <a
+                        class="block w-full px-8 py-3.5 text-lg text-center text-inherit focus:ring-0 focus:ring-blue-200 border rounded"
+                        href="https://pricing.mobicycle.group">Pricing</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- GET SUPPORT -->
+          <div class="w-full box transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-105 duration-300 z-10" id="delay">
+            <div class="py-16 px-8 text-center h-full border-transparent rounded lg:bg-slate-950">
+              <div class="flex flex-col justify-between h-full">
+                
+                <!-- GET SUPPORT -->
+                <div class="flex-initial mb-10">
+                  <span class="inline-block mb-6 text-sm text-inherit uppercase">GET SUPPORT</span>
+                    <h1>
+                      Our commitment to you extends beyond the sale. Once you're part of our community, you gain access to our dedicated support team available 24/7 to ensure your experience is smooth and beneficial. Whether you need help troubleshooting, want to expand your usage, or have any questions, we're here to assist.
+                    </h1>
+                </div>
+                <!-- SUPPORT BUTTON -->
+                <div class="flex-initial">
+                  <div class="flex flex-wrap justify-center -m-2">
+                    <div class="w-full md:w-auto p-2">
+                      <a class="block w-full px-8 py-3.5 text-lg text-center text-inherit focus:ring-0 focus:ring-blue-200 border rounded"
+                        href="https://mobicycle.support">Support</a>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  `;
+}

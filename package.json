@@ -1,0 +1,26 @@
+{
+  "name": "https-mobicycle-usa",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bunx tailwindcss -i ./src/styles/main.css -o ./public/styles.css --watch --minify & bunx wrangler dev",
+    "deploy": "bunx wrangler deploy",
+    "build": "bunx tailwindcss -i ./src/styles/main.css -o ./public/styles.css --minify && echo \"export const styles = \\`$(cat public/styles.css | sed 's/\\`/\\\\\\`/g')\\`;\" > src/styles.ts && bunx tsc",
+    "build:css": "bunx tailwindcss -i ./src/styles/main.css -o ./public/styles.css --minify && echo \"export const styles = \\`$(cat public/styles.css | sed 's/\\`/\\\\\\`/g')\\`;\" > src/styles.ts",
+    "watch:css": "bunx tailwindcss -i ./src/styles/main.css -o ./public/styles.css --watch --minify",
+    "typecheck": "bunx tsc --noEmit"
+  },
+  "dependencies": {
+    "caniuse-lite": "^1.0.30001741",
+    "hono": "^4.6.0"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241004.0",
+    "@types/node": "^22.0.0",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3",
+    "typescript": "^5.6.2",
+    "wrangler": "^4.36.0"
+  }
+}
