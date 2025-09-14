@@ -1,7 +1,7 @@
 export function renderSectionFour(): string {
   return `
     <!-- GET STARTED -->
-    <section class="z-10">
+    <section class="pb-20">
       <div class="container mx-auto px-0 py-0">
         <h2 class="font-heading mb-0 text-4xl text-slate-500 dark:text-slate-50 md:text-slate-50 tracking-tight">
           <span>Get</span>

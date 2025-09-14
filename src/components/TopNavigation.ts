@@ -2,18 +2,17 @@ export function renderNavigation(): string {
   return `
     <nav class="min-w-full p-10 lg:px-16">
       <div class="mx-auto">
-        <div class="flex justify-between h-16 items-center">
+        <div class="flex justify-between h-16 mt-20 items-center">
           <div class="flex-shrink-0">
             <a 
               href="https://mobicycle.group" 
               class="block z-50"
             >
-              <div class="h-auto max-w-40 w-20 md:w-24
-              ">
+              <div> 
                 <img 
-                  src="https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/b5559dc3-d375-47cc-c889-df3c41382200/200" 
+                  src="https://imagedelivery.net/uIknt2TlDR57WZHMJo_oWQ/e6682ad4-09cd-48b3-eb0e-530252e29d00/200"
                   alt="MobiCycle USA"
-                  class="invert"
+                  class="h-12"
                 />
               </div>
             </a>
@@ -32,11 +31,11 @@ export function renderNavigation(): string {
           </button>
           <!-- Hidden menu that will toggle visibility -->
           <div class="navbar-menu fixed inset-0 transition-opacity duration-1000 opacity-0 invisible">
-            <div class="navbar-backdrop fixed inset-0></div>
+            <div class="navbar-backdrop fixed inset-0"></div>
             <nav class="relative flex flex-col w-full h-full overflow-y-auto items-center justify-center">
               <div>
                 <div class="w-screen">
-                  <div class="flex flex-col px-4 py-10 space-y-8 text-white-650 container mx-auto h-screen items-start justify-center">
+                  <div class="flex flex-col px-4 pt-10 space-y-8 text-white-650 container mx-auto items-start justify-center">
                     <a href="https://about.mobicycle.us" class="flex p-2 mx-0 w-fit lg:mx-3 hover:text-orange-650 md:text-right">About MobiCycle USA</a>
                     <a href="https://mobicycle.consulting" class="flex p-2 mx-0 w-fit lg:mx-3 hover:text-orange-650">Consulting</a>
                     <a href="https://mobicycle.tech" class="flex p-2 mx-0 w-fit lg:mx-3 hover:text-orange-650">Technologies</a>
@@ -46,7 +45,7 @@ export function renderNavigation(): string {
                 </div>
               </div>
               <!-- DEMO BUTTON -->
-              <div class="mt-auto flex flex-col w-full items-end font-semibold bg-gradient-to-l from-orange-650 via-slate-650 tracking-widest">
+              <div class="flex flex-row items-end font-semibold bg-gradient-to-l from-orange-650 tracking-widest">
                 <a href="https://demos.mobicycle.group/" 
                 class="text-white-650 px-4 py-2 uppercase hover:text-white-650">
                 DEMOS</a>

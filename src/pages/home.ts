@@ -23,7 +23,7 @@ export function renderHomePage(): string {
       
       
       <!-- CONTENT SECTIONS -->
-      <div class="space-y-40">
+      <div class="space-y-40 w-full">
         ${renderSectionOne()}
         ${renderSectionTwo()}
         ${renderSectionThree()}
@@ -31,7 +31,7 @@ export function renderHomePage(): string {
       </div>
       
       <!-- FOOTER -->
-      <div class="grid grid-flow-row mt-20 pt-2 pb-20">
+      <div class="grid grid-flow-row mt-20 pt-2">
           ${renderFooter()}
       </div>
     </div>
@@ -43,9 +43,7 @@ export function renderHomePage(): string {
 function renderTitle(): string {
   return `
     <div class="container mx-auto px-4 h-screen flex items-center justify-center">
-      <div>
         ${renderHeader()}
-      </div>
     </div>
   `;
 }

@@ -1,5 +1,3 @@
-import { styles } from '../styles';
-
 export function renderLayout(title: string, content: string): string {
   return `<!DOCTYPE html>
 <html lang="en">
@@ -7,8 +5,8 @@ export function renderLayout(title: string, content: string): string {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link href="/output.css" rel="stylesheet">
     <title>${title}</title>
-    <style>${styles}</style>
     <style>
       body { margin: 0; padding: 0; background: #000; }
       .layer { position: fixed; top: 0; left: 0; width: 100%; height: 100%; }
