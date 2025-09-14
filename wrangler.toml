@@ -1,4 +1,7 @@
 name = "https-mobicycle-usa"
 compatibility_date = "2025-09-01"
-main = "dist/_worker.js"
-assets = { directory = "./dist" }
+main = "_worker.js"
+assets = { directory = "./public" }
+
+[build]
+command = "bun run build"

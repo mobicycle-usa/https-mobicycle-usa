@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "bunx wrangler dev --live-reload",
-    "build": "mkdir -p dist && bunx esbuild _worker.js --bundle --format=esm --outfile=dist/_worker.js --external:node:* && bunx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify && cp public/* dist/",
+    "build": "bunx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --minify",
     "deploy": "bunx wrangler deploy",
     "typecheck": "bunx tsc --noEmit"
   },
