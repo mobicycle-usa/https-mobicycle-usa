@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "bunx wrangler dev --live-reload",
-    "build": "bunx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --minify",
+    "build": "bunx @tailwindcss/cli -i ./src/input.css -o ./public/output.css --content './src/**/*.ts' --content './_worker.js' --minify",
     "deploy": "bunx wrangler deploy",
     "typecheck": "bunx tsc --noEmit"
   },
