@@ -1,6 +1,6 @@
 import { Hono } from 'hono';
 import { cors } from 'hono/cors';
-import { renderHome } from './src/pages/home';
+import { renderHomePage } from './src/pages/home';
 
 const app = new Hono();
 
@@ -25,7 +25,7 @@ app.get('/logo.png', async (c) => {
 
 // Main route
 app.get('/', (c) => {
-  const html = renderHome();
+  const html = renderHomePage();
   return c.html(html);
 });
 
