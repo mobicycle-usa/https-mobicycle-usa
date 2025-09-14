@@ -2,19 +2,16 @@
   "compilerOptions": {
     "target": "ES2022",
     "module": "ESNext",
-    "lib": ["ES2022"],
-    "types": ["@cloudflare/workers-types/2023-07-01"],
+    "lib": ["ES2022", "WebWorker"],
     "moduleResolution": "bundler",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "allowSyntheticDefaultImports": true,
-    "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx",
     "outDir": "./dist",
     "rootDir": "./"
   },
-  "include": ["src/**/*", "functions/**/*"],
-  "exclude": ["node_modules", "dist", "frontend", "public"]
+  "include": ["src/**/*", "_worker.js"],
+  "exclude": ["node_modules", "dist", "public"]
 }
