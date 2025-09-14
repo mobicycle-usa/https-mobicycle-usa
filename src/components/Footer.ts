@@ -115,7 +115,7 @@ function renderAddress(): string {
       <p class="text-sm text-gray-400 mb-2">
         1606 Headway Circle, Austin, TX 78754 | Rue de la Presse, 4 - 1000 Bruxelles Belgium
       </p>
-      <p class="text-sm">&copy; Copyright 2024. All rights reserved by MobiCycle LLC.</p>
+      <p class="text-sm">&copy; Copyright 2025. All rights reserved by MobiCycle LLC.</p>
       <p class="text-xs mt-2 text-orange-650">Tech to save the planet.</p>
     </div>
 `;
