@@ -1,8 +1,9 @@
 export function renderFooter(): string {
   return `
     <!-- FOOTER -->
-    <footer class="w-full pt-20 border-t border-purple-650 text-white-650 backdrop-blur-md bg-slate-900/80">
-      <div class="container mx-auto max-w-7xl px-8">
+    <footer class="relative w-full pt-20 text-white-650 border-t rounded-4xl border-t-purple-650 shadow bg-slate-900/90" style="backdrop-filter: blur(20px) saturate(180%) contrast(120%); -webkit-backdrop-filter: blur(8px) saturate(150%) contrast(120%);">
+      <div class="absolute inset-0 bg-gradient-to-r from-purple-600/10 to-orange-600/10"></div>
+      <div class="relative container mx-auto max-w-7xl px-8">
         <div class="flex gap-12 w-full justify-between">
           <div class="flex-1">
             ${renderFooterMenu()}
@@ -19,7 +20,7 @@ export function renderFooter(): string {
 
 function renderFooterMenu(): string {
   return `
-    <div class="">
+    <div class="text-md">
       <!-- LOGO -->
       <div class="mb-8 -ml-4">
         <a href="https://mobicycle.tech">
