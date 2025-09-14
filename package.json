@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "bunx wrangler dev --live-reload",
-    "build": "bunx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --minify && cp ./src/output.css ./public/output.css",
+    "build": "mkdir -p dist && bunx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --minify && cp public/* dist/",
     "deploy": "bunx wrangler deploy",
     "typecheck": "bunx tsc --noEmit"
   },
@@ -15,7 +15,11 @@
   },
   "devDependencies": {
     "@cloudflare/workers-types": "^4.20241004.0",
+    "@tailwindcss/postcss": "^4.1.13",
     "@types/node": "^24.3.3",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "postcss-cli": "^11.0.1",
     "typescript": "^5.6.2",
     "wrangler": "^4.36.0"
   }
