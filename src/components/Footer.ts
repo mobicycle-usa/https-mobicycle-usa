@@ -1,7 +1,7 @@
 export function renderFooter(): string {
   return `
     <!-- FOOTER -->
-    <footer class="relative w-full pt-20 text-white-650 border-t rounded-4xl border-t-purple-650 shadow bg-slate-900/90" style="backdrop-filter: blur(20px) saturate(180%) contrast(120%); -webkit-backdrop-filter: blur(8px) saturate(150%) contrast(120%);">
+    <footer class="relative w-full pt-20 text-white-650 border-t rounded-3xl shadow bg-slate-900/40" style="backdrop-filter: blur(8px) saturate(110%) contrast(105%); -webkit-backdrop-filter: blur(8px) saturate(150%) contrast(120%);">
       <div class="absolute inset-0 bg-gradient-to-r from-purple-600/10 to-orange-600/10"></div>
       <div class="relative container mx-auto max-w-7xl px-8">
         <div class="flex gap-12 w-full justify-between">
@@ -37,48 +37,48 @@ function renderFooterMenu(): string {
         <div>
           <h4 class="font-semibold mb-4 text-orange-650">CORE OFFER</h4>
           <ul class="space-y-2 text-sm">
-            <li><a href="#" class="hover:text-purple-400">EE Management</a></li>
-            <li><a href="#" class="hover:text-purple-400">eWaste Management</a></li>
+            <li><a href="#" class="hover:text-orange-650">EE Management</a></li>
+            <li><a href="#" class="hover:text-orange-650">eWaste Management</a></li>
           </ul>
         </div>
         <!-- OUR PLATFORM -->
         <div>
           <h4 class="font-semibold mb-4 text-orange-650">OUR PLATFORM</h4>
           <ul class="space-y-2 text-sm">
-            <li><a href="https://mobicycle.consulting" class="hover:text-purple-400">Consulting</a></li>
-            <li><a href="https://mobicycle.tech" class="hover:text-purple-400">Technologies</a></li>
-            <li><a href="https://mobicycle.games" class="hover:text-purple-400">Games</a></li>
-            <li><a href="https://mobicycle.marketing" class="hover:text-purple-400">Marketing</a></li>
+            <li><a href="https://mobicycle.consulting" class="hover:text-orange-650">Consulting</a></li>
+            <li><a href="https://mobicycle.tech" class="hover:text-orange-650">Technologies</a></li>
+            <li><a href="https://mobicycle.games" class="hover:text-orange-650">Games</a></li>
+            <li><a href="https://mobicycle.marketing" class="hover:text-orange-650">Marketing</a></li>
           </ul>
         </div>
         <!-- CREDITS -->
         <div>
           <h4 class="font-semibold mb-4 text-orange-650">CREDITS</h4>
           <ul class="space-y-2 text-sm">
-            <li><a href="#" class="hover:text-purple-400">Tax</a></li>
-            <li><a href="#" class="hover:text-purple-400">Carbon (Scope 3)</a></li>
-            <li><a href="#" class="hover:text-purple-400">Biodiversity</a></li>
-            <li><a href="#" class="hover:text-purple-400">Pollution</a></li>
+            <li><a href="#" class="hover:text-orange-650">Tax</a></li>
+            <li><a href="#" class="hover:text-orange-650">Carbon (Scope&nbsp;3)</a></li>
+            <li><a href="#" class="hover:text-orange-650">Biodiversity</a></li>
+            <li><a href="#" class="hover:text-orange-650">Pollution</a></li>
           </ul>
         </div>
         <!-- COMPANY -->
         <div>
           <h4 class="font-semibold mb-4 text-orange-650">COMPANY</h4>
           <ul class="space-y-2 text-sm">
-            <li><a href="/about" class="hover:text-purple-400">About us</a></li>
-            <li><a href="#" class="hover:text-purple-400">Case studies</a></li>
-            <li><a href="#" class="hover:text-purple-400">Capabilities</a></li>
-            <li><a href="#" class="hover:text-purple-400">Careers</a></li>
+            <li><a href="/about" class="hover:text-orange-650">About us</a></li>
+            <li><a href="#" class="hover:text-orange-650">Case studies</a></li>
+            <li><a href="#" class="hover:text-orange-650">Capabilities</a></li>
+            <li><a href="#" class="hover:text-orange-650">Careers</a></li>
           </ul>
         </div>
         <!-- LEGAL -->
         <div>
           <h4 class="font-semibold mb-4 text-orange-650">LEGAL</h4>
           <ul class="space-y-2 text-sm">
-            <li><a href="#" class="hover:text-purple-400">Disclaimer</a></li>
-            <li><a href="#" class="hover:text-purple-400">Cookies</a></li>
-            <li><a href="#" class="hover:text-purple-400">Privacy</a></li>
-            <li><a href="#" class="hover:text-purple-400">Terms</a></li>
+            <li><a href="#" class="hover:text-orange-650">Disclaimer</a></li>
+            <li><a href="#" class="hover:text-orange-650">Cookies</a></li>
+            <li><a href="#" class="hover:text-orange-650">Privacy</a></li>
+            <li><a href="#" class="hover:text-orange-650">Terms</a></li>
           </ul>
         </div>
       </div>

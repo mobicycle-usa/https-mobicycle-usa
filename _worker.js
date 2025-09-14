@@ -7,22 +7,6 @@ const app = new Hono();
 // Enable CORS
 app.use('/*', cors());
 
-// Serve static assets
-app.get('/favicon.svg', async (c) => {
-  const response = await c.env.ASSETS.fetch(new URL('/favicon.svg', c.req.url));
-  return response;
-});
-
-app.get('/output.css', async (c) => {
-  const response = await c.env.ASSETS.fetch(new URL('/output.css', c.req.url));
-  return response;
-});
-
-app.get('/logo.png', async (c) => {
-  const response = await c.env.ASSETS.fetch(new URL('/logo.png', c.req.url));
-  return response;
-});
-
 // Main route
 app.get('/', (c) => {
   const html = renderHomePage();
@@ -36,6 +20,20 @@ app.all('*', (c) => {
 
 export default {
   async fetch(request, env, ctx) {
-    return app.fetch(request, { ...env, ASSETS: env.ASSETS });
+    // Check if ASSETS binding exists
+    if (env.ASSETS) {
+      // Try to serve static assets first
+      try {
+        const response = await env.ASSETS.fetch(request);
+        if (response.status !== 404) {
+          return response;
+        }
+      } catch (e) {
+        // If error, fall through to app
+      }
+    }
+    
+    // Handle with Hono app
+    return app.fetch(request, env, ctx);
   }
 };
